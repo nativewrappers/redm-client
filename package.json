@@ -1,0 +1,50 @@
+{
+  "name": "@nativewrappers/redm-client",
+  "version": "0.0.0",
+  "description": "Javascript/Typescript wrapper for the RedM natives",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "ci": "yarn run lint && yarn run build",
+    "lint": "eslint . --ext .ts",
+    "lint-fix": "eslint --fix . --ext .ts",
+    "typedoc": "typedoc",
+    "docs": "npm run typedoc -- --options typedoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nativewrappers/redm-client.git"
+  },
+  "keywords": [
+    "redm",
+    "wrapper",
+    "javascript",
+    "typescript",
+    "citizenfx"
+  ],
+  "files": [
+    "lib/**/*"
+  ],
+  "author": "Dillon Skaggs <AvarianKnight>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nativewrappers/redm-client/issues"
+  },
+  "homepage": "https://redm.avarian.dev/",
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "typedoc": "^0.22.10",
+    "typedoc-fivemjs-theme": "^0.2.7",
+    "typescript": "^4.5.4"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@citizenfx/client": "^2.0.5511-1"
+  }
+}
