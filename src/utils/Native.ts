@@ -4,6 +4,6 @@
  * @param args 
  * @returns 
  */
-export const N_ = <T = void>(hash: string, ...args: InputArgument[]): T => {
+export const _N = <T = void>(hash: string, ...args: InputArgument[]): T => {
 	return Citizen.invokeNative<T>(hash, ...args)
 }

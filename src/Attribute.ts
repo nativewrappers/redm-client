@@ -1,6 +1,6 @@
 import { AttributeCore, PedAttribute, HudStatusEffect } from "./enums/Attributes";
 import { Ped } from "./models/Ped";
-import { N_ } from "./utils/Native";
+import { _N } from "./utils/Native";
 
 class CoreAttribute {
 	private handle: number;
@@ -18,11 +18,11 @@ class CoreAttribute {
 	 */
 	enableOverpower(amount: number, makeSound: boolean = false) {
 		// EnableAttributeCoreOverpower
-		N_('0x4AF5A4C7B9157D14', this.handle, this.attribute, amount, makeSound);
+		_N('0x4AF5A4C7B9157D14', this.handle, this.attribute, amount, makeSound);
 	}
 
 	get Overpowered() {
-		return N_<boolean>('0x200373A8DF081F22', this.attribute, Citizen.resultAsInteger())
+		return _N<boolean>('0x200373A8DF081F22', this.attribute, Citizen.resultAsInteger())
 	}
 
 	/**
@@ -30,7 +30,7 @@ class CoreAttribute {
 	 */
 	get OverpoweredTimeLeft() {
 		// GetAttributeCoreOverpowerSecondsLeft
-		return N_<number>('0xB429F58803D285B1', this.handle, this.attribute, Citizen.resultAsInteger())
+		return _N<number>('0xB429F58803D285B1', this.handle, this.attribute, Citizen.resultAsInteger())
 	}
 
 	/**
@@ -42,7 +42,7 @@ class CoreAttribute {
 
 	set CoreValue(amount: number) {
 		// SetAttributeCoreValue
-		N_('0xC6258F41D86676E0', this.handle, this.attribute, amount)
+		_N('0xC6258F41D86676E0', this.handle, this.attribute, amount)
 	}
 }
 
@@ -72,11 +72,11 @@ class PedAttributeClass {
 	/**
 	 * 
 	 * @param amount the amount to overpower this attribute by
-	 * @param makeSound if activating the overpower should play sounds
+	 * @param makeSound if activating the overpower should play sound
 	 */
 	enableOverpower(amount: number, makeSound: boolean = false) {
 		// EnableAttributeOverpower
-		N_('0xF6A7C08DF2E28B28', this.handle, this.attribute, amount, makeSound);
+		_N('0xF6A7C08DF2E28B28', this.handle, this.attribute, amount, makeSound);
 	}
 
 	/**
@@ -112,12 +112,12 @@ class PedAttributeClass {
 
 	get MaxRank() {
 		// GetMaxAttributeRank
-		return N_<number>('0x704674A0535A471D', this.attribute, Citizen.resultAsInteger())
+		return _N<number>('0x704674A0535A471D', this.attribute, Citizen.resultAsInteger())
 	}
 
 	get Overpowered() {
 		// IsAttributeOverpowered
-		return N_<boolean>('0x103C2F885ABEB00B', this.attribute, Citizen.resultAsInteger())
+		return _N<boolean>('0x103C2F885ABEB00B', this.attribute, Citizen.resultAsInteger())
 	}
 }
 
@@ -152,12 +152,12 @@ export class Attributes {
 	set CoreIcon(status: HudStatusEffect) {
 		if (status > 15) throw new RangeError("The max enum for StatusEffect is 15")
 		if (status < 0) throw new RangeError("The minimum enum for StatusEffect is 0");
-		N_('0xA4D3A1C008F250DF', status);
+		_N('0xA4D3A1C008F250DF', status);
 	}
 
 	set PeriodicIcon(status: HudStatusEffect) {
 		if (status > 15) throw new RangeError("The max enum for StatusEffect is 15!")
 		if (status < 0) throw new RangeError("The minimum enum for StatusEffect is 0");
-		N_('0xFB6E111908502871', status);
+		_N('0xFB6E111908502871', status);
 	}
 }

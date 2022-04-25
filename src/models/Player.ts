@@ -1,11 +1,11 @@
-import { N_ } from "../utils/Native";
+import { _N } from "../utils/Native";
 
 const handleUpgrade = (name: string, amount: number) => {
 	const b1 = new ArrayBuffer(8 * 24);
 	const a2 = new DataView(b1);
 	const b2 = new ArrayBuffer(8 * 12);
 	const a3 = new DataView(b2);
-	N_("0xCB5D11F9508A928D", 1, a2, a3, GetHashKey(name), 1084182731, amount, 752097756);
+	_N("0xCB5D11F9508A928D", 1, a2, a3, GetHashKey(name), 1084182731, amount, 752097756);
 }
 
 export class Player {
@@ -24,6 +24,10 @@ export class Player {
 	 */
 	constructor(handle: number) {
 		this.handle = handle;
+	}
+
+	get Handle() {
+		return this.handle;
 	}
 	
 	/**
