@@ -1,7 +1,10 @@
+import { Attributes } from "../Attribute";
 import { Vector3 } from "../utils";
 import { Entity } from "./Entity"
 
 export class Ped extends Entity {
+	private attributes: Attributes | undefined;
+
 	constructor(handle: number) {
 		super(handle)
 	}
@@ -9,6 +12,7 @@ export class Ped extends Entity {
 
 	/**
 	 * Blocks scenarios inbetween the specified vectors
+	 * @todo Move to Game
 	 * @param vec1 
 	 * @param vec2 
 	 * @param blockingFlags you can find blocking flags [here](https://github.com/Halen84/RDR3-Native-Flags-And-Enums/blob/main/ADD_SCENARIO_BLOCKING_AREA/README.md)
@@ -27,14 +31,6 @@ export class Ped extends Entity {
 	}
 
 	/**
-	 * Adds armor to the ped
-	 * @param amount the amount of armor to add
-	 */
-	addArmor(amount: number) {
-		AddArmourToPed(this.Handle, amount);
-	}
-
-	/**
 	 * kills the ped, optionally sets the killer
 	 * @param killer the entity that killed the ped
 	 */
@@ -50,7 +46,37 @@ export class Ped extends Entity {
 		return GetEntityHealth(this.Handle);
 	}
 
+	/**
+	 * While this increases the peds max health, if used on a player it wont increase the max core value on the hud
+	 */
 	set MaxHealth(amount: number) {
-		
+		SetPedMaxHealth(this.Handle, amount);
 	}
+
+	get MaxHealth() {
+		return GetPedMaxHealth(this.Handle);
+	}
+
+	get Attributes() {
+		if (this.attributes) return this.attributes;
+
+		return this.attributes = new Attributes(this);
+	}
+
+	damage(amount: number, boneId = 0, killer?: Ped) {
+		ApplyDamageToPed(this.Handle, amount, 0, boneId, killer ? killer.Handle : 0)
+	}
+
+	get CanBeKnockedOffVehicle() {
+		return CanKnockPedOffVehicle(this.Handle)
+	}
+
+	/**
+	 * this returns a different type then the getter so we can't use set, maybe ts will fix soon (tm)
+	 * @param state how hard it will be to knock a ped off their vehicle
+	 */
+	setCanBeKnockedOffVehicle(state: KnockOffVehicle) {
+		SetPedCanBeKnockedOffVehicle(this.Handle, state);
+	}
+
 }

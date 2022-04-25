@@ -144,7 +144,7 @@ declare function AnimpostfxStop(effectName: string): void;
 
 declare function AnimpostfxStopAll(): void;
 
-declare function ApplyDamageToPed(p0: number, p1: number, p2: number, p3: number, p4: number): void;
+declare function ApplyDamageToPed(ped: number, damageAmount: number, p2: number, boneId: number, pedKiller: number): void;
 
 declare function ApplyForceToEntity(entity: number, forceFlags: number, x: number, y: number, z: number, offX: number, offY: number, offZ: number, boneIndex: number, isDirectionRel: boolean, ignoreUpVec: boolean, isForceRel: boolean, p12: boolean, p13: boolean): void;
 
