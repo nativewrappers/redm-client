@@ -1,11 +1,11 @@
-import { AttributeCore, PedAttribute, HudStatusEffect } from "./enums/Attributes";
+import { eAttributeCore, ePedAttribute, eHudStatusEffect } from "./enums/Attributes";
 import { Ped } from "./models/Ped";
 import { _N } from "./utils/Native";
 
-class CoreAttribute {
+export class CoreAttribute {
 	private handle: number;
-	private attribute: AttributeCore;
-	constructor(ped: Ped, attribute: AttributeCore) {
+	private attribute: eAttributeCore;
+	constructor(ped: Ped, attribute: eAttributeCore) {
 		this.handle = ped.Handle
 		this.attribute = attribute;
 	}
@@ -46,10 +46,10 @@ class CoreAttribute {
 	}
 }
 
-class PedAttributeClass {
+export class PedAttribute {
 	private handle: number;
-	private attribute: PedAttribute;
-	constructor(ped: Ped, attribute: PedAttribute) {
+	private attribute: ePedAttribute;
+	constructor(ped: Ped, attribute: ePedAttribute) {
 		this.handle = ped.Handle
 		this.attribute = attribute;
 	}
@@ -124,11 +124,11 @@ class PedAttributeClass {
 
 // There's probably a better way to do this but this will do for now as it reduces repetition
 export class Attributes {
-	private pedAttributes: PedAttributeClass[] = [];
+	private pedAttributes: PedAttribute[] = [];
 	private coreAttributes: CoreAttribute[] = [];
 	constructor(ped: Ped) {
 		for(let i = 0; i <= 21; i++) {
-			this.pedAttributes[i] = new PedAttributeClass(ped, i)
+			this.pedAttributes[i] = new PedAttribute(ped, i)
 		}
 
 		for(let i = 0; i <= 2; i++) {
@@ -136,26 +136,26 @@ export class Attributes {
 		}
 	}
 
-	getCore(attribute: AttributeCore) {
+	getCore(attribute: eAttributeCore) {
 		if (attribute > 2) throw new RangeError("The max enum for CoreAttribute is 2")
 		if (attribute < 0) throw new RangeError("The minimum enum for CoreAttribute is 0")
 		// This should always be valid
 		return this.coreAttributes[attribute];
 	}
 
-	get(attribute: PedAttribute) {
+	get(attribute: ePedAttribute) {
 		if (attribute > 22) throw new RangeError("The max enum for PedAttribute is 22")
 		if (attribute < 0) throw new RangeError("The minimum enum for PedAttribute is 0")
 		return this.pedAttributes[attribute];
 	}
 
-	set CoreIcon(status: HudStatusEffect) {
+	set CoreIcon(status: eHudStatusEffect) {
 		if (status > 15) throw new RangeError("The max enum for StatusEffect is 15")
 		if (status < 0) throw new RangeError("The minimum enum for StatusEffect is 0");
 		_N('0xA4D3A1C008F250DF', status);
 	}
 
-	set PeriodicIcon(status: HudStatusEffect) {
+	set PeriodicIcon(status: eHudStatusEffect) {
 		if (status > 15) throw new RangeError("The max enum for StatusEffect is 15!")
 		if (status < 0) throw new RangeError("The minimum enum for StatusEffect is 0");
 		_N('0xFB6E111908502871', status);

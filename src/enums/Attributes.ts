@@ -1,5 +1,5 @@
 
-export enum PedAttribute {
+export enum ePedAttribute {
     Health,
     Stamina,
     SpecialAbility,
@@ -25,13 +25,13 @@ export enum PedAttribute {
     DirtinessSkin
 }
 
-export enum AttributeCore {
+export enum eAttributeCore {
 	Health,
 	Stamina,
 	Deadeye
 }
 
-export enum HudStatusEffect {
+export enum eHudStatusEffect {
     None,
     Cold,
     Hot,

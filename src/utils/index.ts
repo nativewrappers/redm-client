@@ -1,4 +1,4 @@
-export { Vector3 } from './Vector3';
+export * from './Vector3';
 export { LiteEvent } from './LiteEvent';
 export { PointF } from './PointF';
 export { Crypto } from './Crypto';
