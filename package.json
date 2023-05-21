@@ -4,7 +4,6 @@
   "description": "Javascript/Typescript wrapper for the RedM natives",
   "main": "lib/index.js",
   "module": "lib/index.js",
-  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
@@ -35,17 +34,19 @@
   },
   "homepage": "https://redm.avarian.dev/",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
     "prettier": "^2.5.1",
     "typedoc": "^0.22.10",
     "typedoc-fivemjs-theme": "^0.2.7",
-    "typescript": "^4.5.4"
+    "typescript": "^5.0.4"
   },
   "directories": {
     "doc": "docs",
     "example": "examples",
     "lib": "lib"
-  },
-  "dependencies": {
-    "@citizenfx/client": "^2.0.5511-1"
   }
 }

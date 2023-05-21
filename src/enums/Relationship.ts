@@ -6,4 +6,4 @@ export enum Relationship {
 	Respect = 1,
 	Companion = 0,
 	Pedestrians = 255,
-}  
+}
