@@ -19,98 +19,98 @@ declare function AddArmourToPed(ped: number, amount: number): void;
 declare function AddAttributePoints(p0: number, p1: number, p2: number): void;
 
 declare function AddCamSplineNode(
-	camera: number,
-	x: number,
-	y: number,
-	z: number,
-	xRot: number,
-	yRot: number,
-	zRot: number,
-	length: number,
-	p8: number,
-	p9: number,
+    camera: number,
+    x: number,
+    y: number,
+    z: number,
+    xRot: number,
+    yRot: number,
+    zRot: number,
+    length: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function AddCoverBlockingArea(
-	playerX: number,
-	playerY: number,
-	playerZ: number,
-	radiusX: number,
-	radiusY: number,
-	radiusZ: number,
-	p6: boolean,
-	p7: boolean,
-	p8: boolean,
-	p9: boolean,
+    playerX: number,
+    playerY: number,
+    playerZ: number,
+    radiusX: number,
+    radiusY: number,
+    radiusZ: number,
+    p6: boolean,
+    p7: boolean,
+    p8: boolean,
+    p9: boolean,
 ): void;
 
 declare function AddCoverPoint(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: boolean,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: boolean,
 ): number;
 
 declare function AddCustomFormationLocation(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function AddDecal(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
-	p15: number,
-	p16: number,
-	p17: number,
-	p18: number,
-	p19: number,
-	p20: number,
-	p21: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
+    p15: number,
+    p16: number,
+    p17: number,
+    p18: number,
+    p19: number,
+    p20: number,
+    p21: number,
 ): number;
 
 declare function AddEntityToAudioMixGroup(entity: number, groupName: string, p2: number): void;
 
 declare function AddExplosion(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function AddExplosionWithUserVfx(
-	x: number,
-	y: number,
-	z: number,
-	explosionType: number,
-	explosionFx: string | number,
-	damageScale: number,
-	isAudible: boolean,
-	isInvisible: boolean,
-	cameraShake: number,
+    x: number,
+    y: number,
+    z: number,
+    explosionType: number,
+    explosionFx: string | number,
+    damageScale: number,
+    isAudible: boolean,
+    isInvisible: boolean,
+    cameraShake: number,
 ): void;
 
 declare function AddFormationLocation(p0: number, p1: number, p2: number, p3: number): number;
@@ -130,44 +130,44 @@ declare function AddMinimapOverlay(name: string): number;
 declare function AddMinimapOverlay(name: string): number;
 
 declare function AddNavmeshBlockingObject(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: boolean,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: boolean,
+    p8: number,
 ): number;
 
 declare function AddNavmeshRequiredRegion(x: number, y: number, radius: number): void;
 
 declare function AddOwnedExplosion(
-	ped: number,
-	x: number,
-	y: number,
-	z: number,
-	explosionType: number,
-	damageScale: number,
-	isAudible: boolean,
-	isInvisible: boolean,
-	cameraShake: number,
+    ped: number,
+    x: number,
+    y: number,
+    z: number,
+    explosionType: number,
+    damageScale: number,
+    isAudible: boolean,
+    isInvisible: boolean,
+    cameraShake: number,
 ): void;
 
 declare function AddPatrolRouteLink(p0: number, p1: number): void;
 
 declare function AddPatrolRouteNode(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function AddPedToConversation(index: number, ped: number, p2: string): void;
@@ -179,16 +179,16 @@ declare function AddPetrolTrailDecalInfo(x: number, y: number, z: number, p3: nu
 declare function AddPointToGpsMultiRoute(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function AddPopMultiplierArea(
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
-	p6: number,
-	p7: number,
-	p8: boolean,
-	p9: boolean,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
+    p6: number,
+    p7: number,
+    p8: boolean,
+    p9: boolean,
 ): number;
 
 declare function AddRelationshipGroup(name: string, groupHash?: number): [number, number];
@@ -201,95 +201,95 @@ declare function AddRelationshipGroup(name: string, groupHash?: number): [number
  * @param newTxn
  */
 declare function AddReplaceTexture(
-	origTxd: string,
-	origTxn: string,
-	newTxd: string,
-	newTxn: string,
+    origTxd: string,
+    origTxn: string,
+    newTxd: string,
+    newTxn: string,
 ): void;
 
 /**
  * Experimental natives, please do not use in a live environment.
  */
 declare function AddReplaceTexture(
-	origTxd: string,
-	origTxn: string,
-	newTxd: string,
-	newTxn: string,
+    origTxd: string,
+    origTxn: string,
+    newTxd: string,
+    newTxn: string,
 ): void;
 
 declare function AddRope(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
-	p15: number,
-	p16: number,
-	p17: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
+    p15: number,
+    p16: number,
+    p17: number,
 ): number;
 
 declare function AddScenarioBlockingArea(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): number;
 
 declare function AddShockingEventAtPosition(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): number;
 
 declare function AddShockingEventForEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
 ): number;
 
 declare function AddSpeedZoneForCoord(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): number;
 
 /**
@@ -311,9 +311,9 @@ declare function AddSpeedZoneForCoord(
  * @return A cookie to remove the change handler.
  */
 declare function AddStateBagChangeHandler(
-	keyFilter: string,
-	bagFilter: string,
-	handler: Function,
+    keyFilter: string,
+    bagFilter: string,
+    handler: Function,
 ): number;
 
 declare function AddTacticalAnalysisPoint(p0: number, p1: number, p2: number, p3: number): void;
@@ -347,59 +347,59 @@ declare function AnimpostfxStop(effectName: string): void;
 declare function AnimpostfxStopAll(): void;
 
 declare function ApplyDamageToPed(
-	ped: number,
-	damageAmount: number,
-	p2: number,
-	boneId: number,
-	pedKiller: number,
+    ped: number,
+    damageAmount: number,
+    p2: number,
+    boneId: number,
+    pedKiller: number,
 ): void;
 
 declare function ApplyForceToEntity(
-	entity: number,
-	forceFlags: number,
-	x: number,
-	y: number,
-	z: number,
-	offX: number,
-	offY: number,
-	offZ: number,
-	boneIndex: number,
-	isDirectionRel: boolean,
-	ignoreUpVec: boolean,
-	isForceRel: boolean,
-	p12: boolean,
-	p13: boolean,
+    entity: number,
+    forceFlags: number,
+    x: number,
+    y: number,
+    z: number,
+    offX: number,
+    offY: number,
+    offZ: number,
+    boneIndex: number,
+    isDirectionRel: boolean,
+    ignoreUpVec: boolean,
+    isForceRel: boolean,
+    p12: boolean,
+    p13: boolean,
 ): void;
 
 declare function ApplyForceToEntityCenterOfMass(
-	entity: number,
-	forceType: number,
-	x: number,
-	y: number,
-	z: number,
-	p5: boolean,
-	isDirectionRel: boolean,
-	isForceRel: boolean,
-	p8: boolean,
+    entity: number,
+    forceType: number,
+    x: number,
+    y: number,
+    z: number,
+    p5: boolean,
+    isDirectionRel: boolean,
+    isForceRel: boolean,
+    p8: boolean,
 ): void;
 
 declare function ApplyPedBloodSpecific(
-	ped: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8?: number,
+    ped: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8?: number,
 ): number;
 
 declare function ApplyPedDamagePack(
-	ped: number,
-	damagePack: string,
-	damage: number,
-	mult: number,
+    ped: number,
+    damagePack: string,
+    damage: number,
+    mult: number,
 ): void;
 
 declare function AreAnyVehicleSeatsFree(vehicle: number): boolean;
@@ -441,97 +441,97 @@ declare function Atan2(p0: number, p1: number): number;
 declare function AttachAnimSceneToEntity(animScene: number, entity: number, p2: number): void;
 
 declare function AttachAnimSceneToEntityPreservingLocation(
-	animScene: number,
-	entity: number,
-	p2: number,
+    animScene: number,
+    entity: number,
+    p2: number,
 ): void;
 
 declare function AttachCamToEntity(
-	cam: number,
-	entity: number,
-	xOffset: number,
-	yOffset: number,
-	zOffset: number,
-	isRelative: boolean,
+    cam: number,
+    entity: number,
+    xOffset: number,
+    yOffset: number,
+    zOffset: number,
+    isRelative: boolean,
 ): void;
 
 declare function AttachCamToPedBone(
-	cam: number,
-	ped: number,
-	boneIndex: number,
-	x: number,
-	y: number,
-	z: number,
-	heading: boolean,
+    cam: number,
+    ped: number,
+    boneIndex: number,
+    x: number,
+    y: number,
+    z: number,
+    heading: boolean,
 ): void;
 
 declare function AttachEntitiesToRope(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
-	p15: number,
-	p16: number,
-	p17: number,
-	p18: number,
-	p19: number,
-	p20: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
+    p15: number,
+    p16: number,
+    p17: number,
+    p18: number,
+    p19: number,
+    p20: number,
 ): void;
 
 declare function AttachEntityToEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
-	p15: number,
-	p16: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
+    p15: number,
+    p16: number,
 ): void;
 
 declare function AttachEntityToEntityPhysically(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
-	p15: number,
-	p16: number,
-	p17: number,
-	p18: number,
-	p19: number,
-	p20: number,
-	p21: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
+    p15: number,
+    p16: number,
+    p17: number,
+    p18: number,
+    p19: number,
+    p20: number,
+    p21: number,
 ): void;
 
 declare function AttachPortablePickupToPed(pickupObject: number, ped: number): void;
@@ -567,31 +567,31 @@ declare function BgStartContext(contextName: string): void;
 declare function BgStartContextHash(contextHash: string | number): void;
 
 declare function BlockDispatchServiceResourceCreation(
-	dispatchService: number,
-	toggle: boolean,
+    dispatchService: number,
+    toggle: boolean,
 ): void;
 
 declare function BlockPickupFromPlayerCollection(p0: number, p1: number): void;
 
 declare function BreakEntityGlass(
-	entity: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: boolean,
+    entity: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: boolean,
 ): void;
 
 declare function BringVehicleToHalt(
-	vehicle: number,
-	distance: number,
-	duration: number,
-	unknown: boolean,
+    vehicle: number,
+    distance: number,
+    duration: number,
+    unknown: boolean,
 ): void;
 
 declare function BusyspinnerIsOn(): boolean;
@@ -627,10 +627,10 @@ declare function CanPedSpeak(ped: number, speechName: string, unk: boolean): boo
 declare function CanPlayerStartMission(player: number): boolean;
 
 declare function CanRegisterMissionEntities(
-	ped_amt: number,
-	vehicle_amt: number,
-	object_amt: number,
-	pickup_amt: number,
+    ped_amt: number,
+    vehicle_amt: number,
+    object_amt: number,
+    pickup_amt: number,
 ): boolean;
 
 declare function CanRegisterMissionObjects(amount: number): boolean;
@@ -670,23 +670,23 @@ declare function CashinventoryIsSessionReady(): boolean;
 declare function CashinventoryTransactionAddItem(id: number, p2: number): [boolean, number];
 
 declare function CashinventoryTransactionAddItemWithIngredients(
-	id: number,
-	p2: number,
-	p4: number,
+    id: number,
+    p2: number,
+    p4: number,
 ): [boolean, number, number];
 
 declare function CashinventoryTransactionCheckout(id: number): boolean;
 
 declare function CashinventoryTransactionCheckoutStatus(
-	id: number,
-	status?: number,
+    id: number,
+    status?: number,
 ): [boolean, number];
 
 declare function CashinventoryTransactionDelete(id: number): boolean;
 
 declare function CashinventoryTransactionFireAndForgetItem(
-	actionHash: string | number,
-	p3: number,
+    actionHash: string | number,
+    p3: number,
 ): [boolean, number, number];
 
 declare function CashinventoryTransactionGetAction(id: number): number;
@@ -694,22 +694,22 @@ declare function CashinventoryTransactionGetAction(id: number): number;
 declare function CashinventoryTransactionGetBasketIsValid(id: number): boolean;
 
 declare function CashinventoryTransactionGetItemInfo(
-	id: number,
-	index: number,
-	itemInfo?: number,
+    id: number,
+    index: number,
+    itemInfo?: number,
 ): [boolean, number];
 
 declare function CashinventoryTransactionGetNumOfItems(id: number): number;
 
 declare function CashinventoryTransactionResponseGetItemInfo(
-	id: number,
-	index: number,
-	itemInfo?: number,
+    id: number,
+    index: number,
+    itemInfo?: number,
 ): [boolean, number];
 
 declare function CashinventoryTransactionStart(
-	_type: string | number,
-	actionHash: string | number,
+    _type: string | number,
+    actionHash: string | number,
 ): [boolean, number];
 
 declare function Ceil(value: number): number;
@@ -759,14 +759,14 @@ declare function ClearAmbientZoneListState(p1: boolean): number;
 declare function ClearAmbientZoneState(zoneName: string, p1: boolean): void;
 
 declare function ClearAngledAreaOfVehicles(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function ClearArea(p0: number, p1: number, p2: number, p3: number, p4: number): void;
@@ -826,9 +826,9 @@ declare function ClearPlayerWantedLevel(player: number): void;
 declare function ClearRagdollBlockingFlags(ped: number, flags: number): void;
 
 declare function ClearRelationshipBetweenGroups(
-	relationship: number,
-	group1: string | number,
-	group2: string | number,
+    relationship: number,
+    group1: string | number,
+    group2: string | number,
 ): void;
 
 declare function ClearRoomForEntity(entity: number): void;
@@ -846,10 +846,10 @@ declare function ClearTimecycleModifier(): void;
 declare function ClearWeatherTypePersist(): void;
 
 declare function ClonePed(
-	ped: number,
-	isNetwork: boolean,
-	bScriptHostPed: boolean,
-	copyHeadBlendFlag: boolean,
+    ped: number,
+    isNetwork: boolean,
+    bScriptHostPed: boolean,
+    copyHeadBlendFlag: boolean,
 ): number;
 
 declare function ClonePedToTarget(ped: number, targetPed: number): void;
@@ -881,10 +881,10 @@ declare function CommitRuntimeTexture(tex: number): void;
 declare function CommitRuntimeTexture(tex: number): void;
 
 declare function CompareStrings(
-	str1: string,
-	str2: string,
-	matchCase: boolean,
-	maxLength: number,
+    str1: string,
+    str2: string,
+    matchCase: boolean,
+    maxLength: number,
 ): number;
 
 declare function CompendiumAnimalObservedByStatName(p0: number, p1: number): void;
@@ -906,10 +906,10 @@ declare function CompendiumGangHideoutFound(p0: number, p1: number): void;
 declare function CompendiumGangMemberKilled(p0: number): void;
 
 declare function CompendiumGetMapDiscoverableFromStatItem(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): number;
 
 declare function CompendiumGetShortDescriptionFromPed(p0: number): number;
@@ -929,71 +929,71 @@ declare function CopyVehicleDamages(sourceVehicle: number, targetVehicle: number
 declare function Cos(value: number): number;
 
 declare function CreateAmbientPickup(
-	pickupHash: string | number,
-	x: number,
-	y: number,
-	z: number,
-	flags: number,
-	value: number,
-	modelHash: string | number,
-	p7: boolean,
-	p8: boolean,
-	p9: number,
-	p10: number,
+    pickupHash: string | number,
+    x: number,
+    y: number,
+    z: number,
+    flags: number,
+    value: number,
+    modelHash: string | number,
+    p7: boolean,
+    p8: boolean,
+    p9: number,
+    p10: number,
 ): number;
 
 declare function CreateAnimScene(
-	animDict: string,
-	flags: number,
-	p2: string,
-	p3: boolean,
-	p4: boolean,
+    animDict: string,
+    flags: number,
+    p2: string,
+    p3: boolean,
+    p4: boolean,
 ): number;
 
 declare function CreateCam(camName: string, p1: boolean): number;
 
 declare function CreateCamWithParams(
-	camName: string,
-	posX: number,
-	posY: number,
-	posZ: number,
-	rotX: number,
-	rotY: number,
-	rotZ: number,
-	fov: number,
-	p8: boolean,
-	p9: number,
+    camName: string,
+    posX: number,
+    posY: number,
+    posZ: number,
+    rotX: number,
+    rotY: number,
+    rotZ: number,
+    fov: number,
+    p8: boolean,
+    p9: number,
 ): number;
 
 declare function CreateCamera(camHash: string | number, p1: boolean): number;
 
 declare function CreateCameraWithParams(
-	camHash: string | number,
-	posX: number,
-	posY: number,
-	posZ: number,
-	rotX: number,
-	rotY: number,
-	rotZ: number,
-	fov: number,
-	p8: boolean,
-	p9: number,
+    camHash: string | number,
+    posX: number,
+    posY: number,
+    posZ: number,
+    rotX: number,
+    rotY: number,
+    rotZ: number,
+    fov: number,
+    p8: boolean,
+    p9: number,
 ): number;
 
 declare function CreateCheckpoint(
-	_type: number,
-	posX1: number,
-	posY1: number,
-	posZ1: number,
-	posX2: number,
-	posY2: number,
-	posZ2: number,
-	radius: number,
-	red: number,
-	green: number,
-	blue: number,
-	alpha: number,
-	reserved: number,
+    _type: number,
+    posX1: number,
+    posY1: number,
+    posZ1: number,
+    posX2: number,
+    posY2: number,
+    posZ2: number,
+    radius: number,
+    red: number,
+    green: number,
+    blue: number,
+    alpha: number,
+    reserved: number,
 ): number;
 
 /**
@@ -1021,21 +1021,21 @@ declare function CreateDui(url: string, width: number, height: number): number;
 declare function CreateDui(url: string, width: number, height: number): number;
 
 declare function CreateFakeMpGamerTag(
-	ped: number,
-	username: string,
-	pointedClanTag: boolean,
-	isRockstarClan: boolean,
-	clanTag: string,
-	p5: number,
+    ped: number,
+    username: string,
+    pointedClanTag: boolean,
+    isRockstarClan: boolean,
+    clanTag: string,
+    p5: number,
 ): number;
 
 declare function CreateForcedObject(
-	x: number,
-	y: number,
-	z: number,
-	p3: number,
-	modelHash: string | number,
-	p5: boolean,
+    x: number,
+    y: number,
+    z: number,
+    p3: number,
+    modelHash: string | number,
+    p5: boolean,
 ): void;
 
 declare function CreateGroup(unused: number): number;
@@ -1043,152 +1043,152 @@ declare function CreateGroup(unused: number): number;
 declare function CreateGuardZone(name: string): void;
 
 declare function CreateIncident(
-	dispatchService: number,
-	x: number,
-	y: number,
-	z: number,
-	numUnits: number,
-	radius: number,
-	p7: number,
-	p8: number,
+    dispatchService: number,
+    x: number,
+    y: number,
+    z: number,
+    numUnits: number,
+    radius: number,
+    p7: number,
+    p8: number,
 ): [boolean, number];
 
 declare function CreateItemset(p0: boolean): number;
 
 declare function CreateModelHide(
-	x: number,
-	y: number,
-	z: number,
-	radius: number,
-	model: string | number,
-	p5: boolean,
+    x: number,
+    y: number,
+    z: number,
+    radius: number,
+    model: string | number,
+    p5: boolean,
 ): void;
 
 declare function CreateModelHideExcludingScriptObjects(
-	x: number,
-	y: number,
-	z: number,
-	radius: number,
-	model: string | number,
-	p5: boolean,
+    x: number,
+    y: number,
+    z: number,
+    radius: number,
+    model: string | number,
+    p5: boolean,
 ): void;
 
 declare function CreateModelSwap(
-	x: number,
-	y: number,
-	z: number,
-	radius: number,
-	originalModel: string | number,
-	newModel: string | number,
-	p6: boolean,
+    x: number,
+    y: number,
+    z: number,
+    radius: number,
+    originalModel: string | number,
+    newModel: string | number,
+    p6: boolean,
 ): void;
 
 declare function CreateMpGamerTag(
-	player: number,
-	username: string,
-	pointedClanTag: boolean,
-	isRockstarClan: boolean,
-	clanTag: string,
-	p5: number,
+    player: number,
+    username: string,
+    pointedClanTag: boolean,
+    isRockstarClan: boolean,
+    clanTag: string,
+    p5: number,
 ): number;
 
 declare function CreateNewScriptedConversation(p0: number): number;
 
 declare function CreateObject(
-	modelHash: string | number,
-	x: number,
-	y: number,
-	z: number,
-	p4: boolean,
-	p5: boolean,
-	p6: boolean,
-	p7: boolean,
-	p8: boolean,
+    modelHash: string | number,
+    x: number,
+    y: number,
+    z: number,
+    p4: boolean,
+    p5: boolean,
+    p6: boolean,
+    p7: boolean,
+    p8: boolean,
 ): number;
 
 declare function CreateObjectNoOffset(
-	modelHash: string | number,
-	x: number,
-	y: number,
-	z: number,
-	p4: boolean,
-	p5: boolean,
-	p6: boolean,
-	p7: boolean,
+    modelHash: string | number,
+    x: number,
+    y: number,
+    z: number,
+    p4: boolean,
+    p5: boolean,
+    p6: boolean,
+    p7: boolean,
 ): number;
 
 declare function CreatePatrolRoute(): void;
 
 declare function CreatePed(
-	modelHash: string | number,
-	x: number,
-	y: number,
-	z: number,
-	heading: number,
-	p5: boolean,
-	p6: boolean,
-	p7: boolean,
-	p8: boolean,
+    modelHash: string | number,
+    x: number,
+    y: number,
+    z: number,
+    heading: number,
+    p5: boolean,
+    p6: boolean,
+    p7: boolean,
+    p8: boolean,
 ): number;
 
 declare function CreatePedInsideVehicle(
-	vehicle: number,
-	modelHash: string | number,
-	seatIndex: number,
-	p3: boolean,
-	p4: boolean,
-	p5: boolean,
+    vehicle: number,
+    modelHash: string | number,
+    seatIndex: number,
+    p3: boolean,
+    p4: boolean,
+    p5: boolean,
 ): number;
 
 declare function CreatePedOnMount(
-	mount: number,
-	modelHash: string | number,
-	index: number,
-	p3: boolean,
-	p4: boolean,
-	p5: boolean,
-	p6: boolean,
+    mount: number,
+    modelHash: string | number,
+    index: number,
+    p3: boolean,
+    p4: boolean,
+    p5: boolean,
+    p6: boolean,
 ): number;
 
 declare function CreatePickup(
-	pickupHash: string | number,
-	x: number,
-	y: number,
-	z: number,
-	flags: number,
-	p5: number,
-	p6: boolean,
-	modelHash: string | number,
-	p8: number,
-	p9: number,
+    pickupHash: string | number,
+    x: number,
+    y: number,
+    z: number,
+    flags: number,
+    p5: number,
+    p6: boolean,
+    modelHash: string | number,
+    p8: number,
+    p9: number,
 ): number;
 
 declare function CreatePickupRotate(
-	pickupHash: string | number,
-	posX: number,
-	posY: number,
-	posZ: number,
-	rotX: number,
-	rotY: number,
-	rotZ: number,
-	flags: number,
-	p8: number,
-	p9: number,
-	p10: boolean,
-	modelHash: string | number,
-	p12: number,
-	p13: number,
+    pickupHash: string | number,
+    posX: number,
+    posY: number,
+    posZ: number,
+    rotX: number,
+    rotY: number,
+    rotZ: number,
+    flags: number,
+    p8: number,
+    p9: number,
+    p10: boolean,
+    modelHash: string | number,
+    p12: number,
+    p13: number,
 ): number;
 
 declare function CreatePopzoneFromVolume(volume: number): number;
 
 declare function CreatePortablePickup(
-	pickupHash: string | number,
-	x: number,
-	y: number,
-	z: number,
-	placeOnGround: boolean,
-	modelHash: string | number,
+    pickupHash: string | number,
+    x: number,
+    y: number,
+    z: number,
+    placeOnGround: boolean,
+    modelHash: string | number,
 ): number;
 
 /**
@@ -1200,10 +1200,10 @@ declare function CreatePortablePickup(
  * @return A runtime texture handle.
  */
 declare function CreateRuntimeTexture(
-	txd: number,
-	txn: string,
-	width: number,
-	height: number,
+    txd: number,
+    txn: string,
+    width: number,
+    height: number,
 ): number;
 
 /**
@@ -1215,10 +1215,10 @@ declare function CreateRuntimeTexture(
  * @return A runtime texture handle.
  */
 declare function CreateRuntimeTexture(
-	txd: number,
-	txn: string,
-	width: number,
-	height: number,
+    txd: number,
+    txn: string,
+    width: number,
+    height: number,
 ): number;
 
 /**
@@ -1229,9 +1229,9 @@ declare function CreateRuntimeTexture(
  * @return The runtime texture handle.
  */
 declare function CreateRuntimeTextureFromDuiHandle(
-	txd: number,
-	txn: string,
-	duiHandle: string,
+    txd: number,
+    txn: string,
+    duiHandle: string,
 ): number;
 
 /**
@@ -1242,9 +1242,9 @@ declare function CreateRuntimeTextureFromDuiHandle(
  * @return The runtime texture handle.
  */
 declare function CreateRuntimeTextureFromDuiHandle(
-	txd: number,
-	txn: number,
-	duiHandle: string,
+    txd: number,
+    txn: number,
+    duiHandle: string,
 ): number;
 
 /**
@@ -1292,28 +1292,28 @@ declare function CreateTrackedPoint(): number;
 declare function CreateVarString(p0: number, p1: string, variadic: number): number;
 
 declare function CreateVehicle(
-	modelHash: string | number,
-	x: number,
-	y: number,
-	z: number,
-	heading: number,
-	p5: boolean,
-	p6: boolean,
-	p7: boolean,
-	p8: boolean,
+    modelHash: string | number,
+    x: number,
+    y: number,
+    z: number,
+    heading: number,
+    p5: boolean,
+    p6: boolean,
+    p7: boolean,
+    p8: boolean,
 ): number;
 
 declare function CreateVehicle_2(
-	modelHash: string | number,
-	x: number,
-	y: number,
-	z: number,
-	heading: number,
-	p5: boolean,
-	p6: boolean,
-	p7: boolean,
-	p8: boolean,
-	p9: boolean,
+    modelHash: string | number,
+    x: number,
+    y: number,
+    z: number,
+    heading: number,
+    p5: boolean,
+    p6: boolean,
+    p7: boolean,
+    p8: boolean,
+    p9: boolean,
 ): number;
 
 declare function CreateVolumeAggregate(): number;
@@ -1321,80 +1321,80 @@ declare function CreateVolumeAggregate(): number;
 declare function CreateVolumeAggregateWithCustomName(name: string): number;
 
 declare function CreateVolumeBox(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): number;
 
 declare function CreateVolumeBoxWithCustomName(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): number;
 
 declare function CreateVolumeByHash(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): number;
 
 declare function CreateVolumeByHashWithCustomName(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): number;
 
 declare function CreateVolumeCylinder(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): number;
 
 declare function CreateVolumeCylinderWithCustomName(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): number;
 
 declare function DatabdingGetArrayCount(p0: number): number;
@@ -1446,24 +1446,24 @@ declare function DatabindingGetDataContainerFromPath(p0: number): number;
 declare function DatabindingGetItemContextByIndex(p0: number, p1: number): number;
 
 declare function DatabindingInsertUiItemToListFromContextHashAlias(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): void;
 
 declare function DatabindingInsertUiItemToListFromContextStringAlias(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): void;
 
 declare function DatabindingInsertUiItemToListFromPathStringAlias(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): void;
 
 declare function DatabindingIsDataIdValid(p0: number): number;
@@ -1507,9 +1507,9 @@ declare function DatabindingWriteDataHashString(p0: number, p1: number): void;
 declare function DatabindingWriteDataHashStringFromParent(p0: number, p1: number, p2: number): void;
 
 declare function DatabindingWriteDataHashStringFromParentByHash(
-	p0: number,
-	p1: number,
-	p2: number,
+    p0: number,
+    p1: number,
+    p2: number,
 ): void;
 
 declare function DatabindingWriteDataInt(p0: number, p1: number): void;
@@ -1519,16 +1519,16 @@ declare function DatabindingWriteDataIntFromParent(p0: number, p1: number, p2: n
 declare function DatabindingWriteDataIntFromParentByHash(p0: number, p1: number, p2: number): void;
 
 declare function DatabindingWriteDataScriptVariables(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function DatabindingWriteDataString(p0: number, p1: number): void;
@@ -1674,9 +1674,9 @@ declare function DisableAmbientLookAtRequests(p0: number, p1: number): void;
 declare function DisableAttributeOverpower(p0: number, p1: number): void;
 
 declare function DisableControlAction(
-	padIndex: number,
-	control: string | number,
-	disable: boolean,
+    padIndex: number,
+    control: string | number,
+    disable: boolean,
 ): void;
 
 declare function DisableFirstPersonCamThisFrame(): void;
@@ -1702,23 +1702,23 @@ declare function DisableScriptBrainSet(brainSet: number): void;
 declare function DisableVehicleFirstPersonCamThisFrame(): void;
 
 declare function DisableVehicleWeapon(
-	disabled: boolean,
-	weaponHash: string | number,
-	vehicle: number,
-	owner: number,
+    disabled: boolean,
+    weaponHash: string | number,
+    vehicle: number,
+    owner: number,
 ): void;
 
 declare function DisplayHud(toggle: boolean): void;
 
 declare function DisplayOnscreenKeyboard(
-	p0: number,
-	windowTitle: string,
-	p2: string,
-	defaultText: string,
-	defaultConcat1: string,
-	defaultConcat2: string,
-	defaultConcat3: string,
-	maxInputLength: number,
+    p0: number,
+    windowTitle: string,
+    p2: string,
+    defaultText: string,
+    defaultConcat1: string,
+    defaultConcat2: string,
+    defaultConcat3: string,
+    maxInputLength: number,
 ): void;
 
 declare function DisplayRadar(toggle: boolean): void;
@@ -1756,12 +1756,12 @@ declare function DoesGroupExist(groupId: number): boolean;
 declare function DoesNavmeshBlockingObjectExist(p0: number): boolean;
 
 declare function DoesObjectOfTypeExistAtCoords(
-	x: number,
-	y: number,
-	z: number,
-	radius: number,
-	hash: string | number,
-	p5: boolean,
+    x: number,
+    y: number,
+    z: number,
+    radius: number,
+    hash: string | number,
+    p5: boolean,
 ): boolean;
 
 declare function DoesParticleFxLoopedExist(ptfxHandle: number): boolean;
@@ -1771,11 +1771,11 @@ declare function DoesPickupExist(pickup: number): boolean;
 declare function DoesPickupObjectExist(pickupObject: number): boolean;
 
 declare function DoesPickupOfTypeExistInArea(
-	pickupHash: string | number,
-	x: number,
-	y: number,
-	z: number,
-	radius: number,
+    pickupHash: string | number,
+    x: number,
+    y: number,
+    z: number,
+    radius: number,
 ): boolean;
 
 declare function DoesPopMultiplierAreaExist(id: number): boolean;
@@ -1785,13 +1785,13 @@ declare function DoesRayfireMapObjectExist(object: number): boolean;
 declare function DoesRopeExist(ropeId: number): [boolean, number];
 
 declare function DoesScenarioExistInArea(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): boolean;
 
 declare function DoesScenarioGroupExist(scenarioGroup: string): boolean;
@@ -1803,10 +1803,10 @@ declare function DoesScriptExist(scriptName: string): boolean;
 declare function DoesScriptWithNameHashExist(scriptHash: string | number): boolean;
 
 declare function DoesScriptedCoverPointExistAtCoords(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): boolean;
 
 declare function DoesStateMachineExist(p0: number): number;
@@ -1846,54 +1846,54 @@ declare function DoorSystemSetDoorState(p0: number, p1: number): void;
 declare function DoorSystemSetOpenRatio(p0: number, p1: number, p2: number): void;
 
 declare function DrawLightWithRange(
-	posX: number,
-	posY: number,
-	posZ: number,
-	colorR: number,
-	colorG: number,
-	colorB: number,
-	range: number,
-	intensity: number,
+    posX: number,
+    posY: number,
+    posZ: number,
+    colorR: number,
+    colorG: number,
+    colorB: number,
+    range: number,
+    intensity: number,
 ): void;
 
 declare function DrawRect(
-	x: number,
-	y: number,
-	width: number,
-	height: number,
-	red: number,
-	green: number,
-	blue: number,
-	alpha: number,
-	p8: boolean,
-	p9: boolean,
+    x: number,
+    y: number,
+    width: number,
+    height: number,
+    red: number,
+    green: number,
+    blue: number,
+    alpha: number,
+    p8: boolean,
+    p9: boolean,
 ): void;
 
 declare function DrawSprite(
-	textureDict: string,
-	textureName: string,
-	screenX: number,
-	screenY: number,
-	width: number,
-	height: number,
-	heading: number,
-	red: number,
-	green: number,
-	blue: number,
-	alpha: number,
-	p11: boolean,
+    textureDict: string,
+    textureName: string,
+    screenX: number,
+    screenY: number,
+    width: number,
+    height: number,
+    heading: number,
+    red: number,
+    green: number,
+    blue: number,
+    alpha: number,
+    p11: boolean,
 ): void;
 
 declare function DrawTvChannel(
-	xPos: number,
-	yPos: number,
-	xScale: number,
-	yScale: number,
-	rotation: number,
-	red: number,
-	green: number,
-	blue: number,
-	alpha: number,
+    xPos: number,
+    yPos: number,
+    xScale: number,
+    yScale: number,
+    rotation: number,
+    red: number,
+    green: number,
+    blue: number,
+    alpha: number,
 ): void;
 
 declare function DuplicateFunctionReference(referenceIdentity: string): string;
@@ -1903,9 +1903,9 @@ declare function DuplicateFunctionReference(referenceIdentity: string): string;
 declare function EnableAttributeOverpower(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function EnableControlAction(
-	padIndex: number,
-	control: string | number,
-	enable: boolean,
+    padIndex: number,
+    control: string | number,
+    enable: boolean,
 ): void;
 
 declare function EnableDispatchService(dispatchService: number, toggle: boolean): void;
@@ -1950,8 +1950,8 @@ declare function EventManagerGetEvent(hash: string | number, eventData?: number)
 declare function EventManagerIsEventPending(hash: string | number): boolean;
 
 declare function EventManagerPeekEvent(
-	hash: string | number,
-	eventData?: number,
+    hash: string | number,
+    eventData?: number,
 ): [boolean, number];
 
 declare function EventManagerPopEvent(hash: string | number): void;
@@ -2014,10 +2014,10 @@ declare function ExperimentalSaveCloneSync(entity: number): string;
 declare function ExplodePedHead(ped: number, weaponHash: string | number): void;
 
 declare function ExplodeVehicle(
-	vehicle: number,
-	isAudible: boolean,
-	isInvisible: boolean,
-	p3: number,
+    vehicle: number,
+    isAudible: boolean,
+    isInvisible: boolean,
+    p3: number,
 ): void;
 
 declare function FadeAnimSceneAudioIn(animScene: number, p1: number): void;
@@ -2027,9 +2027,9 @@ declare function FadeAnimSceneAudioOut(animScene: number, p1: number): void;
 declare function FindAllAttachedCarriableEntities(ped: number, itemset: number): void;
 
 declare function FindAnimEventPhase(
-	animDictionary: string,
-	animName: string,
-	p2: string,
+    animDictionary: string,
+    animName: string,
+    p2: string,
 ): [boolean, number, number];
 
 declare function FindFirstObject(outEntity: number): [number, number];
@@ -2085,19 +2085,19 @@ declare function ForceLightningFlash(): void;
 declare function ForceLightningFlashAtCoords(x: number, y: number, z: number): void;
 
 declare function ForcePedMotionState(
-	ped: number,
-	motionStateHash: string | number,
-	p2: boolean,
-	p3: number,
-	p4: boolean,
+    ped: number,
+    motionStateHash: string | number,
+    p2: boolean,
+    p3: number,
+    p4: boolean,
 ): boolean;
 
 declare function ForcePickupRegenerate(p0: number): void;
 
 declare function ForceRoomForEntity(
-	entity: number,
-	interior: number,
-	roomHashKey: string | number,
+    entity: number,
+    interior: number,
+    roomHashKey: string | number,
 ): void;
 
 declare function ForceRoomForGameViewport(interiorID: number, roomHashKey: string | number): void;
@@ -2150,29 +2150,29 @@ declare function GetAngleBetween_2dVectors(x1: number, y1: number, x2: number, y
 declare function GetAnimDuration(animDict: string, animName: string): number;
 
 declare function GetAnimInitialOffsetPosition(
-	animDict: string,
-	animName: string,
-	x: number,
-	y: number,
-	z: number,
-	xRot: number,
-	yRot: number,
-	zRot: number,
-	p8: number,
-	p9: number,
+    animDict: string,
+    animName: string,
+    x: number,
+    y: number,
+    z: number,
+    xRot: number,
+    yRot: number,
+    zRot: number,
+    p8: number,
+    p9: number,
 ): number[];
 
 declare function GetAnimInitialOffsetRotation(
-	animDict: string,
-	animName: string,
-	x: number,
-	y: number,
-	z: number,
-	xRot: number,
-	yRot: number,
-	zRot: number,
-	p8: number,
-	p9: number,
+    animDict: string,
+    animName: string,
+    x: number,
+    y: number,
+    z: number,
+    xRot: number,
+    yRot: number,
+    zRot: number,
+    p8: number,
+    p9: number,
 ): number[];
 
 declare function GetAnimalTuningBoolParam(animal: number, p1: number): boolean;
@@ -2255,64 +2255,64 @@ declare function GetClockYear(): number;
 declare function GetClosestFirePos(x: number, y: number, z: number): [boolean, number[]];
 
 declare function GetClosestObjectOfType(
-	x: number,
-	y: number,
-	z: number,
-	radius: number,
-	modelHash: string | number,
-	isMission: boolean,
-	p6: boolean,
-	p7: boolean,
+    x: number,
+    y: number,
+    z: number,
+    radius: number,
+    modelHash: string | number,
+    isMission: boolean,
+    p6: boolean,
+    p7: boolean,
 ): number;
 
 declare function GetClosestPed(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): boolean;
 
 declare function GetClosestRoad(
-	x: number,
-	y: number,
-	z: number,
-	p3: number,
-	p4: number,
-	p10: boolean,
+    x: number,
+    y: number,
+    z: number,
+    p3: number,
+    p4: number,
+    p10: boolean,
 ): [number, number[], number[], number, number, number];
 
 declare function GetClosestVehicle(
-	x: number,
-	y: number,
-	z: number,
-	radius: number,
-	modelHash: string | number,
-	flags: number,
+    x: number,
+    y: number,
+    z: number,
+    radius: number,
+    modelHash: string | number,
+    flags: number,
 ): number;
 
 declare function GetClosestVehicleNode(
-	x: number,
-	y: number,
-	z: number,
-	nodeType: number,
-	p5: number,
-	p6: number,
+    x: number,
+    y: number,
+    z: number,
+    nodeType: number,
+    p5: number,
+    p6: number,
 ): [boolean, number[]];
 
 declare function GetClosestVehicleNodeWithHeading(
-	x: number,
-	y: number,
-	z: number,
-	nodeType: number,
-	p6: number,
-	p7: number,
+    x: number,
+    y: number,
+    z: number,
+    nodeType: number,
+    p6: number,
+    p7: number,
 ): [boolean, number[], number];
 
 declare function GetCloudTimeAsInt(): number;
@@ -2344,10 +2344,10 @@ declare function GetCurrentLanguage(): number;
 declare function GetCurrentPedVehicleWeapon(ped: number, weaponHash?: number): [boolean, number];
 
 declare function GetCurrentPedWeapon(
-	ped: number,
-	p2: boolean,
-	p3: number,
-	p4: boolean,
+    ped: number,
+    p2: boolean,
+    p3: number,
+    p4: boolean,
 ): [boolean, number];
 
 declare function GetCurrentPedWeaponEntityIndex(ped: number, p1: number): number;
@@ -2393,18 +2393,18 @@ declare function GetDefaultRelationshipGroupHash(modelHash: string | number): nu
 declare function GetDisabledControlNormal(padIndex: number, control: string | number): number;
 
 declare function GetDisabledControlUnboundNormal(
-	padIndex: number,
-	control: string | number,
+    padIndex: number,
+    control: string | number,
 ): number;
 
 declare function GetDistanceBetweenCoords(
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
-	useZ: boolean,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
+    useZ: boolean,
 ): number;
 
 /**
@@ -2442,25 +2442,25 @@ declare function GetEntityHeading(entity: number): number;
 declare function GetEntityHealth(entity: number): number;
 
 declare function GetEntityHeight(
-	entity: number,
-	X: number,
-	Y: number,
-	Z: number,
-	atTop: boolean,
-	inWorldCoords: boolean,
+    entity: number,
+    X: number,
+    Y: number,
+    Z: number,
+    atTop: boolean,
+    inWorldCoords: boolean,
 ): number;
 
 declare function GetEntityHeightAboveGround(entity: number): number;
 
 declare function GetEntityInsideExplosionArea(
-	explosionType: number,
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
-	radius: number,
+    explosionType: number,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
+    radius: number,
 ): number;
 
 declare function GetEntityLodDist(entity: number): number;
@@ -2498,9 +2498,9 @@ declare function GetEntityVelocity(p0: number, p1: number): number[];
 declare function GetEventAtIndex(eventGroup: number, eventIndex: number): number;
 
 declare function GetEventData(
-	eventGroup: number,
-	eventIndex: number,
-	argStructSize: number,
+    eventGroup: number,
+    eventIndex: number,
+    argStructSize: number,
 ): [boolean, number];
 
 declare function GetEventExists(eventGroup: number, eventIndex: number): boolean;
@@ -2613,17 +2613,17 @@ declare function GetGpsBlipRouteFound(): boolean;
 declare function GetGpsBlipRouteLength(): number;
 
 declare function GetGroundZAndNormalFor_3dCoord(
-	x: number,
-	y: number,
-	z: number,
+    x: number,
+    y: number,
+    z: number,
 ): [boolean, number, number[]];
 
 declare function GetGroundZFor_3dCoord(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): boolean;
 
 declare function GetGroupSize(groupID: number): [number, number];
@@ -2639,9 +2639,9 @@ declare function GetHeadingFromVector_2d(dx: number, dy: number): number;
 declare function GetHeightmapBottomZForPosition(left: number, right: number): number;
 
 declare function GetHudScreenPositionFromWorldPosition(
-	worldX: number,
-	worldY: number,
-	worldZ: number,
+    worldX: number,
+    worldY: number,
+    worldZ: number,
 ): [boolean, number, number];
 
 declare function GetIdOfThisThread(): number;
@@ -2657,25 +2657,25 @@ declare function GetInstanceId(): number;
 declare function GetInteriorAtCoords(x: number, y: number, z: number): number;
 
 declare function GetInteriorAtCoordsWithType(
-	x: number,
-	y: number,
-	z: number,
-	interiorType: string,
+    x: number,
+    y: number,
+    z: number,
+    interiorType: string,
 ): number;
 
 declare function GetInteriorAtCoordsWithTypehash(
-	x: number,
-	y: number,
-	z: number,
-	typeHash: string | number,
+    x: number,
+    y: number,
+    z: number,
+    typeHash: string | number,
 ): number;
 
 declare function GetInteriorEntitiesExtents(
-	interiorId: number,
+    interiorId: number,
 ): [number, number, number, number, number, number];
 
 declare function GetInteriorEntitiesExtents(
-	interiorId: number,
+    interiorId: number,
 ): [number, number, number, number, number, number];
 
 declare function GetInteriorFromCollision(x: number, y: number, z: number): number;
@@ -2683,15 +2683,15 @@ declare function GetInteriorFromCollision(x: number, y: number, z: number): numb
 declare function GetInteriorFromEntity(entity: number): number;
 
 declare function GetInteriorPortalCornerPosition(
-	interiorId: number,
-	portalIndex: number,
-	cornerIndex: number,
+    interiorId: number,
+    portalIndex: number,
+    cornerIndex: number,
 ): [number, number, number];
 
 declare function GetInteriorPortalCornerPosition(
-	interiorId: number,
-	portalIndex: number,
-	cornerIndex: number,
+    interiorId: number,
+    portalIndex: number,
+    cornerIndex: number,
 ): [number, number, number];
 
 declare function GetInteriorPortalCount(interiorId: number): number;
@@ -2699,29 +2699,29 @@ declare function GetInteriorPortalCount(interiorId: number): number;
 declare function GetInteriorPortalCount(interiorId: number): number;
 
 declare function GetInteriorPortalEntityArchetype(
-	interiorId: number,
-	portalIndex: number,
-	entityIndex: number,
+    interiorId: number,
+    portalIndex: number,
+    entityIndex: number,
 ): number;
 
 declare function GetInteriorPortalEntityCount(interiorId: number, portalIndex: number): number;
 
 declare function GetInteriorPortalEntityFlag(
-	interiorId: number,
-	portalIndex: number,
-	entityIndex: number,
+    interiorId: number,
+    portalIndex: number,
+    entityIndex: number,
 ): number;
 
 declare function GetInteriorPortalEntityPosition(
-	interiorId: number,
-	portalIndex: number,
-	entityIndex: number,
+    interiorId: number,
+    portalIndex: number,
+    entityIndex: number,
 ): [number, number, number];
 
 declare function GetInteriorPortalEntityRotation(
-	interiorId: number,
-	portalIndex: number,
-	entityIndex: number,
+    interiorId: number,
+    portalIndex: number,
+    entityIndex: number,
 ): [number, number, number, number];
 
 declare function GetInteriorPortalFlag(interiorId: number, portalIndex: number): number;
@@ -2745,13 +2745,13 @@ declare function GetInteriorRoomCount(interiorId: number): number;
 declare function GetInteriorRoomCount(interiorId: number): number;
 
 declare function GetInteriorRoomExtents(
-	interiorId: number,
-	roomIndex: number,
+    interiorId: number,
+    roomIndex: number,
 ): [number, number, number, number, number, number];
 
 declare function GetInteriorRoomExtents(
-	interiorId: number,
-	roomIndex: number,
+    interiorId: number,
+    roomIndex: number,
 ): [number, number, number, number, number, number];
 
 declare function GetInteriorRoomFlag(interiorId: number, roomIndex: number): number;
@@ -2823,7 +2823,7 @@ declare function GetMainPlayerBlipId(): number;
  * @return A boolean indicating TRUE if the data was received successfully.
  */
 declare function GetMapZoomDataLevel(
-	index: number,
+    index: number,
 ): [boolean, number, number, number, number, number];
 
 /**
@@ -2837,13 +2837,13 @@ declare function GetMapZoomDataLevel(
  * @return A boolean indicating TRUE if the data was received successfully.
  */
 declare function GetMapZoomDataLevel(
-	index: number,
+    index: number,
 ): [boolean, number, number, number, number, number];
 
 declare function GetMaxAmmo(
-	ped: number,
-	weaponHash: string | number,
-	ammo?: number,
+    ped: number,
+    weaponHash: string | number,
+    ammo?: number,
 ): [boolean, number];
 
 declare function GetMaxAmmoInClip(ped: number, weaponHash: string | number, p2: boolean): number;
@@ -2879,10 +2879,10 @@ declare function GetNamedRendertargetRenderId(name: string): number;
 declare function GetNearestPlayerToEntity(p0: number, p1: number, p2: number): number;
 
 declare function GetNearestPlayerToEntityOnTeam(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): number;
 
 declare function GetNetworkTime(): number;
@@ -2892,57 +2892,57 @@ declare function GetNetworkTimeAccurate(): number;
 declare function GetNoLoadingScreen(): boolean;
 
 declare function GetNthClosestVehicleNode(
-	x: number,
-	y: number,
-	z: number,
-	nthClosest: number,
-	unknown1: number,
-	unknown2: number,
-	unknown3: number,
+    x: number,
+    y: number,
+    z: number,
+    nthClosest: number,
+    unknown1: number,
+    unknown2: number,
+    unknown3: number,
 ): [boolean, number[]];
 
 declare function GetNthClosestVehicleNodeFavourDirection(
-	x: number,
-	y: number,
-	z: number,
-	desiredX: number,
-	desiredY: number,
-	desiredZ: number,
-	nthClosest: number,
-	nodetype: number,
-	p10: number,
-	p11: number,
+    x: number,
+    y: number,
+    z: number,
+    desiredX: number,
+    desiredY: number,
+    desiredZ: number,
+    nthClosest: number,
+    nodetype: number,
+    p10: number,
+    p11: number,
 ): [boolean, number[], number];
 
 declare function GetNthClosestVehicleNodeId(
-	x: number,
-	y: number,
-	z: number,
-	nth: number,
-	nodetype: number,
-	p5: number,
-	p6: number,
+    x: number,
+    y: number,
+    z: number,
+    nth: number,
+    nodetype: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function GetNthClosestVehicleNodeIdWithHeading(
-	x: number,
-	y: number,
-	z: number,
-	nthClosest: number,
-	outHeading: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    x: number,
+    y: number,
+    z: number,
+    nthClosest: number,
+    outHeading: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): [boolean, number[]];
 
 declare function GetNthClosestVehicleNodeWithHeading(
-	x: number,
-	y: number,
-	z: number,
-	nthClosest: number,
-	unknown2: number,
-	unknown3: number,
-	unknown4: number,
+    x: number,
+    y: number,
+    z: number,
+    nthClosest: number,
+    unknown2: number,
+    unknown3: number,
+    unknown4: number,
 ): [boolean, number[], number, number];
 
 declare function GetNuiCursorPosition(): [number, number];
@@ -3000,27 +3000,27 @@ declare function GetObjectFragmentDamageHealth(p0: number, p1: boolean): number;
 declare function GetObjectIndexFromEntityIndex(entity: number): number;
 
 declare function GetObjectOffsetFromCoords(
-	xPos: number,
-	yPos: number,
-	zPos: number,
-	heading: number,
-	xOffset: number,
-	yOffset: number,
-	zOffset: number,
+    xPos: number,
+    yPos: number,
+    zPos: number,
+    heading: number,
+    xOffset: number,
+    yOffset: number,
+    zOffset: number,
 ): number[];
 
 declare function GetOffsetFromEntityGivenWorldCoords(
-	entity: number,
-	posX: number,
-	posY: number,
-	posZ: number,
+    entity: number,
+    posX: number,
+    posY: number,
+    posZ: number,
 ): number[];
 
 declare function GetOffsetFromEntityInWorldCoords(
-	entity: number,
-	offsetX: number,
-	offsetY: number,
-	offsetZ: number,
+    entity: number,
+    offsetX: number,
+    offsetY: number,
+    offsetZ: number,
 ): number[];
 
 declare function GetOnscreenKeyboardResult(): string;
@@ -3036,11 +3036,11 @@ declare function GetPedAsGroupLeader(groupID: number): number;
 declare function GetPedAsGroupMember(groupID: number, memberNumber: number): number;
 
 declare function GetPedBoneCoords(
-	ped: number,
-	boneId: number,
-	offsetX: number,
-	offsetY: number,
-	offsetZ: number,
+    ped: number,
+    boneId: number,
+    offsetX: number,
+    offsetY: number,
+    offsetZ: number,
 ): number[];
 
 declare function GetPedBoneIndex(ped: number, boneId: number): number;
@@ -3127,8 +3127,8 @@ declare function GetPedHairHighlightColor(ped: number): number;
  * @return Returns ped's head overlay data.
  */
 declare function GetPedHeadOverlayData(
-	ped: number,
-	index: number,
+    ped: number,
+    index: number,
 ): [boolean, number, number, number, number, number];
 
 /**
@@ -3143,8 +3143,8 @@ declare function GetPedHeadOverlayData(
  * @return Returns ped's head overlay data.
  */
 declare function GetPedHeadOverlayData(
-	ped: number,
-	index: number,
+    ped: number,
+    index: number,
 ): [boolean, number, number, number, number, number];
 
 declare function GetPedInVehicleSeat(vehicle: number, seatIndex: number): number;
@@ -3237,22 +3237,22 @@ declare function GetPositionOfVehicleRecordingAtTime(p0: number, p1: number, p2:
 declare function GetPosixTime(): [number, number, number, number, number, number];
 
 declare function GetProjectileNearPed(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): boolean;
 
 declare function GetProjectileNearPedCoords(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): boolean;
 
 declare function GetRainLevel(): number;
@@ -3264,32 +3264,32 @@ declare function GetRandomFloatInRange(startRange: number, endRange: number): nu
 declare function GetRandomIntInRange(startRange: number, endRange: number): number;
 
 declare function GetRandomModelFromPopulationSet(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): number;
 
 declare function GetRandomVehicleNode(
-	x: number,
-	y: number,
-	z: number,
-	radius: number,
-	p4: boolean,
-	p5: boolean,
-	p6: boolean,
+    x: number,
+    y: number,
+    z: number,
+    radius: number,
+    p4: boolean,
+    p5: boolean,
+    p6: boolean,
 ): [boolean, number[], number];
 
 declare function GetRayfireMapObject(
-	x: number,
-	y: number,
-	z: number,
-	radius: number,
-	name: string,
+    x: number,
+    y: number,
+    z: number,
+    radius: number,
+    name: string,
 ): number;
 
 declare function GetRayfireMapObjectAnimPhase(object: number): number;
@@ -3329,8 +3329,8 @@ declare function GetRegisteredCommands(): any;
 declare function GetRegisteredCommands(): any;
 
 declare function GetRelationshipBetweenGroups(
-	group1: string | number,
-	group2: string | number,
+    group1: string | number,
+    group2: string | number,
 ): number;
 
 declare function GetRelationshipBetweenPeds(ped1: number, ped2: number): number;
@@ -3376,9 +3376,9 @@ declare function GetResourceKvpString(key: string): string;
  * @param index The value index, in a range from [0..GET_NUM_RESOURCE_METDATA-1].
  */
 declare function GetResourceMetadata(
-	resourceName: string,
-	metadataKey: string,
-	index: number,
+    resourceName: string,
+    metadataKey: string,
+    index: number,
 ): string;
 
 /**
@@ -3389,9 +3389,9 @@ declare function GetResourceMetadata(
  * @param index The value index, in a range from \[0..GET_NUM_RESOURCE_METDATA-1].
  */
 declare function GetResourceMetadata(
-	resourceName: string,
-	metadataKey: string,
-	index: number,
+    resourceName: string,
+    metadataKey: string,
+    index: number,
 ): string;
 
 /**
@@ -3437,9 +3437,9 @@ declare function GetRopeVertexCoord(ropeId: number, vertex: number): number[];
 declare function GetRopeVertexCount(ropeId: number): number;
 
 declare function GetRotationOfVehicleRecordingAtTime(
-	p0: number,
-	p1: number,
-	p2?: number,
+    p0: number,
+    p1: number,
+    p2?: number,
 ): [number[], number];
 
 /**
@@ -3485,26 +3485,26 @@ declare function GetRuntimeTextureWidth(tex: number): number;
 declare function GetRuntimeTextureWidth(tex: number): number;
 
 declare function GetSafeCoordForPed(
-	x: number,
-	y: number,
-	z: number,
-	onGround: boolean,
-	flags: number,
+    x: number,
+    y: number,
+    z: number,
+    onGround: boolean,
+    flags: number,
 ): [boolean, number[]];
 
 declare function GetSafePickupCoords(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number[];
 
 declare function GetScreenCoordFromWorldCoord(
-	worldX: number,
-	worldY: number,
-	worldZ: number,
+    worldX: number,
+    worldY: number,
+    worldZ: number,
 ): [boolean, number, number];
 
 declare function GetScreenResolution(): [number, number];
@@ -3541,7 +3541,7 @@ declare function GetSecondsSinceBaseYear(): number;
 declare function GetSequenceProgress(ped: number): number;
 
 declare function GetShapeTestResult(
-	rayHandle: number,
+    rayHandle: number,
 ): [number, any /* actually bool */, number[], number[], number];
 
 declare function GetSnowLevel(): number;
@@ -3678,9 +3678,9 @@ declare function GetVehicleHandbrake(vehicle: number): boolean;
  * @return A floating-point value.
  */
 declare function GetVehicleHandlingFloat(
-	vehicle: number,
-	class_: string,
-	fieldName: string,
+    vehicle: number,
+    class_: string,
+    fieldName: string,
 ): number;
 
 /**
@@ -3692,9 +3692,9 @@ declare function GetVehicleHandlingFloat(
  * @return A floating-point value.
  */
 declare function GetVehicleHandlingFloat(
-	vehicle: number,
-	class_: string,
-	fieldName: string,
+    vehicle: number,
+    class_: string,
+    fieldName: string,
 ): number;
 
 /**
@@ -3726,9 +3726,9 @@ declare function GetVehicleHandlingInt(vehicle: number, class_: string, fieldNam
  * @return An integer.
  */
 declare function GetVehicleHandlingVector(
-	vehicle: number,
-	class_: string,
-	fieldName: string,
+    vehicle: number,
+    class_: string,
+    fieldName: string,
 ): number[];
 
 /**
@@ -3740,9 +3740,9 @@ declare function GetVehicleHandlingVector(
  * @return An integer.
  */
 declare function GetVehicleHandlingVector(
-	vehicle: number,
-	class_: string,
-	fieldName: string,
+    vehicle: number,
+    class_: string,
+    fieldName: string,
 ): number[];
 
 declare function GetVehicleHighGear(vehicle: number): number;
@@ -3973,17 +3973,17 @@ declare function GetWantedLevelRadius(player: number): number;
 declare function GetWantedLevelThreshold(wantedLevel: number): number;
 
 declare function GetWaterHeight(
-	x: number,
-	y: number,
-	z: number,
-	height?: number,
+    x: number,
+    y: number,
+    z: number,
+    height?: number,
 ): [boolean, number];
 
 declare function GetWaterHeightNoWaves(
-	x: number,
-	y: number,
-	z: number,
-	height?: number,
+    x: number,
+    y: number,
+    z: number,
+    height?: number,
 ): [boolean, number];
 
 declare function GetWaypointCoords(): number[];
@@ -4072,11 +4072,11 @@ declare function GetWindSpeed(): number;
 declare function GetWorldPositionOfEntityBone(entity: number, boneIndex: number): number[];
 
 declare function GiveDelayedWeaponToPed(
-	ped: number,
-	weaponHash: string | number,
-	p2: number,
-	p3: boolean,
-	p4: number,
+    ped: number,
+    weaponHash: string | number,
+    p2: number,
+    p3: boolean,
+    p4: number,
 ): void;
 
 declare function GiveWeaponToPed(ped: number): [boolean, number, number];
@@ -4099,19 +4099,19 @@ declare function GiveWeaponToPed(ped: number): [boolean, number, number];
  * @param p12 :
  */
 declare function GiveWeaponToPed_2(
-	ped: number,
-	weaponHash: string | number,
-	ammoCount: number,
-	equipNow: boolean,
-	p4: boolean,
-	weaponGroup: number,
-	p6: boolean,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: boolean,
-	p11: number,
-	p12: boolean,
+    ped: number,
+    weaponHash: string | number,
+    ammoCount: number,
+    equipNow: boolean,
+    p4: boolean,
+    weaponGroup: number,
+    p6: boolean,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: boolean,
+    p11: number,
+    p12: boolean,
 ): boolean;
 
 declare function GoogleAnalyticsPopPage(pageName: string): void;
@@ -4123,34 +4123,34 @@ declare function HasAnimDictLoaded(animDict: string): boolean;
 declare function HasAnimEventFired(entity: number, actionHash: string | number): boolean;
 
 declare function HasBulletImpactedInArea(
-	x: number,
-	y: number,
-	z: number,
-	p3: number,
-	p4: boolean,
-	p5: boolean,
+    x: number,
+    y: number,
+    z: number,
+    p3: number,
+    p4: boolean,
+    p5: boolean,
 ): boolean;
 
 declare function HasBulletImpactedInBox(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: boolean,
-	p7: boolean,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: boolean,
+    p7: boolean,
 ): boolean;
 
 declare function HasClipSetLoaded(clipSet: string): boolean;
 
 declare function HasClosestObjectOfTypeBeenBroken(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	modelHash: string | number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    modelHash: string | number,
+    p5: number,
 ): boolean;
 
 declare function HasCollisionForModelLoaded(model: string | number): boolean;
@@ -4158,10 +4158,10 @@ declare function HasCollisionForModelLoaded(model: string | number): boolean;
 declare function HasCollisionLoadedAroundEntity(entity: number): boolean;
 
 declare function HasEntityAnimFinished(
-	entity: number,
-	animDict: string,
-	animName: string,
-	p3: number,
+    entity: number,
+    animDict: string,
+    animName: string,
+    p3: number,
 ): boolean;
 
 declare function HasEntityBeenDamagedByAnyObject(entity: number): boolean;
@@ -4171,16 +4171,16 @@ declare function HasEntityBeenDamagedByAnyPed(entity: number): boolean;
 declare function HasEntityBeenDamagedByAnyVehicle(entity: number): boolean;
 
 declare function HasEntityBeenDamagedByEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): boolean;
 
 declare function HasEntityClearLosToEntity(
-	entity1: number,
-	entity2: number,
-	traceType: number,
+    entity1: number,
+    entity2: number,
+    traceType: number,
 ): boolean;
 
 declare function HasEntityClearLosToEntityInFront(p0: number, p1: number, p2: number): boolean;
@@ -4260,17 +4260,17 @@ declare function IntToPlayerindex(value: number): number;
 declare function IntToString(value: number, format: string, buffer: string): void;
 
 declare function InvokeFunctionReference(
-	referenceIdentity: string,
-	argsSerialized: string,
-	argsLength: number,
-	retvalLength?: number,
+    referenceIdentity: string,
+    argsSerialized: string,
+    argsLength: number,
+    retvalLength?: number,
 ): [string, number];
 
 declare function InvokeFunctionReference(
-	referenceIdentity: string,
-	argsSerialized: string,
-	argsLength: number,
-	retvalLength?: number,
+    referenceIdentity: string,
+    argsSerialized: string,
+    argsLength: number,
+    retvalLength?: number,
 ): [string, number];
 
 declare function IsAceAllowed(object: string): boolean;
@@ -4290,14 +4290,14 @@ declare function IsAnyAppRunning(): number;
 declare function IsAnyPedNearPoint(x: number, y: number, z: number, radius: number): boolean;
 
 declare function IsAnyPedShootingInArea(
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
-	p6: boolean,
-	p7: boolean,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
+    p6: boolean,
+    p7: boolean,
 ): boolean;
 
 declare function IsAnySpeechPlaying(ped: number): boolean;
@@ -4346,32 +4346,32 @@ declare function IsBitSet(address: number, offset: number): boolean;
 declare function IsBlipOnMinimap(blip: number): boolean;
 
 declare function IsBulletInAngledArea(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: boolean,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: boolean,
 ): boolean;
 
 declare function IsBulletInArea(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: boolean,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: boolean,
 ): boolean;
 
 declare function IsBulletInBox(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: boolean,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: boolean,
 ): boolean;
 
 declare function IsCamActive(cam: number): boolean;
@@ -4449,27 +4449,27 @@ declare function IsEntityAVehicle(entity: number): boolean;
 declare function IsEntityAnObject(entity: number): boolean;
 
 declare function IsEntityAtCoord(
-	entity: number,
-	xPos: number,
-	yPos: number,
-	zPos: number,
-	xSize: number,
-	ySize: number,
-	zSize: number,
-	p7: boolean,
-	p8: boolean,
-	p9: number,
+    entity: number,
+    xPos: number,
+    yPos: number,
+    zPos: number,
+    xSize: number,
+    ySize: number,
+    zSize: number,
+    p7: boolean,
+    p8: boolean,
+    p9: number,
 ): boolean;
 
 declare function IsEntityAtEntity(
-	entity1: number,
-	entity2: number,
-	xSize: number,
-	ySize: number,
-	zSize: number,
-	p5: boolean,
-	p6: boolean,
-	p7: number,
+    entity1: number,
+    entity2: number,
+    xSize: number,
+    ySize: number,
+    zSize: number,
+    p5: boolean,
+    p6: boolean,
+    p7: number,
 ): boolean;
 
 declare function IsEntityAttached(entity: number): boolean;
@@ -4489,30 +4489,30 @@ declare function IsEntityFocus(entity: number): boolean;
 declare function IsEntityInAir(p0: number, p1: number): boolean;
 
 declare function IsEntityInAngledArea(
-	entity: number,
-	originX: number,
-	originY: number,
-	originZ: number,
-	edgeX: number,
-	edgeY: number,
-	edgeZ: number,
-	angle: number,
-	p8: boolean,
-	p9: boolean,
-	p10: number,
+    entity: number,
+    originX: number,
+    originY: number,
+    originZ: number,
+    edgeX: number,
+    edgeY: number,
+    edgeZ: number,
+    angle: number,
+    p8: boolean,
+    p9: boolean,
+    p10: number,
 ): boolean;
 
 declare function IsEntityInArea(
-	entity: number,
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
-	p7: boolean,
-	p8: boolean,
-	p9: number,
+    entity: number,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
+    p7: boolean,
+    p8: boolean,
+    p9: number,
 ): boolean;
 
 declare function IsEntityInVolume(entity: number, volume: number, p2: boolean, p3: number): boolean;
@@ -4526,10 +4526,10 @@ declare function IsEntityOnFire(entity: number): boolean;
 declare function IsEntityOnScreen(entity: number): boolean;
 
 declare function IsEntityPlayingAnim(
-	entity: number,
-	animDict: string,
-	animName: string,
-	taskFlag: number,
+    entity: number,
+    animDict: string,
+    animName: string,
+    taskFlag: number,
 ): boolean;
 
 /**
@@ -4556,42 +4556,42 @@ declare function IsEntityVisibleToScript(entity: number): boolean;
 declare function IsEntityWaitingForWorldCollision(entity: number): boolean;
 
 declare function IsExplosionActiveInArea(
-	explosionType: number,
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
+    explosionType: number,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
 ): boolean;
 
 declare function IsExplosionInAngledArea(
-	explosionType: number,
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
-	angle: number,
+    explosionType: number,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
+    angle: number,
 ): boolean;
 
 declare function IsExplosionInArea(
-	explosionType: number,
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
+    explosionType: number,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
 ): boolean;
 
 declare function IsExplosionInSphere(
-	explosionType: number,
-	x: number,
-	y: number,
-	z: number,
-	radius: number,
+    explosionType: number,
+    x: number,
+    y: number,
+    z: number,
+    radius: number,
 ): boolean;
 
 declare function IsFirstPersonAimCamActive(): boolean;
@@ -4668,12 +4668,12 @@ declare function IsNamedRendertargetLinked(modelHash: string | number): boolean;
 declare function IsNamedRendertargetRegistered(name: string): boolean;
 
 declare function IsNavmeshLoadedInArea(
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
 ): boolean;
 
 declare function IsNetworkIdOwnedByParticipant(netId: number): boolean;
@@ -4743,11 +4743,11 @@ declare function IsPedGroupMember(p0: number, p1: number, p2: number): boolean;
 declare function IsPedHangingOnToVehicle(ped: number): boolean;
 
 declare function IsPedHeadingTowardsPosition(
-	ped: number,
-	x: number,
-	y: number,
-	z: number,
-	p4: number,
+    ped: number,
+    x: number,
+    y: number,
+    z: number,
+    p4: number,
 ): boolean;
 
 declare function IsPedHeadtrackingEntity(ped: number, entity: number): boolean;
@@ -4887,34 +4887,34 @@ declare function IsPlayerTeleportActive(): boolean;
 declare function IsPlayerWantedLevelGreater(player: number, wantedLevel: number): boolean;
 
 declare function IsPointInAngledArea(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: boolean,
-	p11: boolean,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: boolean,
+    p11: boolean,
 ): boolean;
 
 declare function IsPointOnRoad(x: number, y: number, z: number, vehicle: number): boolean;
 
 declare function IsPositionOccupied(
-	x: number,
-	y: number,
-	z: number,
-	range: number,
-	p4: boolean,
-	p5: boolean,
-	p6: boolean,
-	p7: boolean,
-	p8: boolean,
-	p9: number,
-	p10: boolean,
+    x: number,
+    y: number,
+    z: number,
+    range: number,
+    p4: boolean,
+    p5: boolean,
+    p6: boolean,
+    p7: boolean,
+    p8: boolean,
+    p9: number,
+    p10: boolean,
 ): boolean;
 
 declare function IsPrincipalAceAllowed(principal: string, object: string): boolean;
@@ -4922,45 +4922,45 @@ declare function IsPrincipalAceAllowed(principal: string, object: string): boole
 declare function IsPrincipalAceAllowed(principal: string, object: string): boolean;
 
 declare function IsProjectileInArea(
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
-	ownedByPlayer: boolean,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
+    ownedByPlayer: boolean,
 ): boolean;
 
 declare function IsProjectileTypeInAngledArea(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: boolean,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: boolean,
 ): boolean;
 
 declare function IsProjectileTypeInArea(
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
-	_type: number,
-	p7: boolean,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
+    _type: number,
+    p7: boolean,
 ): boolean;
 
 declare function IsProjectileTypeInRadius(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: boolean,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: boolean,
 ): boolean;
 
 declare function IsRadarHidden(): boolean;
@@ -4974,11 +4974,11 @@ declare function IsScenarioGroupEnabled(scenarioGroup: string): boolean;
 declare function IsScenarioGroupEnabledHash(scenarioGroup: string | number): boolean;
 
 declare function IsScenarioOccupied(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: boolean,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: boolean,
 ): boolean;
 
 declare function IsScenarioTypeEnabled(scenarioType: string): boolean;
@@ -4998,30 +4998,30 @@ declare function IsScriptedSpeechPlaying(p0: number): boolean;
 declare function IsSeatWarpOnly(vehicle: number, seatIndex: number): boolean;
 
 declare function IsShockingEventInSphere(
-	_type: number,
-	x: number,
-	y: number,
-	z: number,
-	radius: number,
+    _type: number,
+    x: number,
+    y: number,
+    z: number,
+    radius: number,
 ): boolean;
 
 declare function IsSphereVisible(x: number, y: number, z: number, radius: number): boolean;
 
 declare function IsSphereVisibleToAnotherMachine(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): boolean;
 
 declare function IsSphereVisibleToPlayer(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): boolean;
 
 declare function IsSrlLoaded(): boolean;
@@ -5135,10 +5135,10 @@ declare function ItemDatabaseDoesItemHaveTag(p0: number, p1: number, p2: number)
 declare function ItemDatabaseFilloutAcquireCost(p0: number, p1: number, p2: number): number;
 
 declare function ItemDatabaseFilloutBuyAwardAcquireCosts(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): number;
 
 declare function ItemDatabaseFilloutItemEffectsIdInfo(p0: number, p1: number): number;
@@ -5168,10 +5168,10 @@ declare function ItemDatabaseGetBundleId(p0: number): number;
 declare function ItemDatabaseGetBundleItemCount(p0: number, p1: number): number;
 
 declare function ItemDatabaseGetBundleItemInfo(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): number;
 
 declare function ItemDatabaseGetFitsSlotCount(p0: number): number;
@@ -5195,26 +5195,26 @@ declare function ItemDatabaseGetNumberOfModifiers(p0: number): number;
 declare function ItemDatabaseGetShopInventoriesItemInfo(p0: number, p1: number, p2: number): number;
 
 declare function ItemDatabaseGetShopInventoriesItemInfoByKey(
-	p0: number,
-	p1: number,
-	p2: number,
+    p0: number,
+    p1: number,
+    p2: number,
 ): number;
 
 declare function ItemDatabaseGetShopInventoriesItemsCount(p0: number): number;
 
 declare function ItemDatabaseGetShopInventoriesRequirementGroupInfo(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): number;
 
 declare function ItemDatabaseGetShopInventoriesRequirementInfo(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function ItemDatabaseGetShopLayoutInfo(p0: number, p1: number): number;
@@ -5222,28 +5222,28 @@ declare function ItemDatabaseGetShopLayoutInfo(p0: number, p1: number): number;
 declare function ItemDatabaseGetShopLayoutMenuInfoById(p0: number, p1: number, p2: number): number;
 
 declare function ItemDatabaseGetShopLayoutMenuInfoByIndex(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): number;
 
 declare function ItemDatabaseGetShopLayoutMenuPageKey(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): number;
 
 declare function ItemDatabaseGetShopLayoutPageInfoByKey(p0: number, p1: number, p2: number): number;
 
 declare function ItemDatabaseGetShopLayoutPageItemKey(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function ItemDatabaseGetShopLayoutRootMenuInfo(p0: number, p1: number, p2: number): number;
@@ -5287,11 +5287,11 @@ declare function JournalGetGrimeAtIndex(p0: number): number;
 declare function JournalWriteEntry(p0: number): void;
 
 declare function KnockOffPedProp(
-	ped: number,
-	p1: boolean,
-	p2: boolean,
-	p3: boolean,
-	p4: boolean,
+    ped: number,
+    p1: boolean,
+    p2: boolean,
+    p3: boolean,
+    p4: boolean,
 ): void;
 
 declare function KnockPedOffVehicle(ped: number): void;
@@ -5335,32 +5335,32 @@ declare function LocalizationGetUserLanguage(): number;
 declare function LockMinimapAngle(angle: number): void;
 
 declare function LogAddEntryHash(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function LogAddOrUpdateObjective(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function LogAddTotalTakeEntry(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function LogClearAllEntries(): void;
@@ -5613,12 +5613,12 @@ declare function N_0x00b380ff2df6ab7a(p0: number, p1: number): void;
 declare function N_0x00ba333da05adc23(p0: number, p1: number): void;
 
 declare function N_0x00bbf7ceae8c666a(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x00db0bc05e3faa4e(p0: number, p1: number): void;
@@ -5642,12 +5642,12 @@ declare function N_0x0139637a3bff8b6d(p0: number, p1: number): number;
 declare function N_0x013a7ba5015c1372(p0: number, p1: number): void;
 
 declare function N_0x01708e8dd3ff8c65(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x017492b2201e3428(p0: number, p1: number, p2: number, p3: number): void;
@@ -5669,11 +5669,11 @@ declare function N_0x02389579a53c3276(p0: number, p1: number, p2: number, p3: nu
 declare function N_0x024ec9b649111915(p0: number, p1: number): void;
 
 declare function N_0x025a1b1fb03fbf61(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x025e98e317652cdd(p0: number): void;
@@ -5693,11 +5693,11 @@ declare function N_0x02aa2096fe00f3e1(p0: number, p1: number): number;
 declare function N_0x02b21b6beedd83cc(p0: number, p1: number): number;
 
 declare function N_0x02bcc0fe9eba3529(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x02c4c6c2900d84df(p0: number, p1: number): void;
@@ -5745,16 +5745,16 @@ declare function N_0x04084490cc302cfb(): void;
 declare function N_0x040ee319efd1d3b5(): void;
 
 declare function N_0x041d17a9e221ae30(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function N_0x0455546f23ff08e4(p0: number): number;
@@ -5804,12 +5804,12 @@ declare function N_0x05dd384f39de1c8c(p0: number, p1: number): number;
 declare function N_0x0608326f7b98c08d(p0: number, p1: number): void;
 
 declare function N_0x06087579e7aa85a9(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): boolean;
 
 declare function N_0x060bbad634c2b44b(): number;
@@ -5825,11 +5825,11 @@ declare function N_0x065887b694359799(p0: number): void;
 declare function N_0x065d03a9d6b2c6b5(p0: number, p1: number): void;
 
 declare function N_0x066167c63111d8cf(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x069eddf1fd4deb0a(p0: number, p1: number): void;
@@ -5843,11 +5843,11 @@ declare function N_0x06aade17334f7a40(p0: number, p1: number, p2: number, p3: nu
 declare function N_0x06c0d8bb6b04a709(): number;
 
 declare function N_0x06c5df5ee444bc6b(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x06d26a96ca1bca75(p0: number, p1: number, p2: number, p3: number): void;
@@ -5869,22 +5869,22 @@ declare function N_0x07559b29950301ff(p0: number, p1: number): void;
 declare function N_0x0760d6f70ebcc05c(p0: number): number;
 
 declare function N_0x07706c4cc9c6cc9e(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x0772f87d7b07719a(p0: number, p1: number, p2: number): number;
 
 declare function N_0x078076ab50fb117f(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x078f77fd1a43eab3(p0: number, p1: number): void;
@@ -5922,14 +5922,14 @@ declare function N_0x085c5b61a0114f32(p0: number, p1: number): void;
 declare function N_0x086549f3b0381cb1(p0: number, p1: number): void;
 
 declare function N_0x0869d499a7848309(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function N_0x0876326238914a3f(): void;
@@ -5953,21 +5953,21 @@ declare function N_0x09034479e6e3e269(p0: number, p1: number, p2: number): numbe
 declare function N_0x0909f71b5c070797(): number;
 
 declare function N_0x09171a6f8fde5dc1(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x0918e3565c20f03c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0x0939e773925c4719(): void;
@@ -5999,21 +5999,21 @@ declare function N_0x09c970ae59abf6b2(vehicle: number, p1: boolean): void;
 declare function N_0x09d7afd3716da8e1(p0: number, p1: number): number;
 
 declare function N_0x09e378c52b1433b5(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x09ee00b8f858e0be(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0x09fbf15d73efc900(): void;
@@ -6063,16 +6063,16 @@ declare function N_0x0ba4250d20007c2e(p0: number): number;
 declare function N_0x0bb6de7d23c60626(p0: number): number;
 
 declare function N_0x0bcd4091c8eaba42(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): number;
 
 declare function N_0x0bdfebcf40a5f7e3(p0: number): number;
@@ -6090,11 +6090,11 @@ declare function N_0x0c0a373d181bf900(p0: number): void;
 declare function N_0x0c31c51168e80365(p0: number): number;
 
 declare function N_0x0c392db374655176(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x0c3cb2e600c8977d(p0: number, p1: number): number;
@@ -6110,11 +6110,11 @@ declare function N_0x0c718001b77ca468(p0: number, p1: number): void;
 declare function N_0x0c7a2289a5c4d7c9(p0: number, p1: number): void;
 
 declare function N_0x0c9dbf48c6ba6e4c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x0cab404cd2db41f5(p0: number, p1: number): number;
@@ -6174,12 +6174,12 @@ declare function N_0x0e17378642156790(p0: number, p1: number): void;
 declare function N_0x0e184495b27bb57d(): void;
 
 declare function N_0x0e1db1f8f5b561dc(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x0e2c3aee6ce603b7(): number;
@@ -6203,13 +6203,13 @@ declare function N_0x0e71c80fa4ec8147(p0: number, p1: number): void;
 declare function N_0x0e9057a9da78d0f8(p0: number, p1: number): void;
 
 declare function N_0x0e94c95ec3185fa9(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0x0e99e3bf11bb6367(p0: number): number;
@@ -6223,16 +6223,16 @@ declare function N_0x0eabf182fbb63d72(p0: number, p1: number, p2: number): void;
 declare function N_0x0eaf918f751f27ba(p0: number): number;
 
 declare function N_0x0eb78c2b156635b1(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): number;
 
 declare function N_0x0ee3f0d7feccc54f(): number;
@@ -6290,27 +6290,27 @@ declare function N_0x0ff421e467373fcf(p0: number): number;
 declare function N_0x0ff7125f07deb84f(p0: number, p1: number): void;
 
 declare function N_0x0ffdf937e5c11382(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x100157d6d7fe32ca(p0: number, p1: number): number;
 
 declare function N_0x10157bc3247ff3ba(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): number;
 
 declare function N_0x101b45c5f56d970f(p0: number, p1: number, p2: number, p3: number): number;
@@ -6350,14 +6350,14 @@ declare function N_0x10f96086123b939f(p0: number, p1: number, p2: number): void;
 declare function N_0x1121b07088ed3013(p0: number): number;
 
 declare function N_0x112bca290d2eb53c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): number;
 
 declare function N_0x112ddf56300bc6e5(p0: number): number;
@@ -6429,37 +6429,37 @@ declare function N_0x12f2d161bf4031fc(p0: number, p1: number): void;
 declare function N_0x12f6c6ed3eff42de(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function N_0x12fb95fe3d579238(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x12fcaa23f2320422(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): void;
 
 declare function N_0x13154a76ce0cf9ab(p0: number, p1: number): number;
 
 declare function N_0x131e294ef60160df(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x131ec9247e7a2903(p0: number): number;
@@ -6477,21 +6477,21 @@ declare function N_0x138398153824e332(): void;
 declare function N_0x138adb94f8b90616(): void;
 
 declare function N_0x1392105da88bbffb(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x139805c2a67c4795(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0x139efb0a71dd9011(): number;
@@ -6513,11 +6513,11 @@ declare function N_0x13eb275bf81636d1(p0: number, p1: number): void;
 declare function N_0x13f138225c202f66(p0: number, p1: number): void;
 
 declare function N_0x13f592fc3bf0ea84(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x1407f5115fb9583e(p0: number, p1: number): number;
@@ -6545,11 +6545,11 @@ declare function N_0x149aee66f0cb3a99(p0: number, p1: number): void;
 declare function N_0x14c4a49e36c29e49(): number;
 
 declare function N_0x14d29bb12d47f68c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x14da8c4bc2ccd90a(p0: number): number;
@@ -6563,12 +6563,12 @@ declare function N_0x1520626ffafffa8f(p0: number, p1: number): void;
 declare function N_0x15206e88ff7617df(p0: number, p1: number): void;
 
 declare function N_0x152664aa3188b193(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x152ed1b56e8f1f50(p0: number, p1: number): number;
@@ -6614,11 +6614,11 @@ declare function N_0x16752daa7e6d3f72(player: number): void;
 declare function N_0x16802c32b2fca06b(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function N_0x16908e859c3ab698(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x1694a053dfb61a34(p0: string): void;
@@ -6644,11 +6644,11 @@ declare function N_0x16f798a05bb9e3b5(p0: number): void;
 declare function N_0x1710bc33cfb83634(p0: number): void;
 
 declare function N_0x171c18e994c1a395(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x1726963e6049db53(p0: number): void;
@@ -6668,13 +6668,13 @@ declare function N_0x18013392501ce5dc(p0: number): number;
 declare function N_0x1811a02277a9e49d(): number;
 
 declare function N_0x18262cafebb5fbe1(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0x183672fe838a661b(p0: number): void;
@@ -6686,14 +6686,14 @@ declare function N_0x183ce355115b6e75(p0: number, p1: number): void;
 declare function N_0x1840f3b30ed0105f(p0: number): number;
 
 declare function N_0x1854217c640b39ec(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function N_0x186608a2ac6f9e88(p0: number, p1: number): void;
@@ -6863,12 +6863,12 @@ declare function N_0x1dd95a8d6b24a0c9(p0: boolean): void;
 declare function N_0x1e017404784aa6a3(p0: number, p1: number): number;
 
 declare function N_0x1e5b70e53db661e5(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x1e6f9a9fe1a99f36(p0: number): void;
@@ -6958,24 +6958,24 @@ declare function N_0x2024f4f333095fb1(p0: number, p1: number, p2: number): numbe
 declare function N_0x20389408f0e93b9a(): number;
 
 declare function N_0x203beffdbe12e96a(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function N_0x2045429505158d1a(p0: number): number;
 
 declare function N_0x2056ab38df06825c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x2064b33f6e6b92d4(p0: number, p1: number, p2: number, p3: number): void;
@@ -6999,12 +6999,12 @@ declare function N_0x21091b4beb6376ee(p0: number): number;
 declare function N_0x21213b833ef4dae7(p0: number, p1: number, p2: number): void;
 
 declare function N_0x2161278c6322f740(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x216343750545a486(p0: number, p1: number, p2: number): void;
@@ -7012,11 +7012,11 @@ declare function N_0x216343750545a486(p0: number, p1: number, p2: number): void;
 declare function N_0x216bc0d3d2e413d2(p0: number, p1: number): void;
 
 declare function N_0x217f47761376e16e(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x218f7710a139d012(): void;
@@ -7026,28 +7026,28 @@ declare function N_0x21a99a72b00d8002(p0: number, p1: number): number;
 declare function N_0x21d04d7bc538c146(entity: number): boolean;
 
 declare function N_0x21d0890d88dfb0b0(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): void;
 
 declare function N_0x21f00e08cbb5f37b(p0: number): void;
 
 declare function N_0x2200ab13cbd10f4e(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x22031584496cfb70(p0: number, p1: number): void;
@@ -7116,11 +7116,11 @@ declare function N_0x23bf601a42f329a0(p0: number): number;
 declare function N_0x23ccab8f40b9cbee(): number;
 
 declare function N_0x23d9c1f2e4098edc(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x23e33cb9f4a3f547(p0: number, p1: number): number;
@@ -7134,11 +7134,11 @@ declare function N_0x23fb9faca28779c1(p0: number, p1: number, p2: number): void;
 declare function N_0x2412216fcc7b4e3e(p0: number): void;
 
 declare function N_0x2416ec2f31f75266(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x242edf85d4e87b65(p0: number): number;
@@ -7180,11 +7180,11 @@ declare function N_0x2533baffbe737e54(): number;
 declare function N_0x2533f2ab0eb9c6f9(p0: number, p1: number): void;
 
 declare function N_0x253a63b5badbc398(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x254b0241e964b450(p0: number, p1: number): number;
@@ -7244,11 +7244,11 @@ declare function N_0x2705d18c11b61046(p0: number): void;
 declare function N_0x271f95e55c663b8b(p0: number, p1: number): number;
 
 declare function N_0x27219300c36a8d40(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x2728c77fbc4b9796(p0: number): void;
@@ -7346,18 +7346,18 @@ declare function N_0x2989e131fde37e97(p0: number, p1: number, p2: number, p3: nu
 declare function N_0x29924eb8ee9db926(p0: number, p1: number): void;
 
 declare function N_0x29ba9f78321e5a6c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
 ): number;
 
 declare function N_0x29c733459a9011eb(p0: number, p1: number): void;
@@ -7369,13 +7369,13 @@ declare function N_0x29e6655df3590b0d(p0: number): void;
 declare function N_0x29f3539189d3e277(p0: number, p1: number): void;
 
 declare function N_0x29fb4ce89472c3cb(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0x29fce825613fefca(p0: number, p1: number): number;
@@ -7391,38 +7391,38 @@ declare function N_0x2a1625858887d4e6(p0: number): void;
 declare function N_0x2a31d13c5f021d0d(p0: number): void;
 
 declare function N_0x2a32faa57b937173(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
-	p15: number,
-	p16: number,
-	p17: number,
-	p18: number,
-	p19: number,
-	p20: number,
-	p21: number,
-	p22: number,
-	p23: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
+    p15: number,
+    p16: number,
+    p17: number,
+    p18: number,
+    p19: number,
+    p20: number,
+    p21: number,
+    p22: number,
+    p23: number,
 ): void;
 
 declare function N_0x2a374e6f0075ee81(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x2a4765812202e671(): number;
@@ -7446,11 +7446,11 @@ declare function N_0x2ab7c81b3f70570c(): number;
 declare function N_0x2af423d6ecb2c485(p0: number, p1: number): void;
 
 declare function N_0x2b02db082258625f(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x2b101ad9f651243a(): number;
@@ -7458,11 +7458,11 @@ declare function N_0x2b101ad9f651243a(): number;
 declare function N_0x2b12b6fc8b8772ab(p0: number, p1: number): void;
 
 declare function N_0x2b32b11520626229(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x2b4ce170de09f346(p0: number, p1: number): void;
@@ -7510,11 +7510,11 @@ declare function N_0x2c4e98dda475364f(p0: number): void;
 declare function N_0x2c5bd9a43987aa27(p0: number): number;
 
 declare function N_0x2c6a07af9aedabd8(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x2c729f2b94cea911(p0: number): number;
@@ -7564,25 +7564,25 @@ declare function N_0x2dd4e0e26dfad97d(p0: number, p1: number, p2: number): numbe
 declare function N_0x2df3d457d86f8e57(p0: number, p1: number): void;
 
 declare function N_0x2df59ffe6ffd6044(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x2df89cd2ed1d0bde(p0: number, p1: number): void;
 
 declare function N_0x2df9038c90ad5264(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function N_0x2e036f0480b8bf02(): number;
@@ -7658,20 +7658,20 @@ declare function N_0x30569f348d126a5a(p0: number): number;
 declare function N_0x3088634cf8c819cf(p0: number): void;
 
 declare function N_0x309bbebea8a3986c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x30a768c30d385ec5(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x30b391915538ebe2(p0: number): void;
@@ -7699,13 +7699,13 @@ declare function N_0x313778edca9158e2(): number;
 declare function N_0x3138582e0a13bfab(p0: number): number;
 
 declare function N_0x3145044f3990d321(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0x314c5465195f3b30(p0: number, p1: number): void;
@@ -7739,11 +7739,11 @@ declare function N_0x3210bcb36af7621b(p0: number): void;
 declare function N_0x3215bbe34d3418c5(p0: number): number;
 
 declare function N_0x3233c4ec0514c7ec(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x32348719dced2969(p0: number): number;
@@ -7765,12 +7765,12 @@ declare function N_0x32a1e3b83d501096(p0: number): number;
 declare function N_0x32a7c216344d623b(p0: number, p1: number, p2: number): number;
 
 declare function N_0x32c2939564d74bff(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x32c90cdfaf40514c(): number;
@@ -7790,12 +7790,12 @@ declare function N_0x330ca55a3647fa1c(p0: number, p1: number): void;
 declare function N_0x331550b212014b92(p0: number, p1: number): number;
 
 declare function N_0x331cbd247fc5daa8(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x331d349e0380b097(p0: number): void;
@@ -7807,12 +7807,12 @@ declare function N_0x3329aae2882fc8e4(p0: number, p1: number, p2: number): void;
 declare function N_0x334ce0da4faf330c(): void;
 
 declare function N_0x336b3d200ab007cb(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x3373779baf7caf48(p0: number, p1: number): void;
@@ -7824,13 +7824,13 @@ declare function N_0x33825a7388a6b9f6(p0: number, p1: number): number;
 declare function N_0x3397cd4e0353dfba(p0: number): number;
 
 declare function N_0x33982467b1e349ef(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0x33992a808df1c1ba(vehicle: number, p1: boolean): void;
@@ -7848,39 +7848,39 @@ declare function N_0x341cdd17efc2472e(p0: number, p1: number): void;
 declare function N_0x345c9f993a8ab4a4(p0: number, p1: number): void;
 
 declare function N_0x345ec3b7ebde1cb5(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x348f211ca2404039(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): number;
 
 declare function N_0x34a0671be613d3d0(p0: number): number;
 
 declare function N_0x34ae85c7ca4857aa(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): void;
 
 declare function N_0x34b5ceac180a5d6e(p0: number, p1: number, p2: number): void;
@@ -7928,12 +7928,12 @@ declare function N_0x358a1a751b335a11(p0: number): void;
 declare function N_0x35b8c070e0c16e2f(p0: number, p1: number): void;
 
 declare function N_0x35d302397e524939(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number[];
 
 declare function N_0x35dc1877312fba0f(p0: number): void;
@@ -7961,11 +7961,11 @@ declare function N_0x36d188aecb26094b(p0: number): void;
 declare function N_0x36e3d8b5a6552fe8(p0: number): number;
 
 declare function N_0x36e4b61dc56de77c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x36eb4d34d4a092c5(p0: number, p1: number): void;
@@ -7979,11 +7979,11 @@ declare function N_0x370f57c47f68ebca(p0: number): number;
 declare function N_0x3738b784ddd35cc6(p0: number, p1: number, p2: number): number;
 
 declare function N_0x3743ce6948194349(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x374f0e716bfcde82(p0: number, p1: number, p2: number, p3: number): void;
@@ -8015,12 +8015,12 @@ declare function N_0x380ffa15b72408fb(p0: number): number;
 declare function N_0x3813e11a378958a5(p0: number): number;
 
 declare function N_0x383f64263f946e45(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x38497f139981c5c9(p0: number, p1: number, p2: number, p3: number): number;
@@ -8028,14 +8028,14 @@ declare function N_0x38497f139981c5c9(p0: number, p1: number, p2: number, p3: nu
 declare function N_0x3852237a3d9df145(p0: number): void;
 
 declare function N_0x387ad749e3b69b70(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): number;
 
 declare function N_0x38c0c9cae1544500(p0: number): void;
@@ -8055,14 +8055,14 @@ declare function N_0x39073da4eddbc91d(p0: number): void;
 declare function N_0x3923ec958249657d(p0: number, p1: number, p2: number): void;
 
 declare function N_0x3946fc742ac305cd(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function N_0x39654e1f68b78287(): number;
@@ -8070,28 +8070,28 @@ declare function N_0x39654e1f68b78287(): number;
 declare function N_0x3972f78a78b5d9df(p0: number): void;
 
 declare function N_0x397769175a7dbb30(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0x398066f893149856(p0: number, p1: number, p2: number): number;
 
 declare function N_0x39816f6f94f385ad(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function N_0x398fab9c96a81924(p0: number, p1: number): void;
@@ -8107,11 +8107,11 @@ declare function N_0x39bed552db46ffa9(p0: number, p1: number): void;
 declare function N_0x39d6dace323a20b6(p0: number): number;
 
 declare function N_0x39ed303390ddeac7(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x3a00d87b20a2a5e4(p0: number, p1: number): void;
@@ -8127,11 +8127,11 @@ declare function N_0x3a3d5568af297cd5(p0: number): boolean;
 declare function N_0x3a50753042b6891b(p0: number, p1: number): void;
 
 declare function N_0x3a5697b80fed5ebe(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x3a65f4844913a047(p0: number, p1: number): number;
@@ -8163,13 +8163,13 @@ declare function N_0x3acac8832e77bc93(p0: number, p1: number): void;
 declare function N_0x3acc128510142b9d(p0: number, p1: number, p2: number, p3: number): number;
 
 declare function N_0x3acce14dfa6ba8c2(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0x3ad212429e095efb(p0: number, p1: number): void;
@@ -8203,11 +8203,11 @@ declare function N_0x3b8e3ad9677ce12b(p0: number, p1: number, p2: number): void;
 declare function N_0x3bb84f812e052c90(p0: number): void;
 
 declare function N_0x3bbdd6143ff16f98(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x3bbeecc5b8f35318(p0: number, p1: number): void;
@@ -8227,19 +8227,19 @@ declare function N_0x3c4ae8506638c7e2(p0: number, p1: number): void;
 declare function N_0x3c529a827998f9b3(p0: number, p1: number, p2: number): void;
 
 declare function N_0x3c61b52b00848c26(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x3c6490d940ff5d0b(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x3c67506996001f5e(): number;
@@ -8337,11 +8337,11 @@ declare function N_0x3f8387db1b9f31b7(p0: number, p1: number): number;
 declare function N_0x3f9fddba79117c69(p0: number, p1: number, p2: number, p3: number): number;
 
 declare function N_0x3fa09dd57b93c0de(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x3fa7d7d1e0ea809e(p0: number, p1: number): void;
@@ -8355,11 +8355,11 @@ declare function N_0x3fbc3f51bf12dfbf(p0: number): number;
 declare function N_0x3fc4c027fd0936f4(p0: number): void;
 
 declare function N_0x3fcbb5fcfd968698(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x3fda2b79aeee351c(p0: number, p1: number, p2: number, p3: number): number;
@@ -8377,27 +8377,27 @@ declare function N_0x3feb770d8ed9047a(p0: number): number;
 declare function N_0x3ffb15534067dcd4(p0: number): number;
 
 declare function N_0x3ffcd7bba074cc80(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function N_0x3ffe60dd8a936551(p0: number, p1: number): number;
 
 declare function N_0x402e1a61d2587fcd(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0x404514d231db27a0(p0: number, p1: number): void;
@@ -8437,13 +8437,13 @@ declare function N_0x40f769d31a00d5a0(p0: number, p1: number): number;
 declare function N_0x411189e51b8020ba(p0: number, p1: number): void;
 
 declare function N_0x41323f4e0c4ae94b(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0x41365db586cd9e8e(p0: number, p1: number): void;
@@ -8455,11 +8455,11 @@ declare function N_0x4138ee36bc3dc0a7(p0: number, p1: number): number;
 declare function N_0x41452e8a3b9c0c4b(): number;
 
 declare function N_0x41503629d1139abc(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x4154b7d8c75e5dcf(p0: number): void;
@@ -8527,16 +8527,16 @@ declare function N_0x430f8319ae56c8a9(p0: number, p1: number): number[];
 declare function N_0x431240a58484d5d0(p0: number, p1: number): void;
 
 declare function N_0x4358bcf14c91761c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function N_0x437c08db4febe2bd(p0: number, p1: number, p2: number, p3: number): void;
@@ -8572,22 +8572,22 @@ declare function N_0x4440fee3efe78f54(p0: number): void;
 declare function N_0x444c910a5058e568(p0: number, p1: number): void;
 
 declare function N_0x445d7d8ea66e373e(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
-	p15: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
+    p15: number,
 ): void;
 
 declare function N_0x4465c3d1475bd3fd(p0: number): void;
@@ -8635,11 +8635,11 @@ declare function N_0x45e57fdd531c9477(p0: number, p1: number): void;
 declare function N_0x45ef176b532ca851(p0: number, p1: number): void;
 
 declare function N_0x45f13b7e0a15c880(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x45fea6d5539bd474(p0: number, p1: number): void;
@@ -8651,34 +8651,34 @@ declare function N_0x461fcbdeb4d06717(p0: number, p1: number): void;
 declare function N_0x462c687bea254bd9(p0: number): number;
 
 declare function N_0x462ff2a432733a44(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): void;
 
 declare function N_0x463803429297117c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x4642182a298187d0(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x4647842fe8f31c1e(p0: number, p1: number): void;
@@ -8688,11 +8688,11 @@ declare function N_0x4653a741d17f2cd0(): number;
 declare function N_0x465f04f68ad38197(p0: number, p1: number, p2: number): number;
 
 declare function N_0x4662bfe01938d98d(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x4664d213a0ccaf40(): number;
@@ -8755,12 +8755,12 @@ declare function N_0x48a88fc684c55fdc(p0: number): number;
 declare function N_0x48d82c83987e18e4(p0: number): number;
 
 declare function N_0x48e4d50f87a96aa5(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x4907d0e4fb26ee65(p0: number): void;
@@ -8788,14 +8788,14 @@ declare function N_0x49a8c2cd97815215(p0: number): number;
 declare function N_0x49c44fe78a135a1d(p0: number): void;
 
 declare function N_0x49c63fdf69744a27(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function N_0x49cf17a564918e8d(): void;
@@ -8823,13 +8823,13 @@ declare function N_0x4a98e228a936dbcc(p0: number): number;
 declare function N_0x4aa5ea1edfb25786(p0: number): void;
 
 declare function N_0x4ac38dfd286dad14(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0x4ad019591e94c064(p0: number, p1: number, p2: number, p3: number): number;
@@ -8876,12 +8876,12 @@ declare function N_0x4ba972d0e5ad8122(p0: number, p1: number): void;
 declare function N_0x4bd66b4e3427689b(p0: number): void;
 
 declare function N_0x4bdebea5702b97a9(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x4be3ec91c01f0fe8(): void;
@@ -8901,14 +8901,14 @@ declare function N_0x4c39c95ae5db1329(p0: number, p1: number, p2: number): numbe
 declare function N_0x4c543d5dfcd2dafd(p0: number, p1: number): number;
 
 declare function N_0x4c57f27d1554e6b0(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): number;
 
 declare function N_0x4c60c333f9cca2b6(p0: number, p1: number): void;
@@ -8924,13 +8924,13 @@ declare function N_0x4cc5f2fc1332577f(p0: number): void;
 declare function N_0x4cdffe3189ebdbd0(p0: number): number;
 
 declare function N_0x4cfa2b7fae115ecb(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0x4d0d2e3d8bc000eb(p0: number, p1: number, p2: number): number;
@@ -8938,17 +8938,17 @@ declare function N_0x4d0d2e3d8bc000eb(p0: number, p1: number, p2: number): numbe
 declare function N_0x4d107406667423be(p0: number, p1: number): void;
 
 declare function N_0x4d14af567fc02885(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): void;
 
 declare function N_0x4d15e49764cb328a(p0: number, p1: number): void;
@@ -8976,12 +8976,12 @@ declare function N_0x4e4507cc5e4db869(p0: number, p1: number, p2: number, p3: nu
 declare function N_0x4e463a3cdefffe96(): void;
 
 declare function N_0x4e68c7ef706df35d(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x4e76cb57222a00e5(p0: number): number;
@@ -9003,12 +9003,12 @@ declare function N_0x4eddd9e9ca5af985(p0: number): number;
 declare function N_0x4ef23e04a0c8ff51(p0: number, p1: number): number;
 
 declare function N_0x4efc1f8ff1ad94de(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x4f0d2256aae94eda(p0: number): void;
@@ -9020,15 +9020,15 @@ declare function N_0x4f2d5fa23db992de(): void;
 declare function N_0x4f57397388e1dff8(): void;
 
 declare function N_0x4f5ebe70081e5a20(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): number;
 
 declare function N_0x4f76e3676583d951(p0: number): number;
@@ -9068,21 +9068,21 @@ declare function N_0x506ce71fb6e8cf5e(p0: number, p1: number): void;
 declare function N_0x506f1de1bfc75304(p0: number): number;
 
 declare function N_0x508f5053e3f6f0c4(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x50aa09a0da64e73c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0x50b72a754ee64a71(p0: number): void;
@@ -9104,33 +9104,33 @@ declare function N_0x511f1a683387c7e2(ped: number): number;
 declare function N_0x5133cf81924f1129(): number;
 
 declare function N_0x51345ae20f22c261(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x5136b284b67b35c7(p0: number): number;
 
 declare function N_0x513f8aa5bf2f17cf(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x5170dda6d63acaaa(p0: number): number;
 
 declare function N_0x517d01bf27b682d1(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0x51951de06c0d1c40(p0: number, p1: number): void;
@@ -9148,13 +9148,13 @@ declare function N_0x51d99497abf3f451(p0: number): void;
 declare function N_0x51de09a2196bd951(p0: number, p1: number): void;
 
 declare function N_0x51e52c9687fcdeec(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0x51ec204a6e5b5a1a(p0: number, p1: number): void;
@@ -9164,11 +9164,11 @@ declare function N_0x51f33dbc1a41cbfd(): number;
 declare function N_0x5203038ff8bae577(p0: number, p1: number, p2: number): number;
 
 declare function N_0x5217b7b6db78e1f3(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x52250b92ea70be3d(p0: number): number;
@@ -9253,11 +9253,11 @@ declare function N_0x545bf19f86e80f11(p0: number, p1: number, p2: number): void;
 declare function N_0x5461c821d00fe15a(p0: number, p1: number): number;
 
 declare function N_0x5463c962bc7777c3(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x54ae4fdeefeab77e(): number;
@@ -9269,11 +9269,11 @@ declare function N_0x54cbdd6e1b4cb4df(p0: number): void;
 declare function N_0x54ec7b6bc72bad69(): void;
 
 declare function N_0x54f4d7b6670fbb5a(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x550cb89dd7f4fa3d(p0: number, p1: number): number;
@@ -9300,12 +9300,12 @@ declare function N_0x559a6f8c5133b4ee(p0: number, p1: number): number;
 declare function N_0x55c40b7592bad213(scriptIndex: number, p1: string): number;
 
 declare function N_0x55cd5fddd4335c1e(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x55f37f5f3f2475e1(): void;
@@ -9355,11 +9355,11 @@ declare function N_0x570a13a4ca2799bb(p0: number, p1: number): void;
 declare function N_0x5737199af2dc609f(p0: number, p1: number, p2: number): void;
 
 declare function N_0x5744562e973e33cd(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x5758b1ee0c3fd4ac(p0: number, p1: number): void;
@@ -9423,15 +9423,15 @@ declare function N_0x58ac173a55d9d7b4(p0: number, p1: number, p2: number): void;
 declare function N_0x58cc181719256197(p0: number, p1: number, p2: number): number;
 
 declare function N_0x58d32261ae0f0843(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function N_0x58d378af2c8765b7(p0: number): number;
@@ -9445,12 +9445,12 @@ declare function N_0x58f2244c1286d09a(p0: number, p1: number): number;
 declare function N_0x58f7db5bd8fa2288(p0: number): void;
 
 declare function N_0x59174f1afe095b5a(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x592f58bc4d2a2cf3(p0: number, p1: number): number;
@@ -9470,15 +9470,15 @@ declare function N_0x59643424b68d52b5(p0: number): number;
 declare function N_0x597f571ddee3ffac(p0: number): void;
 
 declare function N_0x59872ea4cbd11c56(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): number;
 
 declare function N_0x59ae5ca4ffb4e378(p0: number, p1: number): number;
@@ -9486,12 +9486,12 @@ declare function N_0x59ae5ca4ffb4e378(p0: number, p1: number): number;
 declare function N_0x59aea4dc640814b9(p0: number, p1: number): void;
 
 declare function N_0x59b57c4b06531e1e(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x59bd177a1a48600a(p0: number, p1: number): void;
@@ -9537,11 +9537,11 @@ declare function N_0x5a989b7ee3672a56(p0: number, p1: number): void;
 declare function N_0x5aabb09f6fbd1f87(p0: number, p1: number): void;
 
 declare function N_0x5aadc7bbbb1bceeb(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x5ac0944c156e5f44(p0: number): number;
@@ -9549,14 +9549,14 @@ declare function N_0x5ac0944c156e5f44(p0: number): number;
 declare function N_0x5ac6e0fa028369de(): void;
 
 declare function N_0x5ae0cb5f35f034fd(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function N_0x5ae17c6b0134b7f1(): number;
@@ -9576,14 +9576,14 @@ declare function N_0x5b23dff8e0948bb2(p0: number, p1: number): void;
 declare function N_0x5b4a8121a47d844d(p0: number): number;
 
 declare function N_0x5b4bbe80ad5972dc(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): number;
 
 declare function N_0x5b53ca0e2ac3ff45(p0: number, p1: number, p2: number): number;
@@ -9595,26 +9595,26 @@ declare function N_0x5b637d6f3b67716a(p0: number): void;
 declare function N_0x5b68d0007d9c92eb(p0: number, p1: number): void;
 
 declare function N_0x5b73975b4f12f7f3(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x5b7b97e99f84138b(p0: number): number;
 
 declare function N_0x5b7d7bf36d2de18b(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function N_0x5b9813ecf7633fe8(p0: number): void;
@@ -9702,14 +9702,14 @@ declare function N_0x5e5d96be25e9df68(p0: number): number;
 declare function N_0x5e6f375ca101c108(p0: number, p1: number): void;
 
 declare function N_0x5e71e72a94985214(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function N_0x5e94ea09e7207c16(): number;
@@ -9785,11 +9785,11 @@ declare function N_0x6102830f764b3de1(p0: number): number;
 declare function N_0x610438375e5d1801(p0: number): number;
 
 declare function N_0x6123e2832c34243d(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x6127f25ed21c533c(p0: number): number;
@@ -9809,11 +9809,11 @@ declare function N_0x61914209c36efddb(p0: number): number;
 declare function N_0x619e63980bfc0096(p0: number, p1: number, p2: number): number;
 
 declare function N_0x61b2aaef645ddaf0(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x61b98367d93f012f(p0: number): void;
@@ -9855,12 +9855,12 @@ declare function N_0x62de46f061caa468(): number;
 declare function N_0x62ed71e133b6c9f1(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function N_0x62fdad5e01d2dd47(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x62fdf4e678e40cc6(p0: number, p1: number): number;
@@ -9880,19 +9880,19 @@ declare function N_0x632aa10bf7ea53d3(p0: number, p1: number): void;
 declare function N_0x632be8d84846fa56(): void;
 
 declare function N_0x63342c50ec115ce8(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
 ): number;
 
 declare function N_0x6339c1ea3979b5f7(p0: number, p1: number): number;
@@ -9948,12 +9948,12 @@ declare function N_0x643fd1556f621772(p0: number, p1: number, p2: number): numbe
 declare function N_0x644439b5387ee57e(p0: number, p1: number): number;
 
 declare function N_0x644ccb76a76cfbd6(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x644e02f24f9d4e98(p0: number, p1: number): number;
@@ -9987,12 +9987,12 @@ declare function N_0x6554ecce226f2a2a(p0: number): number;
 declare function N_0x6569f31a01b4c097(p0: number, p1: number, p2: number): void;
 
 declare function N_0x6571e4327390ec0b(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x6579860a5558524a(p0: number, p1: number): void;
@@ -10042,12 +10042,12 @@ declare function N_0x66b1cb778d911f49(p0: number, p1: number): void;
 declare function N_0x66b2b83b94b22458(p0: number): number;
 
 declare function N_0x66b957aac2eaaeab(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x66bc28e50e85270e(p0: number): number;
@@ -10071,12 +10071,12 @@ declare function N_0x671a07c9a1cd50a5(p0: number): number;
 declare function N_0x6734f0a6a52c371c(p0: number, p1: number): void;
 
 declare function N_0x673a8779d229ba5a(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x674b90be1115846d(p0: number, p1: number): void;
@@ -10146,13 +10146,13 @@ declare function N_0x69786495c92a3044(p0: number): number;
 declare function N_0x697df68f3a761a50(p0: number): void;
 
 declare function N_0x69c810b72291d831(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0x69d65e89ffd72313(p0: number, p1: number): void;
@@ -10174,12 +10174,12 @@ declare function N_0x6a4d224fc7643941(p0: number): void;
 declare function N_0x6a564540fac12211(p0: number, p1: number): void;
 
 declare function N_0x6a648d42bf271dc7(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x6a6e79fbe8678c98(): void;
@@ -10209,12 +10209,12 @@ declare function N_0x6b1044fdc2b09101(p0: number, p1: number): void;
 declare function N_0x6b34be961f639e21(p0: number, p1: number): void;
 
 declare function N_0x6b44f13d888f770d(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x6b53f4b811e583d2(p0: number, p1: number): void;
@@ -10260,14 +10260,14 @@ declare function N_0x6c27442a225a241a(p0: number): number;
 declare function N_0x6c31b06e91518269(p0: number, p1: number): void;
 
 declare function N_0x6c3f12eceb6d2e2a(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function N_0x6c4dbf553885f9eb(p0: number, p1: number, p2: number): number;
@@ -10319,12 +10319,12 @@ declare function N_0x6d85126f6ccf02c9(p0: number, p1: number, p2: number): void;
 declare function N_0x6d87ba8ef15226cd(): number;
 
 declare function N_0x6da15746d5cc1a92(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x6dad6630ae4a74cb(p0: number, p1: number): void;
@@ -10370,12 +10370,12 @@ declare function N_0x6ecfc621a168424c(p0: number, p1: number, p2: number): void;
 declare function N_0x6edb5d08cb03e763(p0: number, p1: number): void;
 
 declare function N_0x6eead6af637da752(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x6ef4e31b4d5d2da0(p0: number, p1: number): number;
@@ -10385,11 +10385,11 @@ declare function N_0x6f02b5e50511721e(p0: number): number;
 declare function N_0x6f1f0b17109309da(p0: number, p1: number): number;
 
 declare function N_0x6f3068258a499e52(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x6f43c351a5d51e2f(p0: number, p1: number): number;
@@ -10397,12 +10397,12 @@ declare function N_0x6f43c351a5d51e2f(p0: number, p1: number): number;
 declare function N_0x6f46f8acb44c4fc1(p0: number): number;
 
 declare function N_0x6f62fae266dcfc81(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x6f700a4bf7c3331b(p0: number): void;
@@ -10410,12 +10410,12 @@ declare function N_0x6f700a4bf7c3331b(p0: number): void;
 declare function N_0x6f73efab11651d7f(p0: number, p1: number): void;
 
 declare function N_0x6fb1da3ca9da7d90(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x6fb76442469abd68(p0: number): number;
@@ -10477,19 +10477,19 @@ declare function N_0x71fa2d1880c48032(p0: number): void;
 declare function N_0x72068021f498e6e3(p0: number, p1: number, p2: number, p3: number): number;
 
 declare function N_0x722d6a49200174fe(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x722fbe08ef5b87bd(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x725d52f21a5e9e22(p0: number): number;
@@ -10545,11 +10545,11 @@ declare function N_0x73616e64696c132e(p0: number, p1: number): number;
 declare function N_0x73616e64696c616e(p0: number, p1: number, p2: number, p3: number): number;
 
 declare function N_0x738271b660fe0695(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x739b9c6d0e7f7f93(p0: number, p1: number): void;
@@ -10571,17 +10571,17 @@ declare function N_0x73ff6be63dc18819(): number;
 declare function N_0x7406c71f4ac2ffcc(p0: number): void;
 
 declare function N_0x7408b5c66ba31adb(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): void;
 
 declare function N_0x7409669c5ed50144(p0: number): number;
@@ -10705,23 +10705,23 @@ declare function N_0x7678fe0455ed1145(p0: number, p1: number, p2: number): numbe
 declare function N_0x767931c727df2ed7(p0: number, p1: number): number;
 
 declare function N_0x7681b677400c7071(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x768e81ae285a4b67(p0: number, p1: number): void;
 
 declare function N_0x769bb7626b8cdb06(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0x769e848c66e3c2bb(p0: number): [boolean, number, number];
@@ -10745,12 +10745,12 @@ declare function N_0x77525bbf433f2cd6(p0: number): number;
 declare function N_0x775a1ca7893aa8b5(p0: number): number;
 
 declare function N_0x775b2ed944e44973(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x7761a30432c91297(p0: number, p1: number, p2: number): void;
@@ -10766,11 +10766,11 @@ declare function N_0x77b0b6d17a3ac9aa(p0: number, p1: number): void;
 declare function N_0x77b299e8799b1332(p0: number, p1: number, p2: number): number;
 
 declare function N_0x77ba37622e22023b(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x77d65669a05d1a1a(): void;
@@ -10790,11 +10790,11 @@ declare function N_0x78335e12db0bf961(p0: number): number;
 declare function N_0x7840576c50a13dba(p0: number, p1: number): void;
 
 declare function N_0x785177e4d57d7389(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x785639d89f8451ab(p0: number, p1: number): number[];
@@ -10824,12 +10824,12 @@ declare function N_0x7907969497ea92f5(p0: number): number;
 declare function N_0x790ec421078f5c4e(p0: number, p1: number, p2: number): number;
 
 declare function N_0x79197f7d2bb5e73a(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x792e3ef76c911959(p0: number): number;
@@ -10841,24 +10841,24 @@ declare function N_0x79407d33328286c6(p0: number): number;
 declare function N_0x79443d56c8df45ee(p0: number): number;
 
 declare function N_0x794ab1379a74064d(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): number;
 
 declare function N_0x79559bad83ccd038(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x796085220adcc847(): number;
@@ -10920,21 +10920,21 @@ declare function N_0x7b3ff2d193628126(p0: number): void;
 declare function N_0x7b5c293238ee4f20(p0: number): number;
 
 declare function N_0x7b6a04f98bbafb2c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
 ): void;
 
 declare function N_0x7b8c2b846c05e5ad(): number;
@@ -10952,16 +10952,16 @@ declare function N_0x7be0746539def0c8(p0: number, p1: number): number;
 declare function N_0x7be607daff382fd2(p0: number, p1: number, p2: number): number;
 
 declare function N_0x7c00cfc48a782dc0(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function N_0x7c015d8bcec72cf4(p0: number, p1: number): void;
@@ -11005,11 +11005,11 @@ declare function N_0x7cc2186c32d3540a(p0: number, p1: number): number;
 declare function N_0x7ce9dc58e3e4755f(): number;
 
 declare function N_0x7cef4ac79f7e7fad(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x7cf96f1250ef3221(p0: number): number;
@@ -11045,21 +11045,21 @@ declare function N_0x7e176c676f8652a9(p0: number): void;
 declare function N_0x7e2c766adb2c5f1a(p0: number, p1: number): void;
 
 declare function N_0x7e300b5b86ab1d1a(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
 ): void;
 
 declare function N_0x7e3f546acfe6c8d9(entity: number): void;
@@ -11129,23 +11129,23 @@ declare function N_0x801917e7d7bce418(p0: number): void;
 declare function N_0x801bd27403f3cba0(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function N_0x802092b07e3b1eea(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x804425c4bbd00883(p0: number): number;
 
 declare function N_0x8049b17bec937662(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0x806862e5d266cf38(p0: number, p1: number, p2: number): number;
@@ -11165,11 +11165,11 @@ declare function N_0x80d78bdc9d88ef07(p0: number, p1: number, p2: number, p3: nu
 declare function N_0x80d7a3e39b120bc4(): number;
 
 declare function N_0x80ddccb2f4a3eb57(
-	ped: number,
-	vehicle: number,
-	p2: boolean,
-	p3: boolean,
-	p4: boolean,
+    ped: number,
+    vehicle: number,
+    p2: boolean,
+    p3: boolean,
+    p4: boolean,
 ): boolean;
 
 declare function N_0x80e9c316ef84dd81(p0: number): number;
@@ -11183,16 +11183,16 @@ declare function N_0x810e8ae9afea7e54(p0: number): number;
 declare function N_0x811a748b1be231ba(p0: number): number;
 
 declare function N_0x8127c5aa05c5a210(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function N_0x812c1563185c6fb2(): void;
@@ -11286,33 +11286,33 @@ declare function N_0x8379e05871ad24e0(): void;
 declare function N_0x838c216c2b05a009(p0: number, p1: number): void;
 
 declare function N_0x8398438d8f14f56d(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x839c9f124be74d94(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x83acc65d9acec5ef(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: boolean,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: boolean,
 ): number[];
 
 declare function N_0x83b8d50eb9446bba(p0: number, p1: number): void;
@@ -11358,12 +11358,12 @@ declare function N_0x849bd6c6314793d0(p0: number): number;
 declare function N_0x84bd27ddf9575816(p0: number, p1: number): void;
 
 declare function N_0x84ccf9a12942c83d(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x84d0bf2b21862059(p0: number): number;
@@ -11425,21 +11425,21 @@ declare function N_0x869a7015bd4606e9(p0: number): void;
 declare function N_0x86a68e84e5884951(p0: number): void;
 
 declare function N_0x86afc343cf7f0b34(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x86bb5ff45f193a02(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0x86f0b6730c32ac14(p0: number, p1: number): void;
@@ -11455,25 +11455,25 @@ declare function N_0x8702d9150d9fbb3d(p0: number, p1: number): number;
 declare function N_0x870634493cb4372c(p0: number, p1: number): void;
 
 declare function N_0x870708a6e147a9ad(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): number;
 
 declare function N_0x870e9981ed27c815(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x87247bc60b60bed8(p0: number): void;
@@ -11519,11 +11519,11 @@ declare function N_0x885d19ac2b6fbff4(p0: number, p1: number): void;
 declare function N_0x886171a12f400b89(p0: number, p1: number, p2: number): number;
 
 declare function N_0x886dfd3e185c8a89(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x8878ff3eee2868a9(p0: number, p1: number): void;
@@ -11563,11 +11563,11 @@ declare function N_0x8952e857696b8a79(p0: number): void;
 declare function N_0x89783fddf079c88d(p0: number): void;
 
 declare function N_0x897934e868eddd6c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x89816b58c3466262(p0: number): number;
@@ -11579,15 +11579,15 @@ declare function N_0x8996fa6ad9fe4e90(p0: number): void;
 declare function N_0x899a04afcc725d04(p0: number, p1: number): void;
 
 declare function N_0x899c97a1cce7d483(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): number;
 
 declare function N_0x899dfa0009ac93de(p0: number, p1: number): void;
@@ -11653,11 +11653,11 @@ declare function N_0x8b61c950a148ffa2(p0: number, p1: number, p2: number, p3: nu
 declare function N_0x8b6f0f59b1b99801(p0: number, p1: number): void;
 
 declare function N_0x8b74032ddd2156fe(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x8ba0c65ac15a7d33(p0: number, p1: number, p2: number, p3: number): void;
@@ -11683,12 +11683,12 @@ declare function N_0x8c03cd6b5e0e85e8(p0: number, p1: number): number;
 declare function N_0x8c0f6a3d7236deeb(p0: number, p1: number): void;
 
 declare function N_0x8c109958c9bb559d(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0x8c598a930f471938(name: string, p1: number): void;
@@ -11740,11 +11740,11 @@ declare function N_0x8df5f6a19f99f0d5(p0: number, p1: number): number;
 declare function N_0x8e036b41c37d0e5f(p0: number): void;
 
 declare function N_0x8e10df0ffa63fb65(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0x8e1dde26d270cc5e(p0: number, p1: number): void;
@@ -11776,25 +11776,25 @@ declare function N_0x8ec47dd4300bf063(p0: number, p1: number): void;
 declare function N_0x8ec7890d446bd9c1(p0: number, p1: number, p2: number): void;
 
 declare function N_0x8ec7cd701f872f87(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x8eedfd8921389928(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function N_0x8f2a81c09da9124a(p0: number): void;
@@ -11814,11 +11814,11 @@ declare function N_0x8faf4d262faba99c(p0: number): number;
 declare function N_0x8fb7c254cfcbf78e(p0: number): number;
 
 declare function N_0x8fb98b719aa0075a(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x8fbf9edb378ccb8c(p0: number, p1: number): void;
@@ -11972,24 +11972,24 @@ declare function N_0x94995829ed15a598(p0: number): number[];
 declare function N_0x949b2f9ed2917f5d(p0: number, p1: number): void;
 
 declare function N_0x94a3c1b804d291ec(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x94b261f1f35293e1(p0: number): void;
 
 declare function N_0x94b745ce41db58a1(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): number;
 
 declare function N_0x94e8ca3dee952789(p0: number, p1: number): number;
@@ -12017,13 +12017,13 @@ declare function N_0x957d7e750216d74b(p0: number): number;
 declare function N_0x9585ff23c4b8ede0(p0: number, p1: number): void;
 
 declare function N_0x95878b13e272ef1f(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0x9587913b9e772d29(p0: number, p1: number): number;
@@ -12041,15 +12041,15 @@ declare function N_0x95cbc65780de7eb1(p0: number, p1: number): number;
 declare function N_0x95ee1dee1dcd9070(p0: number, p1: number): void;
 
 declare function N_0x9609dbdde18fad8c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): number;
 
 declare function N_0x9617b6e5f6537b63(p0: number): void;
@@ -12059,16 +12059,16 @@ declare function N_0x9629faf6460d35cb(p0: number, p1: number): void;
 declare function N_0x964000d355219fc0(p0: number): number;
 
 declare function N_0x9641a9a20310f6b8(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): number;
 
 declare function N_0x96498d922d8d0d0a(): void;
@@ -12080,11 +12080,11 @@ declare function N_0x9667cce29bfa0780(p0: number): void;
 declare function N_0x966dd84fb6a46017(): void;
 
 declare function N_0x966de09688a1de39(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x96722257e5381e00(player: number): void;
@@ -12140,12 +12140,12 @@ declare function N_0x981c7d863980fa51(): void;
 declare function N_0x9821b68cd3e05f2b(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function N_0x9851de7aec10b4e1(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0x98539fc453aea639(p0: number, p1: number): number;
@@ -12159,13 +12159,13 @@ declare function N_0x986f7a51ee3e1f92(p0: number, p1: number): void;
 declare function N_0x987be590fb9d41e5(p0: number): void;
 
 declare function N_0x9888652b8ba77f73(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0x98a7598c579ee871(p0: number, p1: number, p2: number): void;
@@ -12183,11 +12183,11 @@ declare function N_0x9911f4a24485f653(p0: boolean): void;
 declare function N_0x991e3346d788f20f(p0: number, p1: number): void;
 
 declare function N_0x99230691875fc218(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x9935f76407c32539(p0: string): void;
@@ -12239,11 +12239,11 @@ declare function N_0x9aae3c1148a09bca(p0: number): number;
 declare function N_0x9ab192a9ef980eed(p0: number, p1: number, p2: number, p3: number): number;
 
 declare function N_0x9ab33cb5834885b3(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x9ac53cb6907b4428(p0: number, p1: number, p2: number): number;
@@ -12287,11 +12287,11 @@ declare function N_0x9b90842304c938a7(p0: number, p1: number, p2: number): numbe
 declare function N_0x9b9b9fa0ea283e3d(p0: number, p1: number): void;
 
 declare function N_0x9bb83c4dd7be0802(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x9bbdcb8df789ebc1(p0: number, p1: number): void;
@@ -12301,11 +12301,11 @@ declare function N_0x9bbeaf8b0c007f1e(p0: number, p1: number): void;
 declare function N_0x9bcf28fb5d65a9be(): number;
 
 declare function N_0x9bd8a9d0a774a6f8(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0x9be7dcb22d32ccbe(p0: number, p1: number): number;
@@ -12463,13 +12463,13 @@ declare function N_0xa04ef43030593abc(p0: number, p1: number): void;
 declare function N_0xa052608a12559bbb(p0: number, p1: number): void;
 
 declare function N_0xa05f3f20889d7a5b(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0xa064bbabb064446f(p0: number): void;
@@ -12529,12 +12529,12 @@ declare function N_0xa1fbac56d38563e2(p0: number): number;
 declare function N_0xa201a3d0ac087c37(p0: number): void;
 
 declare function N_0xa20398536b7f1134(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0xa2058154357726bb(p0: number, p1: number): void;
@@ -12608,12 +12608,12 @@ declare function N_0xa35e7bf20fa269e0(p0: number): void;
 declare function N_0xa3716a77dcf17424(p0: number, p1: number, p2: number): void;
 
 declare function N_0xa3791b915b8b84c6(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0xa381de86ee170c4a(p0: number, p1: number, p2: number): number;
@@ -12627,11 +12627,11 @@ declare function N_0xa3bd6ff95e713ee5(p0: number, p1: number, p2: number): void;
 declare function N_0xa3c53cde922bc78b(p0: number, p1: number): void;
 
 declare function N_0xa3db37edf9a74635(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xa3eec0a5aff3fc5b(p0: number): number;
@@ -12667,11 +12667,11 @@ declare function N_0xa486008892065fb9(p0: number, p1: number): number;
 declare function N_0xa48e4801debdf7e4(p0: number, p1: number): void;
 
 declare function N_0xa49d6d503e3ea847(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xa4a4359320345b34(p0: number): number;
@@ -12681,11 +12681,11 @@ declare function N_0xa4ac05b1a364ebc5(p0: number, p1: number, p2: number): numbe
 declare function N_0xa4d3a1c008f250df(p0: number): void;
 
 declare function N_0xa4dcb3f0dd7488bd(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xa520c7b05fa4eb2a(p0: number, p1: number): void;
@@ -12765,13 +12765,13 @@ declare function N_0xa6f67bec53379a32(p0: number, p1: number): void;
 declare function N_0xa710dc5d25f8b942(p0: number, p1: number): number;
 
 declare function N_0xa72773c3134f9a57(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0xa72b1bf3857b94d7(p0: number, p1: number): void;
@@ -12819,12 +12819,12 @@ declare function N_0xa881f5c77a560906(p0: number): void;
 declare function N_0xa88e1d7fa1e20080(p0: number): number;
 
 declare function N_0xa88e215ceb0435c0(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0xa8a74aa79fb67159(name: string, p1: number): void;
@@ -12869,12 +12869,12 @@ declare function N_0xa967d6a8ed2d713b(p0: number, p1: number): void;
 declare function N_0xa97ee5e4589fcf5a(p0: number, p1: number): number;
 
 declare function N_0xa9c28516a6dc9d56(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0xa9c3b0f746375162(p0: number, p1: number, p2: number): number;
@@ -12906,12 +12906,12 @@ declare function N_0xaa5a52204e077883(p0: number, p1: number): void;
 declare function N_0xaa6c49ae90a32299(p0: number, p1: number): void;
 
 declare function N_0xaa9ee2aafc717623(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0xaa9f048dcf69b6dc(p0: number): number;
@@ -12923,11 +12923,11 @@ declare function N_0xaaacb74442c1bed3(p0: number): number;
 declare function N_0xaaacf33cbf9b990a(p0: number, p1: number): void;
 
 declare function N_0xaab050da48b57978(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xaab0fe202e9fc9f0(p0: number, p1: number): number;
@@ -12947,13 +12947,13 @@ declare function N_0xab26deee120fd3fd(p0: number, p1: number): void;
 declare function N_0xab3773e7aa1e9dcc(p0: number): number;
 
 declare function N_0xab3d3f45436db1d8(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0xab43d1c80b5e9500(p0: number): void;
@@ -12963,27 +12963,27 @@ declare function N_0xab591ae6b48b913e(p0: number, p1: number): void;
 declare function N_0xab5f12746a099a0e(p0: number, p1: number): number;
 
 declare function N_0xab643407d0b26f07(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0xab6a04cec428258b(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12?: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12?: number,
 ): [boolean, number];
 
 declare function N_0xab72c67163dc4db4(p0: number, p1: number): void;
@@ -12991,21 +12991,21 @@ declare function N_0xab72c67163dc4db4(p0: number, p1: number): void;
 declare function N_0xabc18a28bad4b46f(p0: number, p1: number): number;
 
 declare function N_0xabdb4863d3d72021(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xac22aa6df4d1c1de(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0xac355980681a7f89(p0: number): void;
@@ -13031,15 +13031,15 @@ declare function N_0xac9ae68f0a463752(p0: number): void;
 declare function N_0xaca45ddcef6071c4(p0: number, p1: number): void;
 
 declare function N_0xaca7fb30269096d4(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): number;
 
 declare function N_0xacb7e1418a8b6e32(p0: number): number;
@@ -13147,24 +13147,24 @@ declare function N_0xafa87a7d41ee346a(p0: number): void;
 declare function N_0xafd3599a3cc5637d(): number;
 
 declare function N_0xafe2ae66f6251c66(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function N_0xaff2fd8add927585(): void;
 
 declare function N_0xaff5be9ba496ce40(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0xaffd0ccf31f469b8(p0: number): number;
@@ -13226,13 +13226,13 @@ declare function N_0xb1a196bafe650402(p0: number, p1: number): void;
 declare function N_0xb1f6665aa54dcd5c(p0: number): number;
 
 declare function N_0xb204bf9f30298d77(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0xb213d2a560b2e48b(p0: number, p1: number, p2: number): number;
@@ -13264,17 +13264,17 @@ declare function N_0xb29c553ba582d09e(p0: number, p1: number, p2: number, p3: nu
 declare function N_0xb2a38826e5886e83(p0: number, p1: number): void;
 
 declare function N_0xb2aff10216defa2f(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): void;
 
 declare function N_0xb2b42607f7867576(p0: number, p1: number, p2: number): number;
@@ -13306,11 +13306,11 @@ declare function N_0xb38c256498748413(): void;
 declare function N_0xb395a44a0c7ca615(p0: number, p1: number, p2: number): number;
 
 declare function N_0xb3b1546d23df8de1(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xb3e8841f6bdaf83e(): void;
@@ -13318,15 +13318,15 @@ declare function N_0xb3e8841f6bdaf83e(): void;
 declare function N_0xb3f2829907403c13(): number;
 
 declare function N_0xb3fb80a32bae3065(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): number;
 
 declare function N_0xb40ea9e0d2e2f7f3(p0: number, p1: number): void;
@@ -13356,11 +13356,11 @@ declare function N_0xb4a25351d79b444c(p0: number): number;
 declare function N_0xb4b7c92fce7347b7(p0: number): void;
 
 declare function N_0xb4c71ba9cab097bd(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xb520dbda7fcf573f(p0: number): number;
@@ -13368,13 +13368,13 @@ declare function N_0xb520dbda7fcf573f(p0: number): number;
 declare function N_0xb527099d1e1eed49(p0: number, p1: number, p2: number): number;
 
 declare function N_0xb56d41a694e42e86(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0xb5c4b18b12a2af23(p0: number, p1: number): number;
@@ -13418,11 +13418,11 @@ declare function N_0xb6fd96420c0126a1(p0: number, p1: number): void;
 declare function N_0xb7017da4d498269f(p0: number, p1: number): void;
 
 declare function N_0xb7079f4c72896756(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xb711eb4bc8d06013(): void;
@@ -13438,14 +13438,14 @@ declare function N_0xb729679356a889ae(p0: number): number;
 declare function N_0xb72999d3120599df(p0: number, p1: number, p2: number): number;
 
 declare function N_0xb7469cb9ac3c0fd4(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function N_0xb779f4fa19269aec(p0: number): void;
@@ -13457,30 +13457,30 @@ declare function N_0xb783f75940b23014(p0: number, p1: number): void;
 declare function N_0xb79817db31ff72b9(p0: number, p1: number): void;
 
 declare function N_0xb7c7bdc375aea9a4(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function N_0xb7dbb2986b87e230(p0: number, p1: number): number;
 
 declare function N_0xb7df150605eedc9b(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function N_0xb7e0590c86e1711f(p0: number): number;
@@ -13504,13 +13504,13 @@ declare function N_0xb8c984c0d47f4f07(p0: number, p1: number, p2: number): void;
 declare function N_0xb8de69d9473b7593(p0: number, p1: number): void;
 
 declare function N_0xb8e213d02f37947d(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0xb8e2d655e1d5bd39(p0: number): number;
@@ -13540,11 +13540,11 @@ declare function N_0xb958d97a0dfaa0c2(p0: number): number;
 declare function N_0xb961dd799a837bd7(): void;
 
 declare function N_0xb981dd2dfaf9b1c9(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xb991fe166faf84fd(p0: number, p1: number, p2: number): number;
@@ -13570,30 +13570,30 @@ declare function N_0xba208a8d6399a3ac(p0: number, p1: number): number;
 declare function N_0xba24095ea96dfe17(p0: number): number;
 
 declare function N_0xba2a089e60ed1163(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0xba2c49ea6a8d24ff(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0xba5ca1feb5de0df6(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0xba62b4d80fa66bd6(p0: number, p1: number, p2: number, p3: number): void;
@@ -13621,11 +13621,11 @@ declare function N_0xbb282cf5d2333fb8(p0: number, p1: number): void;
 declare function N_0xbb3e5370ebb6be28(p0: number, p1: number): number;
 
 declare function N_0xbb3e9b073e66c3c9(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xbb51299166b844f3(): void;
@@ -13651,31 +13651,31 @@ declare function N_0xbbadfb5e5e5766fb(p0: number, p1: number): void;
 declare function N_0xbbc67a6f965c688a(p0: number, p1: number, p2: number): number;
 
 declare function N_0xbbe5b63effb08e68(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0xbbe768e3ae76e07c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
 ): number;
 
 declare function N_0xbbf6d1d07c02d00a(p0: number, p1: number): void;
@@ -13697,15 +13697,15 @@ declare function N_0xbc3f847ae2c3dc65(p0: number, p1: number): void;
 declare function N_0xbc4735f48cd983ef(p0: number, p1: number): void;
 
 declare function N_0xbc6df00d7a4a6819(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function N_0xbc6f454e310124da(p0: number, p1: number, p2: number): void;
@@ -13727,16 +13727,16 @@ declare function N_0xbcc76708e5677e1d(p0: number, p1: number): void;
 declare function N_0xbcda0ba8762facb9(p0: number): void;
 
 declare function N_0xbce668aaf83608be(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function N_0xbd090f5b1db82189(p0: number, p1: number): void;
@@ -13764,12 +13764,12 @@ declare function N_0xbd861ae8a5181ed7(p0: number, p1: number): void;
 declare function N_0xbd944a3d36e992de(): void;
 
 declare function N_0xbd94cecfb2d65119(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0xbd96185264ddaaea(p0: number, p1: number): void;
@@ -13785,22 +13785,22 @@ declare function N_0xbdda0c290c228159(p0: number, p1: number, p2: number): void;
 declare function N_0xbdda142759307528(p0: number): void;
 
 declare function N_0xbded916a9f9b0604(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0xbdfeeb7600bcd938(p0: number): void;
 
 declare function N_0xbe012571b25f5aca(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0xbe0c524970892d41(p0: number, p1: number): void;
@@ -13826,12 +13826,12 @@ declare function N_0xbea3a6e5f5f79a6f(p0: number, p1: number): number;
 declare function N_0xbea7d3cb47e1479c(): number;
 
 declare function N_0xbec65c6049b3219d(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0xbed386157f65942c(p0: number, p1: number): void;
@@ -13961,11 +13961,11 @@ declare function N_0xc177c827cefc0aa4(p0: number, p1: number): void;
 declare function N_0xc1799fafd2fdf52b(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function N_0xc17a94cc8fc3c61a(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xc17f69e1418cd11f(p0: number): number;
@@ -13991,14 +13991,14 @@ declare function N_0xc2266aa617668ad3(p0: number, p1: number): void;
 declare function N_0xc22aa08a8adb87d4(p0: number): number;
 
 declare function N_0xc239dbd9a57d2a71(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): number;
 
 declare function N_0xc252c0cc969af79a(p0: number): void;
@@ -14020,13 +14020,13 @@ declare function N_0xc2b8164c3be871a4(): void;
 declare function N_0xc2c05defe85a0b64(): boolean;
 
 declare function N_0xc2e62678d602853c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0xc2e71d7e0a7b4c89(p0: number): number;
@@ -14080,11 +14080,11 @@ declare function N_0xc3e9e5d4f413b773(p0: number, p1: number): void;
 declare function N_0xc4019cf9ae8e931a(p0: number): number[];
 
 declare function N_0xc412aa1c73111fe0(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xc43cd2668b204419(): number;
@@ -14098,14 +14098,14 @@ declare function N_0xc48152bc6b3e821c(p0: number, p1: number, p2: number): numbe
 declare function N_0xc484ff658b2e55da(p0: number): void;
 
 declare function N_0xc4873b053054c04b(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function N_0xc488b8c0e52560d8(p0: number): number;
@@ -14121,12 +14121,12 @@ declare function N_0xc494c76a34266e82(p0: number, p1: number): void;
 declare function N_0xc4a2c11fc0d41916(p0: number, p1: number): void;
 
 declare function N_0xc4b67ef3fd65622d(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0xc4cfce4c656ef480(p0: number): void;
@@ -14172,15 +14172,15 @@ declare function N_0xc61edebf16cd9668(p0: number, p1: number, p2: number): void;
 declare function N_0xc6258f41d86676e0(p0: number, p1: number, p2: number): void;
 
 declare function N_0xc63540aef8384732(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function N_0xc63540aef8384769(): void;
@@ -14192,14 +14192,14 @@ declare function N_0xc64abc0676af262b(): void;
 declare function N_0xc64e597783be9a1d(entity: number, toggle: boolean): void;
 
 declare function N_0xc64e7a62632ad2fe(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function N_0xc67a4910425f11f1(p0: number, p1: number): void;
@@ -14211,19 +14211,19 @@ declare function N_0xc685b014ce3d988b(p0: number): number;
 declare function N_0xc687a23e166dcf68(p0: number): number;
 
 declare function N_0xc695870b8a149b96(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
 ): number;
 
 declare function N_0xc6981aff6d2a71c2(p0: number): void;
@@ -14313,11 +14313,11 @@ declare function N_0xc9b4b3a36f81fd75(p0: number): number;
 declare function N_0xc9caeaeec1256e54(p0: number): void;
 
 declare function N_0xc9ea26893c9e4024(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xca0bac376c541978(): number;
@@ -14327,23 +14327,23 @@ declare function N_0xca1315c33b9a2847(p0: number): number;
 declare function N_0xca1f0b5103936891(p0: number): number;
 
 declare function N_0xca27a86caa4e98ed(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0xca41e86545413b5b(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0xca56dd6ab7a39f64(p0: number): number;
@@ -14391,13 +14391,13 @@ declare function N_0xcb42afe2b613ee55(p0: number): number;
 declare function N_0xcb4ef7edae2e16f1(): number;
 
 declare function N_0xcb5d11f9508a928d(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0xcb61a63aa53d7d22(p0: number, p1: number): void;
@@ -14405,11 +14405,11 @@ declare function N_0xcb61a63aa53d7d22(p0: number, p1: number): void;
 declare function N_0xcb690f680a3ea971(p0: number, p1: number): number;
 
 declare function N_0xcb86d3e3e3708901(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0xcb8f4c9343ebe240(p0: number, p1: number, p2: number): number;
@@ -14449,11 +14449,11 @@ declare function N_0xcc24cb07f60b496e(p0: number, p1: number): number;
 declare function N_0xcc2b20596e29e4e3(p0: number, p1: number): number;
 
 declare function N_0xcc3b787e73e64160(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xcc3edc5614b03f61(p0: number): void;
@@ -14469,12 +14469,12 @@ declare function N_0xcc6b5aafc87bfc7b(p0: number, p1: number, p2: number): void;
 declare function N_0xcc7fc854b956a128(p0: string, p1: string): void;
 
 declare function N_0xcc8ca3e88256e58f(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0xcc9c4393523833e2(p0: number, p1: number, p2: number): void;
@@ -14486,15 +14486,15 @@ declare function N_0xccb97b51893c662f(p0: number, p1: number): number;
 declare function N_0xccd9b77f70d31c9d(p0: number): number;
 
 declare function N_0xcce219c922737bfa(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function N_0xcce7c695c164c35f(p0: number): number;
@@ -14534,11 +14534,11 @@ declare function N_0xcddd4b74660e2335(p0: number, p1: number, p2: number): void;
 declare function N_0xcdfb8c04d4c95d9b(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function N_0xce0d2f5586627cce(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xce1531927ad6c9f8(p0: number, p1: number): void;
@@ -14580,11 +14580,11 @@ declare function N_0xcedc16930526f728(p0: number): void;
 declare function N_0xceec64bd27a59312(p0: number): number;
 
 declare function N_0xcef4c65de502d367(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0xcf0b19806473d324(p0: number, p1: number, p2: number, p3: number): void;
@@ -14624,11 +14624,11 @@ declare function N_0xd04241bbf6d03a5e(p0: number): number;
 declare function N_0xd0498ad30e16b6bd(): number;
 
 declare function N_0xd049920cd29f6cc8(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xd049fdaf089fddb0(p0: number, p1: number, p2: number): void;
@@ -14658,11 +14658,11 @@ declare function N_0xd0b0b044112bf424(player: number): void;
 declare function N_0xd0b7aeb56229d317(p0: number): number;
 
 declare function N_0xd0ba1853d76683c8(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xd0e02aa618020d17(p0: number, p1: number): void;
@@ -14672,11 +14672,11 @@ declare function N_0xd1031b83ac093bc7(p0: number): void;
 declare function N_0xd103f6dbb5442be8(p0: number, p1: number): void;
 
 declare function N_0xd1555fbc96c88444(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0xd17672447692478e(p0: number, p1: number): void;
@@ -14690,13 +14690,13 @@ declare function N_0xd1ba66940e94c547(): number;
 declare function N_0xd1bf325c8252a982(p0: number, p1: number): number;
 
 declare function N_0xd1df5e54f4acbe1a(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0xd1efa8d68bf5d63d(p0: number, p1: number, p2: number, p3: number): void;
@@ -14742,11 +14742,11 @@ declare function N_0xd3a0da8f91612c6e(p0: number, p1: number, p2: number): void;
 declare function N_0xd3a3c8b9f3bdef81(): number;
 
 declare function N_0xd3a7b003ed343fd9(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xd3f58e9316b7fc2a(p0: number): void;
@@ -14772,14 +14772,14 @@ declare function N_0xd453bb601d4a606e(p0: number): number;
 declare function N_0xd45547d8396f002a(): void;
 
 declare function N_0xd45bb89b53fc0cfd(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function N_0xd460135c98940274(p0: number, p1: number): void;
@@ -14813,12 +14813,12 @@ declare function N_0xd4fa73fe628fec63(p0: number, p1: number): void;
 declare function N_0xd503d6f0986d58bc(p0: number, p1: number): void;
 
 declare function N_0xd508fa229f1c4900(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0xd52d20b0c76bb26d(p0: number, p1: number): number;
@@ -14868,11 +14868,11 @@ declare function N_0xd6740e14e4cefc0b(p0: number): number;
 declare function N_0xd67b6f3bcf81ba47(p0: number, p1: number): void;
 
 declare function N_0xd699e688b49c0fd2(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xd6bd313cfa41e57a(p0: number): number;
@@ -14880,13 +14880,13 @@ declare function N_0xd6bd313cfa41e57a(p0: number): number;
 declare function N_0xd6c0a8c7c0b2f82c(p0: number, p1: number): void;
 
 declare function N_0xd6cb05ddaee43afd(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0xd6e39dc5d46df4ab(p0: number): number;
@@ -14946,19 +14946,19 @@ declare function N_0xd8402b858f4ddd88(p0: number, p1: number): number;
 declare function N_0xd840c130d7aacfa5(p0: number, p1: number, p2: number): void;
 
 declare function N_0xd8736efda38edc5c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xd882c5b3991575b7(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number[];
 
 declare function N_0xd894437e12c17aec(p0: number, p1: number): void;
@@ -14968,13 +14968,13 @@ declare function N_0xd89504d9d7d5057d(p0: number): number;
 declare function N_0xd8c7162ab2e2af45(p0: number): void;
 
 declare function N_0xd8ceeed54c672b5d(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0xd8e3d22aa4f0e0a5(): number;
@@ -15002,13 +15002,13 @@ declare function N_0xd962f8579d702db5(): void;
 declare function N_0xd97d8d905f1562f2(p0: number): number;
 
 declare function N_0xd99229fe93b46286(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0xd999e379265a4501(p0: number, p1: number, p2: number): void;
@@ -15016,24 +15016,24 @@ declare function N_0xd999e379265a4501(p0: number, p1: number, p2: number): void;
 declare function N_0xd9bc98b55bcfaa9b(p0: number): void;
 
 declare function N_0xd9bf3ed8efb67ea3(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0xd9c24f53631f2372(p0: number, p1: number, p2: number): number;
 
 declare function N_0xd9edb2e4512d563e(
-	p0: number,
-	p1: boolean,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: boolean,
-	p7: number,
+    p0: number,
+    p1: boolean,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: boolean,
+    p7: number,
 ): void;
 
 declare function N_0xd9f2ff4af394d926(): void;
@@ -15105,12 +15105,12 @@ declare function N_0xdc2f83a0612ca34d(p0: number): number;
 declare function N_0xdc3914a99b4a5fdf(p0: number): number;
 
 declare function N_0xdc416ca762bc4f43(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0xdc44f405a6b98d03(p0: number, p1: number): number;
@@ -15144,12 +15144,12 @@ declare function N_0xdca6abdb9288fbe4(p0: number, p1: number): void;
 declare function N_0xdcc4b7f7112e8ab7(p0: number): number;
 
 declare function N_0xdccaa7c3bfd88862(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0xdcec875a02991ad0(p0: number, p1: number, p2: number, p3: number): number;
@@ -15159,15 +15159,15 @@ declare function N_0xdcf06d0cdff68424(p0: number, p1: number, p2: number): numbe
 declare function N_0xdcf12b89624aac96(p0: number): void;
 
 declare function N_0xdcf5ba95bbf0faba(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function N_0xdd03fc2089ad093c(p0: number, p1: number, p2: number, p3: number): void;
@@ -15195,11 +15195,11 @@ declare function N_0xdd73c9838ce7181d(): number;
 declare function N_0xdd7806fd0543bc3d(): number;
 
 declare function N_0xdd9540e7b1c9714f(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xdd9dc1ab63d513ce(p0: number, p1: number, p2: number): void;
@@ -15221,20 +15221,20 @@ declare function N_0xddceb0f26c89c00f(p0: number): number;
 declare function N_0xddcf6fea5d7acc17(p0: number, p1: number): void;
 
 declare function N_0xddfad4deaa7fa362(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xde0c8b145ea466ff(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0xde0ea444735c1368(p0: number): number;
@@ -15278,15 +15278,15 @@ declare function N_0xdeede7c41742e011(p0: number): void;
 declare function N_0xdf4a3404d022adde(p0: number, p1: number, p2: number): number;
 
 declare function N_0xdf516e598d966d06(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function N_0xdf56a2b50c04dea4(p0: number, p1: number): number;
@@ -15304,24 +15304,24 @@ declare function N_0xdf7b5144e25cd3fe(p0: number, p1: number): number;
 declare function N_0xdf7f5be9150e47e4(p0: number): void;
 
 declare function N_0xdf8a5855b9f9a97b(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
-	p15: number,
-	p16: number,
-	p17: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
+    p15: number,
+    p16: number,
+    p17: number,
 ): void;
 
 declare function N_0xdf8e49ea89a01db1(p0: number, p1: number, p2: number): number;
@@ -15411,17 +15411,17 @@ declare function N_0xe195c5a82156321d(p0: number, p1: number): number;
 declare function N_0xe1a83d4a3b5d7938(p0: number): number;
 
 declare function N_0xe1aadd0055d76603(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): void;
 
 declare function N_0xe1b3be07d3aadded(p0: number, p1: number, p2: number): void;
@@ -15457,12 +15457,12 @@ declare function N_0xe26970a7ae0f28e9(p0: number, p1: number, p2: number, p3: nu
 declare function N_0xe28f73212a813e82(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function N_0xe296208c273bd7f0(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0xe29d8cd66553dbaa(p0: number): void;
@@ -15480,11 +15480,11 @@ declare function N_0xe2c3cec3c0903a00(p0: number): number;
 declare function N_0xe2cf104add49d4bf(p0: number): void;
 
 declare function N_0xe3144b932dfdff65(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xe31a04513237dc89(): number;
@@ -15502,14 +15502,14 @@ declare function N_0xe3639db78b3b5400(p0: number): void;
 declare function N_0xe368e8422c860ba7(p0: number, p1: number, p2: number): number;
 
 declare function N_0xe36d2cb540597ef7(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function N_0xe36d4a38d28d9cfb(p0: number): void;
@@ -15527,12 +15527,12 @@ declare function N_0xe3ab5eefcb6671a2(p0: number): void;
 declare function N_0xe404bff0aba23cdc(p0: number): number;
 
 declare function N_0xe47001b7cb8b98ae(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0xe4770da1b8ff4fd1(p0: number): number;
@@ -15572,11 +15572,11 @@ declare function N_0xe53a308ac35877a8(): number;
 declare function N_0xe546bda1b3e288ee(p0: number): number;
 
 declare function N_0xe54bf2ce6c7d23a9(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xe54dc27571d5edc4(p0: number): number;
@@ -15618,25 +15618,25 @@ declare function N_0xe62754d09354f6cf(p0: number): number;
 declare function N_0xe631eaf35828fa67(p0: number): number;
 
 declare function N_0xe63d68f455ca0b47(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0xe65c5cba95f0e510(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): number;
 
 declare function N_0xe67af24c5a3b6058(p0: number, p1: number, p2: number): void;
@@ -15680,12 +15680,12 @@ declare function N_0xe737d5f14304a2ec(p0: number, p1: number, p2: number): void;
 declare function N_0xe75cddebf618c8ff(p0: number): number;
 
 declare function N_0xe75eea8db59a9f39(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0xe76687023d8c8505(p0: number, p1: number): number;
@@ -15699,12 +15699,12 @@ declare function N_0xe787f05dfc977bde(p0: number, p1: number): number;
 declare function N_0xe78993ff9022c064(p0: number): void;
 
 declare function N_0xe7998fec53a33bbe(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0xe79ba3bc265895da(p0: number): number;
@@ -15722,15 +15722,15 @@ declare function N_0xe7e6cb8b713ed190(): void;
 declare function N_0xe7f8707269544b29(p0: number, p1: number): number;
 
 declare function N_0xe7fa07624574b79a(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function N_0xe80e50bee276a54a(p0: number, p1: number): number;
@@ -15754,11 +15754,11 @@ declare function N_0xe887bd31d97793f6(p0: number): number;
 declare function N_0xe891504b2f0e2dba(p0: number, p1: number): void;
 
 declare function N_0xe8a8378bf651079c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0xe8abe3b73fc7fe17(p0: number, p1: number, p2: number, p3: number): void;
@@ -15772,21 +15772,21 @@ declare function N_0xe8e633215471bb5d(p0: number): number;
 declare function N_0xe8eaff7b41edd291(p0: number, p1: number, p2: number): void;
 
 declare function N_0xe8f1a5b4ced3725a(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xe910932f4b30be23(p0: number): void;
 
 declare function N_0xe92012611461a42a(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xe9225354fb7437a7(p0: number, p1: number): void;
@@ -15796,15 +15796,15 @@ declare function N_0xe92261bd28c0878f(p0: number): number;
 declare function N_0xe931354fea710038(p0: number): void;
 
 declare function N_0xe93415b3307208e5(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): number;
 
 declare function N_0xe94b5e938619712e(): void;
@@ -15832,31 +15832,31 @@ declare function N_0xe9b3fec825668291(p0: number, p1: number, p2: number): void;
 declare function N_0xe9bd19f8121ade3e(p0: number, p1: number): void;
 
 declare function N_0xe9c59f6809373a99(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): number;
 
 declare function N_0xe9cd9a67834985a7(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): void;
 
 declare function N_0xe9e06ea514a69061(p0: number, p1: number): void;
@@ -15902,15 +15902,15 @@ declare function N_0xeae3b5b019c8d23f(p0: number, p1: number): void;
 declare function N_0xeaf529446488eb18(p0: number): void;
 
 declare function N_0xeaf682a14f8e5f53(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): number;
 
 declare function N_0xeaf87da2be78a15b(p0: number, p1: number): void;
@@ -15918,11 +15918,11 @@ declare function N_0xeaf87da2be78a15b(p0: number, p1: number): void;
 declare function N_0xeb1a4dd8352ec828(p0: number): number;
 
 declare function N_0xeb2ed1dc3aec0654(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xeb3cb3386c775d72(p0: number): void;
@@ -15956,11 +15956,11 @@ declare function N_0xebaac9a750e7563b(p0: number): number;
 declare function N_0xebb208d6ae712c03(p0: number): number;
 
 declare function N_0xebb6e27ac2ff32da(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xebd49472bccf7642(p0: number, p1: number): void;
@@ -15982,14 +15982,14 @@ declare function N_0xec0bd8736dcaf841(p0: number): void;
 declare function N_0xec116edb683ad479(p0: number): void;
 
 declare function N_0xec174adbcb611ecc(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): number;
 
 declare function N_0xec254c2c9b0f08f1(p0: number, p1: number): number;
@@ -16013,14 +16013,14 @@ declare function N_0xec6b59be445fec51(p0: number): number;
 declare function N_0xec7e480ff8bd0bed(p0: number): number;
 
 declare function N_0xec819d612038ef4b(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): number;
 
 declare function N_0xec8703e4536a9952(): void;
@@ -16060,15 +16060,15 @@ declare function N_0xeda5cbecf56e1386(p0: number): void;
 declare function N_0xedd964b7984ac291(p0: number, p1: number): number;
 
 declare function N_0xedfc6c1fd1c964f5(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function N_0xee04c0afd4efaf0e(p0: number): number;
@@ -16091,26 +16091,26 @@ declare function N_0xeeb7818b1d307212(p0: number): void;
 declare function N_0xeed08a3a98b847e2(p0: number, p1: number, p2: number): void;
 
 declare function N_0xeedc9b29314b2733(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function N_0xeee4829304f93eee(p0: number, p1: number): void;
 
 declare function N_0xeeed8fafec331a70(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0xeef83a759ae06a27(p0: number): number;
@@ -16170,12 +16170,12 @@ declare function N_0xf02a9c330bbfc5c7(p0: number): void;
 declare function N_0xf0460c7bf80011ea(p0: number): number;
 
 declare function N_0xf05dfaf1adfef2cd(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0xf06c5b66de20b2b8(p0: number): void;
@@ -16189,21 +16189,21 @@ declare function N_0xf08e42bfa46bdff8(p0: number, p1: number): number;
 declare function N_0xf092b6030d6fd49c(p0: number, p1: number): void;
 
 declare function N_0xf0b4f759f35cc7f5(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xf0b67bad53c35bd9(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0xf0c0c94b404206fa(): number;
@@ -16229,12 +16229,12 @@ declare function N_0xf1142e5d64b47802(p0: boolean, p1: boolean): void;
 declare function N_0xf11d7cb962fcd747(p0: number): void;
 
 declare function N_0xf14bcef290f869e1(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0xf1622ce88a1946fb(): void;
@@ -16254,12 +16254,12 @@ declare function N_0xf1b84178f8674195(p0: number): void;
 declare function N_0xf1c03a5352243a30(p0: number): void;
 
 declare function N_0xf1c5310feaa36b48(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0xf1e6979c0b779985(p0: number): void;
@@ -16293,13 +16293,13 @@ declare function N_0xf260af6f43953316(p0: number): number;
 declare function N_0xf2753d691bcda314(p0: number, p1: number, p2: number): number;
 
 declare function N_0xf27f1a8de4f50a1b(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function N_0xf29a186ed428b552(p0: number, p1: number): number;
@@ -16309,28 +16309,28 @@ declare function N_0xf2a2177ac848b3a8(p0: number, p1: number, p2: number): void;
 declare function N_0xf2cbc969c4f090c7(): number;
 
 declare function N_0xf2cca7b68cfab2b9(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
 ): void;
 
 declare function N_0xf2ea041f1146d75b(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xf2f543d48f319a3a(): void;
@@ -16354,11 +16354,11 @@ declare function N_0xf3735acd11acd500(p0: number, p1: number): number;
 declare function N_0xf3735acd11acd501(p0: number, p1: number): number;
 
 declare function N_0xf37a2149bc9a8a27(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xf382c92ccc1ccdbc(p0: number, p1: number, p2: number): number;
@@ -16380,12 +16380,12 @@ declare function N_0xf40a109b4b79a848(p0: number, p1: number, p2: number): void;
 declare function N_0xf40ab58d83c35027(p0: number): void;
 
 declare function N_0xf40ef49b3099e98e(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0xf41e2979d5bc5370(p0: number): void;
@@ -16397,11 +16397,11 @@ declare function N_0xf4452ce83118c738(p0: number, p1: number): number;
 declare function N_0xf445de8da80a1792(): number;
 
 declare function N_0xf45e46deecf7df6e(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xf4601c1203b1a78d(p0: number, p1: number): number;
@@ -16415,12 +16415,12 @@ declare function N_0xf47e33f8d2523825(p0: number, p1: number): number;
 declare function N_0xf4823c813cb8277d(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function N_0xf4860514ad354226(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0xf48664e9c83825e3(p0: number, p1: number): void;
@@ -16440,13 +16440,13 @@ declare function N_0xf4cb347d7b5eb0fd(): number;
 declare function N_0xf52bd94b47ccf736(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function N_0xf533d68ff970d190(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0xf5622fa6acfca7db(p0: number, p1: number): void;
@@ -16470,11 +16470,11 @@ declare function N_0xf5ffb08976911b50(p0: number, p1: number, p2: number, p3: nu
 declare function N_0xf60165e1d2c5370b(ped: number): [boolean, number, number];
 
 declare function N_0xf60386770878a98f(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xf611de44aeb36a1d(p0: number, p1: number): void;
@@ -16502,12 +16502,12 @@ declare function N_0xf6a7c08df2e28b28(p0: number, p1: number, p2: number, p3: nu
 declare function N_0xf6a8a652a6b186cd(p0: number): number;
 
 declare function N_0xf6a8c4b4a11ae89c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function N_0xf6b82fce03b43a37(p0: number, p1: number): void;
@@ -16517,11 +16517,11 @@ declare function N_0xf6bee7e80ec5ca40(p0: number): void;
 declare function N_0xf6ce6f9c3897804e(p0: number): number;
 
 declare function N_0xf6d9e1f3560cbf8e(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function N_0xf6de98516fd3ac9b(): void;
@@ -16533,15 +16533,15 @@ declare function N_0xf6e88489b4e6ebe5(p0: number, p1: number): void;
 declare function N_0xf6f5447d418daa82(p0: number): number;
 
 declare function N_0xf708298675abdc6a(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function N_0xf70f00013a62f866(p0: number): number[];
@@ -16635,16 +16635,16 @@ declare function N_0xf9b91c5129eabc08(p0: number, p1: number): number;
 declare function N_0xf9c1681347c8bd15(object: number): void;
 
 declare function N_0xf9cbd46433e36713(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function N_0xf9cff5bb70e8a2cb(p0: number, p1: number): void;
@@ -16658,11 +16658,11 @@ declare function N_0xf9f0b3028431967b(p0: number, p1: number): number;
 declare function N_0xf9f14080d80937bd(p0: number): void;
 
 declare function N_0xfa0d206b489a6846(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xfa15c9a320e707b0(): void;
@@ -16678,21 +16678,21 @@ declare function N_0xfa38b52f91b59075(): number;
 declare function N_0xfa3b61ec249b4674(p0: number): number;
 
 declare function N_0xfa437fa0738c370c(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xfa50f79257745e74(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0xfa742b82d093d848(p0: number, p1: number, p2: number): void;
@@ -16750,11 +16750,11 @@ declare function N_0xfc3b580c4380b5b7(p0: number): number;
 declare function N_0xfc3bab1801a8255a(p0: number, p1: number): void;
 
 declare function N_0xfc3db99c8144cd81(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function N_0xfc3f638be2b6bb02(): void;
@@ -16782,12 +16782,12 @@ declare function N_0xfc81d7c7a151cfaa(p0: number, p1: number, p2: number): numbe
 declare function N_0xfc832b06127d8e99(p0: number, p1: number): number;
 
 declare function N_0xfc9806da9a460093(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function N_0xfc9b53c072f418e0(): number;
@@ -16809,19 +16809,19 @@ declare function N_0xfd05b1dde83749fa(p0: number): number;
 declare function N_0xfd0759658268fd8e(p0: number): number;
 
 declare function N_0xfd0e389cd44434b6(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
 ): number;
 
 declare function N_0xfd1ac0b3858f224c(p0: number, p1: number, p2: number, p3: number): void;
@@ -16837,13 +16837,13 @@ declare function N_0xfd4272a137703449(): void;
 declare function N_0xfd461d0aba5559b1(p0: number, p1: number): void;
 
 declare function N_0xfd5bb35aab83fd48(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 /**
@@ -16949,16 +16949,16 @@ declare function N_0xffb99ffd17f65889(p0: number, p1: number): void;
 declare function N_0xffcc2db2d9953401(p0: number, p1: number, p2: number): number;
 
 declare function N_0xffd54d9fe71b966a(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function N_0xffddf802279be128(p0: number, p1: number, p2: number): void;
@@ -16966,13 +16966,13 @@ declare function N_0xffddf802279be128(p0: number, p1: number, p2: number): void;
 declare function N_0xffde295662405b25(p0: number): number;
 
 declare function N_0xffe9c53deea3db0b(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function N_0xffebe5aa96bc2e4e(p0: number, p1: number, p2: number): number;
@@ -16992,14 +16992,14 @@ declare function NetToPed(netHandle: number): number;
 declare function NetToVeh(netHandle: number): number;
 
 declare function NetworkAccessTunableBool(
-	tunableContext: string | number,
-	tunableName: string | number,
+    tunableContext: string | number,
+    tunableName: string | number,
 ): boolean;
 
 declare function NetworkAccessTunableInt(
-	tunableContext: string | number,
-	tunableName: string | number,
-	value?: number,
+    tunableContext: string | number,
+    tunableName: string | number,
+    value?: number,
 ): [boolean, number];
 
 declare function NetworkAddFriend(message: string): [boolean, number];
@@ -17038,20 +17038,20 @@ declare function NetworkClearFoundGamers(): void;
 declare function NetworkClearGetGamerStatus(): void;
 
 declare function NetworkClockTimeOverride(
-	hour: number,
-	minute: number,
-	second: number,
-	p3: number,
-	p4: boolean,
+    hour: number,
+    minute: number,
+    second: number,
+    p3: number,
+    p4: boolean,
 ): void;
 
 declare function NetworkClockTimeOverride_2(
-	hour: number,
-	minute: number,
-	second: number,
-	p3: number,
-	p4: boolean,
-	p5: boolean,
+    hour: number,
+    minute: number,
+    second: number,
+    p3: number,
+    p4: boolean,
+    p5: boolean,
 ): void;
 
 declare function NetworkConcealPlayer(player: number, toggle: boolean): void;
@@ -17061,8 +17061,8 @@ declare function NetworkDisableProximityMigration(netID: number): void;
 declare function NetworkDoesNetworkIdExist(netID: number): boolean;
 
 declare function NetworkDoesTunableExist(
-	tunableContext: string | number,
-	tunableName: string | number,
+    tunableContext: string | number,
+    tunableName: string | number,
 ): boolean;
 
 declare function NetworkEndTutorialSession(): void;
@@ -17070,14 +17070,14 @@ declare function NetworkEndTutorialSession(): void;
 declare function NetworkGetClockTimeOverride(): [boolean, number, number, number];
 
 declare function NetworkGetDestroyerOfEntity(
-	p0: number,
-	p1: number,
-	weaponHash?: number,
+    p0: number,
+    p1: number,
+    weaponHash?: number,
 ): [boolean, number];
 
 declare function NetworkGetDestroyerOfNetworkId(
-	netId: number,
-	weaponHash?: number,
+    netId: number,
+    weaponHash?: number,
 ): [number, number];
 
 declare function NetworkGetEntityFromNetworkId(netId: number): number;
@@ -17085,8 +17085,8 @@ declare function NetworkGetEntityFromNetworkId(netId: number): number;
 declare function NetworkGetEntityIsNetworked(entity: number): boolean;
 
 declare function NetworkGetEntityKillerOfPlayer(
-	player: number,
-	weaponHash?: number,
+    player: number,
+    weaponHash?: number,
 ): [number, number];
 
 /**
@@ -17226,10 +17226,10 @@ declare function NetworkIsPlayerInMpCutscene(player: number): boolean;
 declare function NetworkIsPlayerInSpectatorMode(player: number): boolean;
 
 declare function NetworkIsScriptActive(
-	scriptName: string,
-	player: number,
-	p2: boolean,
-	p3: number,
+    scriptName: string,
+    player: number,
+    p2: boolean,
+    p3: number,
 ): boolean;
 
 declare function NetworkIsSessionActive(): boolean;
@@ -17255,14 +17255,14 @@ declare function NetworkRequestControlOfEntity(entity: number): boolean;
 declare function NetworkRequestControlOfNetworkId(netId: number): boolean;
 
 declare function NetworkResurrectLocalPlayer(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function NetworkSessionIsPrivate(): boolean;
@@ -17278,10 +17278,10 @@ declare function NetworkSetInMpCutscene(p0: boolean, p1: boolean, p2: number, p3
 declare function NetworkSetInSpectatorMode(toggle: boolean, playerPed: number): void;
 
 declare function NetworkSetInStaticSpectatorMode(
-	toggle: boolean,
-	x: number,
-	y: number,
-	z: number,
+    toggle: boolean,
+    x: number,
+    y: number,
+    z: number,
 ): void;
 
 declare function NetworkSetLocalPlayerInvincibleTime(time: number): void;
@@ -17295,9 +17295,9 @@ declare function NetworkSetRichPresence(p0: number, p1: number, p2: number, p3: 
 declare function NetworkSetScriptIsSafeForNetworkGame(): void;
 
 declare function NetworkSetThisScriptIsNetworkScript(
-	lobbySize: number,
-	p1: boolean,
-	playerId: number,
+    lobbySize: number,
+    p1: boolean,
+    playerId: number,
 ): void;
 
 declare function NetworkSetVehicleWheelsDestructible(p0: number, p1: number): void;
@@ -17307,21 +17307,21 @@ declare function NetworkShowProfileUi(networkHandle: number): void;
 declare function NetworkStartSoloTutorialSession(): void;
 
 declare function NetworkTryAccessTunableBool(
-	tunableContext: string | number,
-	tunableName: string | number,
-	defaultValue: boolean,
+    tunableContext: string | number,
+    tunableName: string | number,
+    defaultValue: boolean,
 ): boolean;
 
 declare function NetworkTryAccessTunableFloat(
-	tunableContext: string | number,
-	tunableName: string | number,
-	defaultValue: number,
+    tunableContext: string | number,
+    tunableName: string | number,
+    defaultValue: number,
 ): number;
 
 declare function NetworkTryAccessTunableInt(
-	tunableContext: string | number,
-	tunableName: string | number,
-	defaultValue: number,
+    tunableContext: string | number,
+    tunableName: string | number,
+    defaultValue: number,
 ): number;
 
 declare function ObjToNet(object: number): number;
@@ -17349,14 +17349,14 @@ declare function OpenPatrolRoute(patrolRoute: string): void;
 declare function OpenSequenceTask(taskSequenceId: number): void;
 
 declare function OverrideSaveHouse(
-	p0: boolean,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: boolean,
-	p6: number,
-	p7: number,
+    p0: boolean,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: boolean,
+    p6: number,
+    p7: number,
 ): boolean;
 
 declare function ParticipantId(): number;
@@ -17370,22 +17370,22 @@ declare function PauseClockThisFrame(toggle: boolean): void;
 declare function PauseDeathArrestRestart(toggle: boolean): void;
 
 declare function PauseScriptedConversation(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function PedCowerInPlace(ped: number, ped2: number): void;
 
 declare function PedCowerMoveToPoint(
-	ped: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	ped2: number,
-	p5: number,
+    ped: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    ped2: number,
+    p5: number,
 ): void;
 
 declare function PedHasUseScenarioTask(ped: number): boolean;
@@ -17405,31 +17405,31 @@ declare function PlayAnimOnRunningScenario(ped: number, animDict: string, animNa
 declare function PlayAnimalVocalization(pedHandle: number, p1: number, p2?: number): number;
 
 declare function PlayCamAnim(
-	cam: number,
-	animName: string,
-	animDictionary: string,
-	x: number,
-	y: number,
-	z: number,
-	xRot: number,
-	yRot: number,
-	zRot: number,
-	p9: boolean,
-	p10: number,
+    cam: number,
+    animName: string,
+    animDictionary: string,
+    x: number,
+    y: number,
+    z: number,
+    xRot: number,
+    yRot: number,
+    zRot: number,
+    p9: boolean,
+    p10: number,
 ): boolean;
 
 declare function PlayEndCreditsMusic(play: boolean): void;
 
 declare function PlayEntityAnim(
-	entity: number,
-	animName: string,
-	animDict: string,
-	p3: number,
-	loop: boolean,
-	stayInAnim: boolean,
-	p6: boolean,
-	delta: number,
-	bitset: number,
+    entity: number,
+    animName: string,
+    animDict: string,
+    p3: number,
+    loop: boolean,
+    stayInAnim: boolean,
+    p6: boolean,
+    delta: number,
+    bitset: number,
 ): boolean;
 
 declare function PlayEntityScriptedAnim(p0: number, p1: number): void;
@@ -17437,19 +17437,19 @@ declare function PlayEntityScriptedAnim(p0: number, p1: number): void;
 declare function PlayPain(p0: number, p1: number, p2: number, p3: number, p4: number): void;
 
 declare function PlaySound(
-	audioName: string,
-	audioRef: string,
-	p2: boolean,
-	p3: number,
-	p4: boolean,
-	p5: number,
+    audioName: string,
+    audioRef: string,
+    p2: boolean,
+    p3: number,
+    p4: boolean,
+    p5: number,
 ): void;
 
 declare function PlaySoundFrontend(
-	audioName: string,
-	audioRef: string,
-	p2: boolean,
-	p3: number,
+    audioName: string,
+    audioRef: string,
+    p2: boolean,
+    p3: number,
 ): void;
 
 declare function PlayStreamFromPed(p0: number, p1: number): void;
@@ -17465,12 +17465,12 @@ declare function PlayerPedId(): number;
 declare function PointCamAtCoord(cam: number, x: number, y: number, z: number): void;
 
 declare function PointCamAtEntity(
-	cam: number,
-	entity: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: boolean,
+    cam: number,
+    entity: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: boolean,
 ): void;
 
 declare function PokerBuyIn(p0: number, p1: number): number;
@@ -17494,10 +17494,10 @@ declare function Pow(base: number, exponent: number): number;
 declare function PrefetchSrl(srl: string): void;
 
 declare function PreloadScriptConversation(
-	p0: boolean,
-	p1: boolean,
-	p2: boolean,
-	p3: boolean,
+    p0: boolean,
+    p1: boolean,
+    p2: boolean,
+    p3: boolean,
 ): void;
 
 declare function PrepareMusicEvent(eventName: string): boolean;
@@ -17543,12 +17543,12 @@ declare function PromptAddGroupReturnLink(p0: number, prompt: number): void;
 declare function PromptClearFavouredPedForConflictResolution(): void;
 
 declare function PromptCreate(
-	inputHash: string | number,
-	labelName: string,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    inputHash: string | number,
+    labelName: string,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): number;
 
 declare function PromptDelete(prompt: number): void;
@@ -17610,24 +17610,24 @@ declare function PromptRemoveGroup(prompt: number, p1: number): void;
 declare function PromptRestartModes(prompt: number): void;
 
 declare function PromptSetActiveGroupThisFrame(
-	hash: string | number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	prompt: number,
+    hash: string | number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    prompt: number,
 ): number;
 
 declare function PromptSetAllowedAction(prompt: number, p1: number): void;
 
 declare function PromptSetAmbientGroupThisFrame(
-	entity: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    entity: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function PromptSetAttribute(prompt: number, p1: number, p2: number): void;
@@ -17655,19 +17655,19 @@ declare function PromptSetMashAutoFillMode(prompt: number, p1: number, p2: numbe
 declare function PromptSetMashIndefinitelyMode(prompt: number): void;
 
 declare function PromptSetMashManualCanFailMode(
-	prompt: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    prompt: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function PromptSetMashManualMode(
-	prompt: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    prompt: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function PromptSetMashManualModeDecaySpeed(prompt: number, p1: number): void;
@@ -17679,17 +17679,17 @@ declare function PromptSetMashManualModePressedGrowthSpeed(prompt: number, p1: n
 declare function PromptSetMashMode(prompt: number, p1: number): void;
 
 declare function PromptSetMashWithResistanceCanFailMode(
-	prompt: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    prompt: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): void;
 
 declare function PromptSetMashWithResistanceMode(
-	prompt: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    prompt: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): void;
 
 declare function PromptSetOrderingAsInputType(prompt: number, p1: number): void;
@@ -17821,10 +17821,10 @@ declare function RegisterHatedTargetsAroundPed(ped: number, radius: number): voi
  * @param defaultParameter The [IO parameter ID](https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/) to use for the default binding, e.g. `f3`.
  */
 declare function RegisterKeyMapping(
-	commandString: string,
-	description: string,
-	defaultMapper: string,
-	defaultParameter: string,
+    commandString: string,
+    description: string,
+    defaultMapper: string,
+    defaultParameter: string,
 ): void;
 
 declare function RegisterNamedRendertarget(name: string, p1: boolean): boolean;
@@ -17834,12 +17834,12 @@ declare function RegisterNuiCallbackType(callbackType: string): void;
 declare function RegisterNuiCallbackType(callbackType: string): void;
 
 declare function RegisterObjectScriptBrain(
-	scriptName: string,
-	modelHash: string | number,
-	p2: number,
-	activationRange: number,
-	p4: number,
-	p5: number,
+    scriptName: string,
+    modelHash: string | number,
+    p2: number,
+    activationRange: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function RegisterRawNuiCallback(callbackType: string, callback: Function): void;
@@ -17866,9 +17866,9 @@ declare function RegisterScriptWithAudio(p0: number): void;
  * @param cacheString The string returned from `REGISTER_RESOURCE_ASSET` on the server.
  */
 declare function RegisterStreamingFileFromCache(
-	resourceName: string,
-	fileName: string,
-	cacheString: string,
+    resourceName: string,
+    fileName: string,
+    cacheString: string,
 ): void;
 
 /**
@@ -17879,9 +17879,9 @@ declare function RegisterStreamingFileFromCache(
  * @param cacheString The string returned from `REGISTER_RESOURCE_ASSET` on the server.
  */
 declare function RegisterStreamingFileFromCache(
-	resourceName: string,
-	fileName: string,
-	cacheString: string,
+    resourceName: string,
+    fileName: string,
+    cacheString: string,
 ): void;
 
 /**
@@ -17961,11 +17961,11 @@ declare function RemoveDoorFromSystem(doorHash: string | number): void;
 declare function RemoveEntityFromAudioMixGroup(entity: number, p1: number): void;
 
 declare function RemoveForcedObject(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function RemoveFromItemset(itemset: number, p1: number): void;
@@ -17979,22 +17979,22 @@ declare function RemoveImap(imapHash: string | number): void;
 declare function RemoveImap_2(imapHash: string | number): void;
 
 declare function RemoveModelHide(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function RemoveModelSwap(
-	x: number,
-	y: number,
-	z: number,
-	radius: number,
-	originalModel: string | number,
-	newModel: string | number,
-	p6: boolean,
+    x: number,
+    y: number,
+    z: number,
+    radius: number,
+    originalModel: string | number,
+    newModel: string | number,
+    p6: boolean,
 ): void;
 
 declare function RemoveMpGamerTag(gamerTagId: number): void;
@@ -18063,12 +18063,12 @@ declare function RemoveVehicleRecording(p0: number, p1?: number): number;
 declare function RemoveVehicleWindow(vehicle: number, windowIndex: number): void;
 
 declare function RemoveVehiclesFromGeneratorsInArea(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function RemoveWaypointRecording(name: string): void;
@@ -18076,28 +18076,28 @@ declare function RemoveWaypointRecording(name: string): void;
 declare function RemoveWeaponComponentFromWeaponObject(p0: number, p1: number): void;
 
 declare function RemoveWeaponFromPed(
-	ped: number,
-	weaponHash: string | number,
-	p2: boolean,
-	p3: string | number,
+    ped: number,
+    weaponHash: string | number,
+    p2: boolean,
+    p3: string | number,
 ): void;
 
 declare function RenderFirstPersonCam(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function RenderScriptCams(
-	render: boolean,
-	ease: boolean,
-	easeTime: number,
-	p3: boolean,
-	p4: boolean,
-	p5: number,
+    render: boolean,
+    ease: boolean,
+    easeTime: number,
+    p3: boolean,
+    p4: boolean,
+    p5: number,
 ): void;
 
 declare function RequestAnimDict(animDict: string): void;
@@ -18226,9 +18226,9 @@ declare function SaveBenchmarkRecording(): void;
 declare function ScFeedSubmitPresetMessage(_type: number, subType: number): number;
 
 declare function ScInboxMessageGetDataInt(
-	p0: number,
-	context: string,
-	out?: number,
+    p0: number,
+    context: string,
+    out?: number,
 ): [boolean, number];
 
 declare function ScInboxMessageGetDataString(p0: number, context: string, out: string): boolean;
@@ -18346,8 +18346,8 @@ declare function SendNuiMessage(jsonString: string): boolean;
 declare function SendNuiMessage(jsonString: string): boolean;
 
 declare function SetActivateObjectPhysicsAsSoonAsItIsUnfrozen(
-	object: number,
-	toggle: boolean,
+    object: number,
+    toggle: boolean,
 ): void;
 
 declare function SetAiMeleeWeaponDamageModifier(modifier: number): void;
@@ -18371,14 +18371,14 @@ declare function SetAllRandomPedsFleeThisFrame(player: number): void;
 declare function SetAllVehicleGeneratorsActive(): void;
 
 declare function SetAllVehicleGeneratorsActiveInArea(
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
-	p6: boolean,
-	p7: boolean,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
+    p6: boolean,
+    p7: boolean,
 ): void;
 
 declare function SetAmbientPedRangeMultiplierThisFrame(multiplier: number): void;
@@ -18388,9 +18388,9 @@ declare function SetAmbientVoiceName(ped: number, name: string): void;
 declare function SetAmbientZoneListState(p1: boolean, p2: boolean): number;
 
 declare function SetAmbientZoneListStatePersistent(
-	ambientZone: string,
-	p1: boolean,
-	p2: boolean,
+    ambientZone: string,
+    p1: boolean,
+    p2: boolean,
 ): void;
 
 declare function SetAmbientZoneState(zoneName: string, p1: boolean, p2: boolean): void;
@@ -18406,24 +18406,24 @@ declare function SetAnimSceneBool(animScene: number, p1: number, p2: number, p3:
 declare function SetAnimSceneEntity(animScene: number, p1: number, p2: number, p3: number): void;
 
 declare function SetAnimSceneFloat(
-	animScene: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    animScene: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function SetAnimSceneInt(animScene: number, p1: number, p2: number, p3: number): void;
 
 declare function SetAnimSceneOrigin(
-	animScene: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    animScene: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function SetAnimScenePaused(animScene: number, p1: number): void;
@@ -18487,11 +18487,11 @@ declare function SetBoatSinksWhenWrecked(vehicle: number, toggle: boolean): void
 declare function SetCamActive(cam: number, active: boolean): void;
 
 declare function SetCamActiveWithInterp(
-	camTo: number,
-	camFrom: number,
-	duration: number,
-	easeLocation: number,
-	easeRotation: number,
+    camTo: number,
+    camFrom: number,
+    duration: number,
+    easeLocation: number,
+    easeRotation: number,
 ): void;
 
 declare function SetCamAffectsAiming(cam: number, toggle: boolean): void;
@@ -18507,28 +18507,28 @@ declare function SetCamMotionBlurStrength(cam: number, strength: number): void;
 declare function SetCamNearClip(cam: number, nearClip: number): void;
 
 declare function SetCamParams(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
 ): void;
 
 declare function SetCamRot(
-	cam: number,
-	rotX: number,
-	rotY: number,
-	rotZ: number,
-	rotationOrder: number,
+    cam: number,
+    rotX: number,
+    rotY: number,
+    rotZ: number,
+    rotationOrder: number,
 ): void;
 
 declare function SetCamSplineDuration(cam: number, timeDuration: number): void;
@@ -18542,19 +18542,19 @@ declare function SetCanAutoVaultOnEntity(entity: number, toggle: boolean): void;
 declare function SetCanClimbOnEntity(entity: number, toggle: boolean): void;
 
 declare function SetCheckpointIconRgba(
-	checkpoint: number,
-	red: number,
-	green: number,
-	blue: number,
-	alpha: number,
+    checkpoint: number,
+    red: number,
+    green: number,
+    blue: number,
+    alpha: number,
 ): void;
 
 declare function SetCheckpointRgba(
-	checkpoint: number,
-	red: number,
-	green: number,
-	blue: number,
-	alpha: number,
+    checkpoint: number,
+    red: number,
+    green: number,
+    blue: number,
+    alpha: number,
 ): void;
 
 declare function SetCinematicButtonActive(p0: boolean): void;
@@ -18568,16 +18568,16 @@ declare function SetClockTime(hour: number, minute: number, second: number): voi
 declare function SetCombatFloat(ped: number, combatType: number, p2: number): void;
 
 declare function SetControlGroupColor(
-	padIndex: number,
-	red: number,
-	green: number,
-	blue: number,
+    padIndex: number,
+    red: number,
+    green: number,
+    blue: number,
 ): void;
 
 declare function SetControlNormal(
-	padIndex: number,
-	control: string | number,
-	amount: number,
+    padIndex: number,
+    control: string | number,
+    amount: number,
 ): boolean;
 
 declare function SetCreateRandomCops(toggle: boolean): void;
@@ -18587,12 +18587,12 @@ declare function SetCreditsActive(toggle: boolean): void;
 declare function SetCurrentPedVehicleWeapon(ped: number, weaponHash: string | number): boolean;
 
 declare function SetCurrentPedWeapon(
-	ped: number,
-	weaponHash: string | number,
-	equipNow: boolean,
-	p3: number,
-	p4: boolean,
-	p5: boolean,
+    ped: number,
+    weaponHash: string | number,
+    equipNow: boolean,
+    p3: number,
+    p4: boolean,
+    p5: boolean,
 ): void;
 
 declare function SetCursorLocation(x: number, y: number): boolean;
@@ -18687,12 +18687,12 @@ declare function SetDriveTaskCruiseSpeed(driver: number, cruiseSpeed: number): v
 declare function SetDriveTaskMaxCruiseSpeed(p0: number, p1: number): void;
 
 declare function SetDrivebyTaskTarget(
-	shootingPed: number,
-	targetPed: number,
-	targetVehicle: number,
-	x: number,
-	y: number,
-	z: number,
+    shootingPed: number,
+    targetPed: number,
+    targetVehicle: number,
+    x: number,
+    y: number,
+    z: number,
 ): void;
 
 /**
@@ -18726,9 +18726,9 @@ declare function SetEntityAsNoLongerNeeded(entity: number): void;
 declare function SetEntityCanBeDamaged(entity: number, toggle: boolean): void;
 
 declare function SetEntityCanBeDamagedByRelationshipGroup(
-	entity: number,
-	bCanBeDamaged: boolean,
-	relGroup: number,
+    entity: number,
+    bCanBeDamaged: boolean,
+    relGroup: number,
 ): void;
 
 declare function SetEntityCanBeTargetedWithoutLos(entity: number, toggle: boolean): void;
@@ -18736,30 +18736,30 @@ declare function SetEntityCanBeTargetedWithoutLos(entity: number, toggle: boolea
 declare function SetEntityCollision(entity: number, toggle: boolean, keepPhysics: boolean): void;
 
 declare function SetEntityCompletelyDisableCollision(
-	entity: number,
-	p1: boolean,
-	p2: boolean,
+    entity: number,
+    p1: boolean,
+    p2: boolean,
 ): void;
 
 declare function SetEntityCoords(
-	entity: number,
-	xPos: number,
-	yPos: number,
-	zPos: number,
-	xAxis: boolean,
-	yAxis: boolean,
-	zAxis: boolean,
-	clearArea: boolean,
+    entity: number,
+    xPos: number,
+    yPos: number,
+    zPos: number,
+    xAxis: boolean,
+    yAxis: boolean,
+    zAxis: boolean,
+    clearArea: boolean,
 ): void;
 
 declare function SetEntityCoordsNoOffset(
-	entity: number,
-	xPos: number,
-	yPos: number,
-	zPos: number,
-	xAxis: boolean,
-	yAxis: boolean,
-	zAxis: boolean,
+    entity: number,
+    xPos: number,
+    yPos: number,
+    zPos: number,
+    xAxis: boolean,
+    yAxis: boolean,
+    zAxis: boolean,
 ): void;
 
 declare function SetEntityDynamic(entity: number, toggle: boolean): void;
@@ -18789,38 +18789,38 @@ declare function SetEntityMaxHealth(entity: number, value: number): void;
 declare function SetEntityMotionBlur(entity: number, toggle: boolean): void;
 
 declare function SetEntityNoCollisionEntity(
-	entity1: number,
-	entity2: number,
-	thisFrameOnly: boolean,
+    entity1: number,
+    entity2: number,
+    thisFrameOnly: boolean,
 ): void;
 
 declare function SetEntityOnlyDamagedByPlayer(entity: number, toggle: boolean): void;
 
 declare function SetEntityOnlyDamagedByRelationshipGroup(
-	entity: number,
-	p1: boolean,
-	p2: number,
+    entity: number,
+    p1: boolean,
+    p2: number,
 ): void;
 
 declare function SetEntityProofs(entity: number, proofsBitset: number, p2: boolean): void;
 
 declare function SetEntityQuaternion(
-	entity: number,
-	x: number,
-	y: number,
-	z: number,
-	w: number,
+    entity: number,
+    x: number,
+    y: number,
+    z: number,
+    w: number,
 ): void;
 
 declare function SetEntityRenderScorched(entity: number, toggle: boolean): void;
 
 declare function SetEntityRotation(
-	entity: number,
-	pitch: number,
-	roll: number,
-	yaw: number,
-	rotationOrder: number,
-	p5: boolean,
+    entity: number,
+    pitch: number,
+    roll: number,
+    yaw: number,
+    rotationOrder: number,
+    p5: boolean,
 ): void;
 
 declare function SetEntitySomething(entity: number, toggle: boolean): void;
@@ -18862,21 +18862,21 @@ declare function SetFlashLightKeepOnWhileMoving(state: boolean): void;
  * @return A bool indicating if parameters was set successfully.
  */
 declare function SetFlyThroughWindscreenParams(
-	vehMinSpeed: number,
-	unkMinSpeed: number,
-	unkModifier: number,
-	minDamage: number,
+    vehMinSpeed: number,
+    unkMinSpeed: number,
+    unkModifier: number,
+    minDamage: number,
 ): boolean;
 
 declare function SetFocusEntity(entity: number): void;
 
 declare function SetFocusPosAndVel(
-	x: number,
-	y: number,
-	z: number,
-	offsetX: number,
-	offsetY: number,
-	offsetZ: number,
+    x: number,
+    y: number,
+    z: number,
+    offsetX: number,
+    offsetY: number,
+    offsetZ: number,
 ): void;
 
 declare function SetForceHdVehicle(vehicle: number, toggle: boolean): void;
@@ -18898,25 +18898,25 @@ declare function SetGameplayCamRelativePitch(x: number, Value2: number): void;
 declare function SetGameplayCamShakeAmplitude(amplitude: number): void;
 
 declare function SetGameplayCoordHint(
-	x: number,
-	y: number,
-	z: number,
-	duration: number,
-	blendOutDuration: number,
-	blendInDuration: number,
-	unk: number,
+    x: number,
+    y: number,
+    z: number,
+    duration: number,
+    blendOutDuration: number,
+    blendInDuration: number,
+    unk: number,
 ): void;
 
 declare function SetGameplayEntityHint(
-	entity: number,
-	xOffset: number,
-	yOffset: number,
-	zOffset: number,
-	p4: boolean,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    entity: number,
+    xOffset: number,
+    yOffset: number,
+    zOffset: number,
+    p4: boolean,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function SetGameplayHintAngle(p0: number): void;
@@ -18930,36 +18930,36 @@ declare function SetGameplayHintAnimOffsetz(p0: number): void;
 declare function SetGameplayHintFov(FOV: number): void;
 
 declare function SetGameplayObjectHint(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: boolean,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: boolean,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function SetGameplayPedHint(
-	p0: number,
-	x1: number,
-	y1: number,
-	z1: number,
-	p4: boolean,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    x1: number,
+    y1: number,
+    z1: number,
+    p4: boolean,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function SetGameplayVehicleHint(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: boolean,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: boolean,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function SetGlobalBlockCanBeAccessed(index: number, toggle: boolean): void;
@@ -18975,10 +18975,10 @@ declare function SetGpsMultiRouteRender(toggle: boolean): void;
 declare function SetGroupFormation(groupId: number, formationType: number): void;
 
 declare function SetGroupFormationSpacing(
-	groupId: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    groupId: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): void;
 
 declare function SetGroupSeparationRange(groupHandle: number, separationRange: number): void;
@@ -18996,10 +18996,10 @@ declare function SetGuardZonePosition_2(name: string, x: number, y: number, z: n
  * @param value The value to set.
  */
 declare function SetHandlingField(
-	vehicle: string,
-	class_: string,
-	fieldName: string,
-	value: number,
+    vehicle: string,
+    class_: string,
+    fieldName: string,
+    value: number,
 ): void;
 
 /**
@@ -19011,10 +19011,10 @@ declare function SetHandlingField(
  * @param value The value to set.
  */
 declare function SetHandlingField(
-	vehicle: string,
-	class_: string,
-	fieldName: string,
-	value: number,
+    vehicle: string,
+    class_: string,
+    fieldName: string,
+    value: number,
 ): void;
 
 /**
@@ -19026,10 +19026,10 @@ declare function SetHandlingField(
  * @param value The floating-point value to set.
  */
 declare function SetHandlingFloat(
-	vehicle: string,
-	class_: string,
-	fieldName: string,
-	value: number,
+    vehicle: string,
+    class_: string,
+    fieldName: string,
+    value: number,
 ): void;
 
 /**
@@ -19041,10 +19041,10 @@ declare function SetHandlingFloat(
  * @param value The floating-point value to set.
  */
 declare function SetHandlingFloat(
-	vehicle: string,
-	class_: string,
-	fieldName: string,
-	value: number,
+    vehicle: string,
+    class_: string,
+    fieldName: string,
+    value: number,
 ): void;
 
 /**
@@ -19055,10 +19055,10 @@ declare function SetHandlingFloat(
  * @param value The integer value to set.
  */
 declare function SetHandlingInt(
-	vehicle: string,
-	class_: string,
-	fieldName: string,
-	value: number,
+    vehicle: string,
+    class_: string,
+    fieldName: string,
+    value: number,
 ): void;
 
 /**
@@ -19069,10 +19069,10 @@ declare function SetHandlingInt(
  * @param value The integer value to set.
  */
 declare function SetHandlingInt(
-	vehicle: string,
-	class_: string,
-	fieldName: string,
-	value: number,
+    vehicle: string,
+    class_: string,
+    fieldName: string,
+    value: number,
 ): void;
 
 /**
@@ -19098,12 +19098,12 @@ declare function SetHandlingVector(vehicle: string, class_: string, fieldName: s
 declare function SetHdArea(x: number, y: number, z: number, radius: number): void;
 
 declare function SetHidofEnvBlurParams(
-	p0: boolean,
-	p1: boolean,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: boolean,
+    p1: boolean,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function SetHighFallTask(ped: number, p1: number, p2: number, p3: number): void;
@@ -19113,43 +19113,43 @@ declare function SetHornEnabled(vehicle: number, toggle: boolean): void;
 declare function SetIgnoreNoGpsFlag(toggle: boolean): void;
 
 declare function SetIkTarget(
-	ped: number,
-	ikIndex: number,
-	entityLookAt: number,
-	boneLookAt: number,
-	offsetX: number,
-	offsetY: number,
-	offsetZ: number,
-	p7: number,
-	blendInDuration: number,
-	blendOutDuration: number,
+    ped: number,
+    ikIndex: number,
+    entityLookAt: number,
+    boneLookAt: number,
+    offsetX: number,
+    offsetY: number,
+    offsetZ: number,
+    p7: number,
+    blendInDuration: number,
+    blendOutDuration: number,
 ): void;
 
 declare function SetInputExclusive(padIndex: number, control: string | number): void;
 
 declare function SetInteriorPortalCornerPosition(
-	interiorId: number,
-	portalIndex: number,
-	cornerIndex: number,
-	posX: number,
-	posY: number,
-	posZ: number,
+    interiorId: number,
+    portalIndex: number,
+    cornerIndex: number,
+    posX: number,
+    posY: number,
+    posZ: number,
 ): void;
 
 declare function SetInteriorPortalCornerPosition(
-	interiorId: number,
-	portalIndex: number,
-	cornerIndex: number,
-	posX: number,
-	posY: number,
-	posZ: number,
+    interiorId: number,
+    portalIndex: number,
+    cornerIndex: number,
+    posX: number,
+    posY: number,
+    posZ: number,
 ): void;
 
 declare function SetInteriorPortalEntityFlag(
-	interiorId: number,
-	portalIndex: number,
-	entityIndex: number,
-	flag: number,
+    interiorId: number,
+    portalIndex: number,
+    entityIndex: number,
+    flag: number,
 ): void;
 
 declare function SetInteriorPortalFlag(interiorId: number, portalIndex: number, flag: number): void;
@@ -19157,49 +19157,49 @@ declare function SetInteriorPortalFlag(interiorId: number, portalIndex: number, 
 declare function SetInteriorPortalFlag(interiorId: number, portalIndex: number, flag: number): void;
 
 declare function SetInteriorPortalRoomFrom(
-	interiorId: number,
-	portalIndex: number,
-	roomFrom: number,
+    interiorId: number,
+    portalIndex: number,
+    roomFrom: number,
 ): void;
 
 declare function SetInteriorPortalRoomFrom(
-	interiorId: number,
-	portalIndex: number,
-	roomFrom: number,
+    interiorId: number,
+    portalIndex: number,
+    roomFrom: number,
 ): void;
 
 declare function SetInteriorPortalRoomTo(
-	interiorId: number,
-	portalIndex: number,
-	roomTo: number,
+    interiorId: number,
+    portalIndex: number,
+    roomTo: number,
 ): void;
 
 declare function SetInteriorPortalRoomTo(
-	interiorId: number,
-	portalIndex: number,
-	roomTo: number,
+    interiorId: number,
+    portalIndex: number,
+    roomTo: number,
 ): void;
 
 declare function SetInteriorRoomExtents(
-	interiorId: number,
-	roomIndex: number,
-	bbMinX: number,
-	bbMinY: number,
-	bbMinZ: number,
-	bbMaxX: number,
-	bbMaxY: number,
-	bbMaxZ: number,
+    interiorId: number,
+    roomIndex: number,
+    bbMinX: number,
+    bbMinY: number,
+    bbMinZ: number,
+    bbMaxX: number,
+    bbMaxY: number,
+    bbMaxZ: number,
 ): void;
 
 declare function SetInteriorRoomExtents(
-	interiorId: number,
-	roomIndex: number,
-	bbMinX: number,
-	bbMinY: number,
-	bbMinZ: number,
-	bbMaxX: number,
-	bbMaxY: number,
-	bbMaxZ: number,
+    interiorId: number,
+    roomIndex: number,
+    bbMinX: number,
+    bbMinY: number,
+    bbMinZ: number,
+    bbMaxX: number,
+    bbMaxY: number,
+    bbMaxZ: number,
 ): void;
 
 declare function SetInteriorRoomFlag(interiorId: number, roomIndex: number, flag: number): void;
@@ -19207,20 +19207,20 @@ declare function SetInteriorRoomFlag(interiorId: number, roomIndex: number, flag
 declare function SetInteriorRoomFlag(interiorId: number, roomIndex: number, flag: number): void;
 
 declare function SetInteriorRoomTimecycle(
-	interiorId: number,
-	roomIndex: number,
-	timecycleHash: number,
+    interiorId: number,
+    roomIndex: number,
+    timecycleHash: number,
 ): void;
 
 declare function SetInteriorRoomTimecycle(
-	interiorId: number,
-	roomIndex: number,
-	timecycleHash: number,
+    interiorId: number,
+    roomIndex: number,
+    timecycleHash: number,
 ): void;
 
 declare function SetLocalPlayerCanUsePickupsWithThisModel(
-	modelHash: string | number,
-	toggle: boolean,
+    modelHash: string | number,
+    toggle: boolean,
 ): void;
 
 declare function SetLocalPlayerInvisibleLocally(p0: boolean): void;
@@ -19251,12 +19251,12 @@ declare function SetManualShutdownLoadingScreenNui(manualShutdown: boolean): voi
  * @param tilesY vTiles Y.
  */
 declare function SetMapZoomDataLevel(
-	index: number,
-	zoomScale: number,
-	zoomSpeed: number,
-	scrollSpeed: number,
-	tilesX: number,
-	tilesY: number,
+    index: number,
+    zoomScale: number,
+    zoomSpeed: number,
+    scrollSpeed: number,
+    tilesX: number,
+    tilesY: number,
 ): void;
 
 /**
@@ -19269,12 +19269,12 @@ declare function SetMapZoomDataLevel(
  * @param tilesY vTiles Y.
  */
 declare function SetMapZoomDataLevel(
-	index: number,
-	zoomScale: number,
-	zoomSpeed: number,
-	scrollSpeed: number,
-	tilesX: number,
-	tilesY: number,
+    index: number,
+    zoomScale: number,
+    zoomSpeed: number,
+    scrollSpeed: number,
+    tilesX: number,
+    tilesY: number,
 ): void;
 
 declare function SetMapdatacullboxEnabled(name: string, toggle: boolean): void;
@@ -19313,12 +19313,12 @@ declare function SetMinimapHideFow(toggle: boolean): void;
  * @param alpha The alpha value for the overlay. This is equivalent to the Flash \_alpha property, therefore 100 = 100%.
  */
 declare function SetMinimapOverlayDisplay(
-	miniMap: number,
-	x: number,
-	y: number,
-	xScale: number,
-	yScale: number,
-	alpha: number,
+    miniMap: number,
+    x: number,
+    y: number,
+    xScale: number,
+    yScale: number,
+    alpha: number,
 ): void;
 
 /**
@@ -19331,12 +19331,12 @@ declare function SetMinimapOverlayDisplay(
  * @param alpha The alpha value for the overlay. This is equivalent to the Flash \_alpha property, therefore 100 = 100%.
  */
 declare function SetMinimapOverlayDisplay(
-	miniMap: number,
-	x: number,
-	y: number,
-	xScale: number,
-	yScale: number,
-	alpha: number,
+    miniMap: number,
+    x: number,
+    y: number,
+    xScale: number,
+    yScale: number,
+    alpha: number,
 ): void;
 
 /**
@@ -19364,17 +19364,17 @@ declare function SetMissionTrainCoords(train: number, x: number, y: number, z: n
 declare function SetModelAsNoLongerNeeded(model: string | number): void;
 
 declare function SetModelHeadlightConfiguration(
-	modelHash: string | number,
-	ratePerSecond: number,
-	headlightRotation: number,
-	invertRotation: boolean,
+    modelHash: string | number,
+    ratePerSecond: number,
+    headlightRotation: number,
+    invertRotation: boolean,
 ): void;
 
 declare function SetModelHeadlightConfiguration(
-	modelHash: string | number,
-	ratePerSecond: number,
-	headlightRotation: number,
-	invertRotation: boolean,
+    modelHash: string | number,
+    ratePerSecond: number,
+    headlightRotation: number,
+    invertRotation: boolean,
 ): void;
 
 declare function SetMouseCursorActiveThisFrame(): void;
@@ -19402,10 +19402,10 @@ declare function SetNetworkIdExistsOnAllMachines(netId: number, toggle: boolean)
 declare function SetNetworkIdSyncToPlayer(netId: number, player: number, toggle: boolean): void;
 
 declare function SetNetworkIdVisibleInCutscene(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): void;
 
 declare function SetNoLoadingScreen(toggle: boolean): void;
@@ -19421,18 +19421,18 @@ declare function SetObjectAsNoLongerNeeded(object: number): void;
 declare function SetObjectCanClimbOn(object: number, toggle: boolean): void;
 
 declare function SetObjectPhysicsParams(
-	object: number,
-	weight: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	gravity: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	buoyancy: number,
+    object: number,
+    weight: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    gravity: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    buoyancy: number,
 ): void;
 
 declare function SetObjectTargettable(object: number, targettable: boolean): void;
@@ -19446,30 +19446,30 @@ declare function SetParkedVehicleDensityMultiplierThisFrame(multiplier: number):
 declare function SetParticleFxLoopedAlpha(ptfxHandle: number, alpha: number): void;
 
 declare function SetParticleFxLoopedColour(
-	ptfxHandle: number,
-	r: number,
-	g: number,
-	b: number,
-	p4: boolean,
+    ptfxHandle: number,
+    r: number,
+    g: number,
+    b: number,
+    p4: boolean,
 ): void;
 
 declare function SetParticleFxLoopedEvolution(
-	ptfxHandle: number,
-	propertyName: string,
-	amount: number,
-	noNetwork: boolean,
+    ptfxHandle: number,
+    propertyName: string,
+    amount: number,
+    noNetwork: boolean,
 ): void;
 
 declare function SetParticleFxLoopedFarClipDist(ptfxHandle: number, range: number): void;
 
 declare function SetParticleFxLoopedOffsets(
-	ptfxHandle: number,
-	x: number,
-	y: number,
-	z: number,
-	rotX: number,
-	rotY: number,
-	rotZ: number,
+    ptfxHandle: number,
+    x: number,
+    y: number,
+    z: number,
+    rotX: number,
+    rotY: number,
+    rotZ: number,
 ): void;
 
 declare function SetParticleFxLoopedScale(ptfxHandle: number, scale: number): void;
@@ -19519,9 +19519,9 @@ declare function SetPedCanRagdoll(ped: number, toggle: boolean): void;
 declare function SetPedCanRagdollFromPlayerImpact(ped: number, toggle: boolean): void;
 
 declare function SetPedCanTeleportToGroupLeader(
-	pedHandle: number,
-	groupHandle: number,
-	toggle: boolean,
+    pedHandle: number,
+    groupHandle: number,
+    toggle: boolean,
 ): void;
 
 declare function SetPedCanTorsoIk(ped: number, toggle: boolean): void;
@@ -19537,9 +19537,9 @@ declare function SetPedClothPackageIndex(p0: number, p1: number): void;
 declare function SetPedCombatAbility(ped: number, p1: number): void;
 
 declare function SetPedCombatAttributes(
-	ped: number,
-	attributeIndex: number,
-	enabled: boolean,
+    ped: number,
+    attributeIndex: number,
+    enabled: boolean,
 ): void;
 
 declare function SetPedCombatMovement(ped: number, combatMovement: number): void;
@@ -19549,19 +19549,19 @@ declare function SetPedCombatRange(ped: number, p1: number): void;
 declare function SetPedConfigFlag(ped: number, flagId: number, value: boolean): void;
 
 declare function SetPedCurrentWeaponVisible(
-	ped: number,
-	visible: boolean,
-	deselectWeapon: boolean,
-	p3: boolean,
-	p4: boolean,
+    ped: number,
+    visible: boolean,
+    deselectWeapon: boolean,
+    p3: boolean,
+    p4: boolean,
 ): void;
 
 declare function SetPedDefensiveAreaDirection(
-	ped: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: boolean,
+    ped: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: boolean,
 ): void;
 
 declare function SetPedDesiredHeading(ped: number, heading: number): void;
@@ -19569,12 +19569,12 @@ declare function SetPedDesiredHeading(ped: number, heading: number): void;
 declare function SetPedDesiredMoveBlendRatio(ped: number, p1: number): void;
 
 declare function SetPedDropsInventoryWeapon(
-	ped: number,
-	weaponHash: string | number,
-	xOffset: number,
-	yOffset: number,
-	zOffset: number,
-	ammoCount: number,
+    ped: number,
+    weaponHash: string | number,
+    xOffset: number,
+    yOffset: number,
+    zOffset: number,
+    ammoCount: number,
 ): void;
 
 declare function SetPedDropsWeaponsWhenDead(ped: number, toggle: boolean): void;
@@ -19596,9 +19596,9 @@ declare function SetPedHighlyPerceptive(ped: number, toggle: boolean): void;
 declare function SetPedIdRange(ped: number, value: number): void;
 
 declare function SetPedInfiniteAmmo(
-	ped: number,
-	toggle: boolean,
-	weaponHash: string | number,
+    ped: number,
+    toggle: boolean,
+    weaponHash: string | number,
 ): void;
 
 declare function SetPedInfiniteAmmoClip(ped: number, toggle: boolean): void;
@@ -19634,12 +19634,12 @@ declare function SetPedMoveRateOverride(ped: number, value: number): void;
 declare function SetPedNameDebug(ped: number, name: string): void;
 
 declare function SetPedNonCreationArea(
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
 ): void;
 
 /**
@@ -19665,24 +19665,24 @@ declare function SetPedPathMayEnterWater(ped: number, mayEnterWater: boolean): v
 declare function SetPedPathPreferToAvoidWater(p0: number, p1: number, p2: number): void;
 
 declare function SetPedPathsBackToOriginal(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function SetPedPathsInArea(
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
-	unknown: boolean,
-	p7: number,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
+    unknown: boolean,
+    p7: number,
 ): void;
 
 declare function SetPedPromptName(ped: number, name: string): void;
@@ -19706,14 +19706,14 @@ declare function SetPedSeeingRange(ped: number, value: number): void;
 declare function SetPedShootRate(ped: number, shootRate: number): void;
 
 declare function SetPedSphereDefensiveArea(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function SetPedStealthMovement(p0: number, p1: number, p2: number, p3: number): void;
@@ -19723,36 +19723,36 @@ declare function SetPedSweat(ped: number, sweat: number): void;
 declare function SetPedTargetLossResponse(ped: number, responseType: number): void;
 
 declare function SetPedToInformRespectedFriends(
-	ped: number,
-	radius: number,
-	maxFriends: number,
+    ped: number,
+    radius: number,
+    maxFriends: number,
 ): void;
 
 declare function SetPedToRagdoll(
-	ped: number,
-	time1: number,
-	time2: number,
-	ragdollType: number,
-	p4: boolean,
-	p5: boolean,
-	p6: boolean,
+    ped: number,
+    time1: number,
+    time2: number,
+    ragdollType: number,
+    p4: boolean,
+    p5: boolean,
+    p6: boolean,
 ): boolean;
 
 declare function SetPedToRagdollWithFall(
-	ped: number,
-	time: number,
-	p2: number,
-	ragdollType: number,
-	x: number,
-	y: number,
-	z: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
+    ped: number,
+    time: number,
+    p2: number,
+    ragdollType: number,
+    x: number,
+    y: number,
+    z: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
 ): boolean;
 
 declare function SetPedUsingActionMode(ped: number, p1: boolean, p2: number, action: string): void;
@@ -19796,11 +19796,11 @@ declare function SetPlayerClothPinFrames(player: number, toggle: boolean): void;
 declare function SetPlayerControl(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function SetPlayerForcedAim(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function SetPlayerHealthRechargeMultiplier(player: number, regenRate: number): void;
@@ -19850,9 +19850,9 @@ declare function SetPlayerTeam(p0: number, p1: number, p2: number): void;
 declare function SetPlayerVisibleLocally(player: number, toggle: boolean): void;
 
 declare function SetPlayerWantedLevel(
-	player: number,
-	wantedLevel: number,
-	disableNoMission: boolean,
+    player: number,
+    wantedLevel: number,
+    disableNoMission: boolean,
 ): void;
 
 declare function SetPlayerWeaponDamageModifier(player: number, modifier: number): void;
@@ -19862,11 +19862,11 @@ declare function SetPlayerWeaponDefenseModifier(player: number, modifier: number
 declare function SetPoliceRadarBlips(toggle: boolean): void;
 
 declare function SetPopControlSphereThisFrame(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function SetPopzonePopulationSet(popZone: number, populationSetHash: string | number): void;
@@ -19894,9 +19894,9 @@ declare function SetRandomVehicleDensityMultiplierThisFrame(multiplier: number):
 declare function SetRandomWeatherType(p0: boolean, p1: boolean): void;
 
 declare function SetRelationshipBetweenGroups(
-	relationship: number,
-	group1: string | number,
-	group2: string | number,
+    relationship: number,
+    group1: string | number,
+    group2: string | number,
 ): void;
 
 declare function SetResourceKvp(key: string, value: string): void;
@@ -19939,52 +19939,52 @@ declare function SetRichPresence(presenceState: string): void;
 declare function SetRichPresence(presenceState: string): void;
 
 declare function SetRoadsBackToOriginal(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function SetRoadsBackToOriginalInAngledArea(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function SetRoadsInAngledArea(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): void;
 
 declare function SetRoadsInArea(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 /**
@@ -20017,13 +20017,13 @@ declare function SetRuntimeTextureArgbData(tex: number, buffer: string, length: 
  * @param a The new A value (0-255).
  */
 declare function SetRuntimeTexturePixel(
-	tex: number,
-	x: number,
-	y: number,
-	r: number,
-	g: number,
-	b: number,
-	a: number,
+    tex: number,
+    x: number,
+    y: number,
+    r: number,
+    g: number,
+    b: number,
+    a: number,
 ): void;
 
 /**
@@ -20037,13 +20037,13 @@ declare function SetRuntimeTexturePixel(
  * @param a The new A value (0-255).
  */
 declare function SetRuntimeTexturePixel(
-	tex: number,
-	x: number,
-	y: number,
-	r: number,
-	g: number,
-	b: number,
-	a: number,
+    tex: number,
+    x: number,
+    y: number,
+    r: number,
+    g: number,
+    b: number,
+    a: number,
 ): void;
 
 declare function SetScenarioGroupEnabled(scenarioGroup: string, toggle: boolean): void;
@@ -20071,23 +20071,23 @@ declare function SetSnakeoilForEntry(name: string, path: string, data: string): 
 declare function SetSnakeoilForEntry(name: string, path: string, data: string): void;
 
 declare function SetSpawnerInfoPriority(
-	p0: string | number,
-	p1: string | number,
-	priority: number,
+    p0: string | number,
+    p1: string | number,
+    priority: number,
 ): void;
 
 declare function SetSpeciesTuningBoolParam(
-	p0: string | number,
-	p1: number,
-	p2: number,
-	p3: boolean,
+    p0: string | number,
+    p1: number,
+    p2: number,
+    p3: boolean,
 ): void;
 
 declare function SetSpeciesTuningFloatParam(
-	p0: string | number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: string | number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): void;
 
 declare function SetSrlTime(p0: number): void;
@@ -20096,11 +20096,11 @@ declare function SetSrlTime(p0: number): void;
  * Internal function for setting a state bag value.
  */
 declare function SetStateBagValue(
-	bagName: string,
-	keyName: string,
-	valueData: string,
-	valueLength: number,
-	replicated: boolean,
+    bagName: string,
+    keyName: string,
+    valueData: string,
+    valueLength: number,
+    replicated: boolean,
 ): void;
 
 declare function SetStateOfRayfireMapObject(object: number, state: number): void;
@@ -20114,15 +20114,15 @@ declare function SetSuperJumpThisFrame(player: number): void;
 declare function SetSwimMultiplierForPlayer(player: number, multiplier: number): void;
 
 declare function SetTaskMoveNetworkSignalBool(
-	ped: number,
-	signalName: string,
-	value: boolean,
+    ped: number,
+    signalName: string,
+    value: boolean,
 ): void;
 
 declare function SetTaskMoveNetworkSignalFloat(
-	ped: number,
-	signalName: string,
-	value: number,
+    ped: number,
+    signalName: string,
+    value: number,
 ): void;
 
 declare function SetTeamPickupObject(object: number, p1: number, p2: boolean): void;
@@ -20136,11 +20136,11 @@ declare function SetTextChatEnabled(enabled: boolean): boolean;
 declare function SetTextColor(r: number, g: number, b: number, a: number): void;
 
 declare function SetTextDropshadow(
-	distance: number,
-	r: number,
-	g: number,
-	b: number,
-	a: number,
+    distance: number,
+    r: number,
+    g: number,
+    b: number,
+    a: number,
 ): void;
 
 declare function SetTextFontForCurrentCommand(fontId: number): void;
@@ -20168,11 +20168,11 @@ declare function SetTimecycleModifier(modifierName: string): void;
 declare function SetTimecycleModifierStrength(strength: number): void;
 
 declare function SetTrackedPointInfo(
-	point: number,
-	x: number,
-	y: number,
-	z: number,
-	radius: number,
+    point: number,
+    x: number,
+    y: number,
+    z: number,
+    radius: number,
 ): void;
 
 declare function SetTrainCruiseSpeed(train: number, speed: number): void;
@@ -20200,23 +20200,23 @@ declare function SetTvAudioFrontend(toggle: boolean): void;
 declare function SetTvChannel(channel: number): void;
 
 declare function SetTvChannelPlaylist(
-	tvChannel: number,
-	playlistName: string,
-	restart: boolean,
+    tvChannel: number,
+    playlistName: string,
+    restart: boolean,
 ): void;
 
 declare function SetTvVolume(volume: number): void;
 
 declare function SetUpSpeedRestrainInformationForPlayerFollower(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function SetVehicleAlarmTimeLeft(vehicle: number, time: number): void;
@@ -20262,13 +20262,13 @@ declare function SetVehicleCurrentRpm(vehicle: number, rpm: number): void;
 declare function SetVehicleCurrentRpm(vehicle: number, rpm: number): void;
 
 declare function SetVehicleDamage(
-	vehicle: number,
-	xOffset: number,
-	yOffset: number,
-	zOffset: number,
-	damage: number,
-	radius: number,
-	p6: boolean,
+    vehicle: number,
+    xOffset: number,
+    yOffset: number,
+    zOffset: number,
+    damage: number,
+    radius: number,
+    p6: boolean,
 ): void;
 
 declare function SetVehicleDensityMultiplierThisFrame(multiplier: number): void;
@@ -20276,49 +20276,49 @@ declare function SetVehicleDensityMultiplierThisFrame(multiplier: number): void;
 declare function SetVehicleDirtLevel(vehicle: number, dirtLevel: number): void;
 
 declare function SetVehicleDoorBroken(
-	vehicle: number,
-	doorIndex: number,
-	deleteDoor: boolean,
+    vehicle: number,
+    doorIndex: number,
+    deleteDoor: boolean,
 ): void;
 
 declare function SetVehicleDoorCanBreak(
-	vehicle: number,
-	doorIndex: number,
-	isBreakable: boolean,
+    vehicle: number,
+    doorIndex: number,
+    isBreakable: boolean,
 ): void;
 
 declare function SetVehicleDoorControl(
-	vehicle: number,
-	doorIndex: number,
-	speed: number,
-	angle: number,
+    vehicle: number,
+    doorIndex: number,
+    speed: number,
+    angle: number,
 ): void;
 
 declare function SetVehicleDoorDestroyType(
-	vehicle: number,
-	doorIndex: number,
-	destroyType: number,
+    vehicle: number,
+    doorIndex: number,
+    destroyType: number,
 ): void;
 
 declare function SetVehicleDoorLatched(
-	vehicle: number,
-	doorIndex: number,
-	p2: boolean,
-	p3: boolean,
-	p4: boolean,
+    vehicle: number,
+    doorIndex: number,
+    p2: boolean,
+    p3: boolean,
+    p4: boolean,
 ): void;
 
 declare function SetVehicleDoorOpen(
-	vehicle: number,
-	doorIndex: number,
-	loose: boolean,
-	openInstantly: boolean,
+    vehicle: number,
+    doorIndex: number,
+    loose: boolean,
+    openInstantly: boolean,
 ): void;
 
 declare function SetVehicleDoorShut(
-	vehicle: number,
-	doorIndex: number,
-	closeInstantly: boolean,
+    vehicle: number,
+    doorIndex: number,
+    closeInstantly: boolean,
 ): void;
 
 declare function SetVehicleDoorsLocked(vehicle: number, doorLockStatus: number): void;
@@ -20326,9 +20326,9 @@ declare function SetVehicleDoorsLocked(vehicle: number, doorLockStatus: number):
 declare function SetVehicleDoorsLockedForAllPlayers(vehicle: number, toggle: boolean): void;
 
 declare function SetVehicleDoorsLockedForPlayer(
-	vehicle: number,
-	player: number,
-	toggle: boolean,
+    vehicle: number,
+    player: number,
+    toggle: boolean,
 ): void;
 
 declare function SetVehicleDoorsLockedForTeam(vehicle: number, team: number, toggle: boolean): void;
@@ -20376,10 +20376,10 @@ declare function SetVehicleHandbrake(vehicle: number, toggle: boolean): void;
  * @param value The value to set.
  */
 declare function SetVehicleHandlingField(
-	vehicle: number,
-	class_: string,
-	fieldName: string,
-	value: number,
+    vehicle: number,
+    class_: string,
+    fieldName: string,
+    value: number,
 ): void;
 
 /**
@@ -20391,10 +20391,10 @@ declare function SetVehicleHandlingField(
  * @param value The value to set.
  */
 declare function SetVehicleHandlingField(
-	vehicle: number,
-	class_: string,
-	fieldName: string,
-	value: number,
+    vehicle: number,
+    class_: string,
+    fieldName: string,
+    value: number,
 ): void;
 
 /**
@@ -20406,10 +20406,10 @@ declare function SetVehicleHandlingField(
  * @param value The floating-point value to set.
  */
 declare function SetVehicleHandlingFloat(
-	vehicle: number,
-	class_: string,
-	fieldName: string,
-	value: number,
+    vehicle: number,
+    class_: string,
+    fieldName: string,
+    value: number,
 ): void;
 
 /**
@@ -20421,10 +20421,10 @@ declare function SetVehicleHandlingFloat(
  * @param value The floating-point value to set.
  */
 declare function SetVehicleHandlingFloat(
-	vehicle: number,
-	class_: string,
-	fieldName: string,
-	value: number,
+    vehicle: number,
+    class_: string,
+    fieldName: string,
+    value: number,
 ): void;
 
 /**
@@ -20435,10 +20435,10 @@ declare function SetVehicleHandlingFloat(
  * @param value The integer value to set.
  */
 declare function SetVehicleHandlingInt(
-	vehicle: number,
-	class_: string,
-	fieldName: string,
-	value: number,
+    vehicle: number,
+    class_: string,
+    fieldName: string,
+    value: number,
 ): void;
 
 /**
@@ -20449,10 +20449,10 @@ declare function SetVehicleHandlingInt(
  * @param value The integer value to set.
  */
 declare function SetVehicleHandlingInt(
-	vehicle: number,
-	class_: string,
-	fieldName: string,
-	value: number,
+    vehicle: number,
+    class_: string,
+    fieldName: string,
+    value: number,
 ): void;
 
 /**
@@ -20506,12 +20506,12 @@ declare function SetVehiclePetrolTankHealth(vehicle: number, health: number): vo
 declare function SetVehicleProvidesCover(vehicle: number, toggle: boolean): void;
 
 declare function SetVehicleShootAtTarget(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function SetVehicleSteerBias(vehicle: number, value: number): void;
@@ -20548,9 +20548,9 @@ declare function SetVehicleUndriveable(vehicle: number, toggle: boolean): void;
  * Normal values around 1.0f
  */
 declare function SetVehicleWheelBrakePressure(
-	vehicle: number,
-	wheelIndex: number,
-	pressure: number,
+    vehicle: number,
+    wheelIndex: number,
+    pressure: number,
 ): void;
 
 /**
@@ -20571,9 +20571,9 @@ declare function SetVehicleWheelHealth(vehicle: number, wheelIndex: number, heal
  * This is a shortcut to a flag in SET_VEHICLE_WHEEL_FLAGS.
  */
 declare function SetVehicleWheelIsPowered(
-	vehicle: number,
-	wheelIndex: number,
-	powered: boolean,
+    vehicle: number,
+    wheelIndex: number,
+    powered: boolean,
 ): void;
 
 /**
@@ -20589,9 +20589,9 @@ declare function SetVehicleWheelPower(vehicle: number, wheelIndex: number, power
  * @param value Size of rim collider.
  */
 declare function SetVehicleWheelRimColliderSize(
-	vehicle: number,
-	wheelIndex: number,
-	value: number,
+    vehicle: number,
+    wheelIndex: number,
+    value: number,
 ): void;
 
 /**
@@ -20599,9 +20599,9 @@ declare function SetVehicleWheelRimColliderSize(
  * Max number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.
  */
 declare function SetVehicleWheelRotationSpeed(
-	vehicle: number,
-	wheelIndex: number,
-	speed: number,
+    vehicle: number,
+    wheelIndex: number,
+    speed: number,
 ): void;
 
 /**
@@ -20621,9 +20621,9 @@ declare function SetVehicleWheelSize(vehicle: number, size: number): boolean;
  * @param value Radius of tire collider.
  */
 declare function SetVehicleWheelTireColliderSize(
-	vehicle: number,
-	wheelIndex: number,
-	value: number,
+    vehicle: number,
+    wheelIndex: number,
+    value: number,
 ): void;
 
 /**
@@ -20633,9 +20633,9 @@ declare function SetVehicleWheelTireColliderSize(
  * @param value Width of tire collider.
  */
 declare function SetVehicleWheelTireColliderWidth(
-	vehicle: number,
-	wheelIndex: number,
-	value: number,
+    vehicle: number,
+    wheelIndex: number,
+    value: number,
 ): void;
 
 /**
@@ -20643,9 +20643,9 @@ declare function SetVehicleWheelTireColliderWidth(
  * Max number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.
  */
 declare function SetVehicleWheelTractionVectorLength(
-	vehicle: number,
-	wheelIndex: number,
-	length: number,
+    vehicle: number,
+    wheelIndex: number,
+    length: number,
 ): void;
 
 /**
@@ -20774,20 +20774,20 @@ declare function ShiftLeft(value: number, bitShift: number): number;
 declare function ShiftRight(value: number, bitShift: number): number;
 
 declare function ShootSingleBulletBetweenCoords(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
 ): void;
 
 declare function ShootSingleBulletBetweenCoordsIgnoreEntityNew(p0: number): void;
@@ -20818,12 +20818,12 @@ declare function ShutdownLoadingScreenNui(): void;
 declare function ShutdownLoadingScreenNui(): void;
 
 declare function SimulatePlayerInputGait(
-	player: number,
-	amount: number,
-	gaitType: number,
-	speed: number,
-	p4: boolean,
-	p5: boolean,
+    player: number,
+    amount: number,
+    gaitType: number,
+    speed: number,
+    p4: boolean,
+    p5: boolean,
 ): void;
 
 declare function SimulatedRouteGetEta(p0: number): number;
@@ -20839,14 +20839,14 @@ declare function SkipTimeInPlaybackRecordedVehicle(p0: number, p1: number): void
 declare function SkipToNextScriptedConversationLine(p0: number): void;
 
 declare function SlideObject(
-	object: number,
-	toX: number,
-	toY: number,
-	toZ: number,
-	speedX: number,
-	speedY: number,
-	speedZ: number,
-	collision: boolean,
+    object: number,
+    toX: number,
+    toY: number,
+    toZ: number,
+    speedX: number,
+    speedY: number,
+    speedZ: number,
+    collision: boolean,
 ): boolean;
 
 declare function SpactionproxyGetNextPendingBuyAction(data: number): [boolean, number];
@@ -20886,207 +20886,207 @@ declare function StartFindKvp(prefix: string): number;
 declare function StartGpsMultiRoute(hudColor: number, p1: boolean, p2: boolean): void;
 
 declare function StartNetworkedParticleFxLoopedOnEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
 ): number;
 
 declare function StartNetworkedParticleFxLoopedOnEntityBone(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
 ): number;
 
 declare function StartNetworkedParticleFxNonLoopedAtCoord(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): boolean;
 
 declare function StartNetworkedParticleFxNonLoopedOnEntity(
-	effectName: string,
-	entity: number,
-	offsetX: number,
-	offsetY: number,
-	offsetZ: number,
-	rotX: number,
-	rotY: number,
-	rotZ: number,
-	scale: number,
-	axisX: boolean,
-	axisY: boolean,
-	axisZ: boolean,
+    effectName: string,
+    entity: number,
+    offsetX: number,
+    offsetY: number,
+    offsetZ: number,
+    rotX: number,
+    rotY: number,
+    rotZ: number,
+    scale: number,
+    axisX: boolean,
+    axisY: boolean,
+    axisZ: boolean,
 ): boolean;
 
 declare function StartNewScript(scriptName: string, stackSize: number): number;
 
 declare function StartNewScriptWithArgs(
-	scriptName: string,
-	argCount: number,
-	stackSize: number,
+    scriptName: string,
+    argCount: number,
+    stackSize: number,
 ): [number, number];
 
 declare function StartNewScriptWithNameHash(scriptHash: string | number, stackSize: number): number;
 
 declare function StartNewScriptWithNameHashAndArgs(
-	scriptHash: string | number,
-	argCount: number,
-	stackSize: number,
+    scriptHash: string | number,
+    argCount: number,
+    stackSize: number,
 ): [number, number];
 
 declare function StartParticleFxLoopedAtCoord(
-	effectName: string,
-	x: number,
-	y: number,
-	z: number,
-	xRot: number,
-	yRot: number,
-	zRot: number,
-	scale: number,
-	xAxis: boolean,
-	yAxis: boolean,
-	zAxis: boolean,
-	p11: boolean,
+    effectName: string,
+    x: number,
+    y: number,
+    z: number,
+    xRot: number,
+    yRot: number,
+    zRot: number,
+    scale: number,
+    xAxis: boolean,
+    yAxis: boolean,
+    zAxis: boolean,
+    p11: boolean,
 ): number;
 
 declare function StartParticleFxLoopedOnEntity(
-	effectName: string,
-	entity: number,
-	xOffset: number,
-	yOffset: number,
-	zOffset: number,
-	xRot: number,
-	yRot: number,
-	zRot: number,
-	scale: number,
-	xAxis: boolean,
-	yAxis: boolean,
-	zAxis: boolean,
+    effectName: string,
+    entity: number,
+    xOffset: number,
+    yOffset: number,
+    zOffset: number,
+    xRot: number,
+    yRot: number,
+    zRot: number,
+    scale: number,
+    xAxis: boolean,
+    yAxis: boolean,
+    zAxis: boolean,
 ): number;
 
 declare function StartParticleFxLoopedOnEntityBone(
-	effectName: string,
-	entity: number,
-	xOffset: number,
-	yOffset: number,
-	zOffset: number,
-	xRot: number,
-	yRot: number,
-	zRot: number,
-	boneIndex: number,
-	scale: number,
-	xAxis: boolean,
-	yAxis: boolean,
-	zAxis: boolean,
+    effectName: string,
+    entity: number,
+    xOffset: number,
+    yOffset: number,
+    zOffset: number,
+    xRot: number,
+    yRot: number,
+    zRot: number,
+    boneIndex: number,
+    scale: number,
+    xAxis: boolean,
+    yAxis: boolean,
+    zAxis: boolean,
 ): number;
 
 declare function StartParticleFxLoopedOnPedBone(
-	effectName: string,
-	ped: number,
-	xOffset: number,
-	yOffset: number,
-	zOffset: number,
-	xRot: number,
-	yRot: number,
-	zRot: number,
-	boneIndex: number,
-	scale: number,
-	xAxis: boolean,
-	yAxis: boolean,
-	zAxis: boolean,
+    effectName: string,
+    ped: number,
+    xOffset: number,
+    yOffset: number,
+    zOffset: number,
+    xRot: number,
+    yRot: number,
+    zRot: number,
+    boneIndex: number,
+    scale: number,
+    xAxis: boolean,
+    yAxis: boolean,
+    zAxis: boolean,
 ): number;
 
 declare function StartParticleFxNonLoopedAtCoord(
-	effectName: string,
-	xPos: number,
-	yPos: number,
-	zPos: number,
-	xRot: number,
-	yRot: number,
-	zRot: number,
-	scale: number,
-	xAxis: boolean,
-	yAxis: boolean,
-	zAxis: boolean,
+    effectName: string,
+    xPos: number,
+    yPos: number,
+    zPos: number,
+    xRot: number,
+    yRot: number,
+    zRot: number,
+    scale: number,
+    xAxis: boolean,
+    yAxis: boolean,
+    zAxis: boolean,
 ): number;
 
 declare function StartParticleFxNonLoopedOnEntity(
-	effectName: string,
-	entity: number,
-	offsetX: number,
-	offsetY: number,
-	offsetZ: number,
-	rotX: number,
-	rotY: number,
-	rotZ: number,
-	scale: number,
-	axisX: boolean,
-	axisY: boolean,
-	axisZ: boolean,
+    effectName: string,
+    entity: number,
+    offsetX: number,
+    offsetY: number,
+    offsetZ: number,
+    rotX: number,
+    rotY: number,
+    rotZ: number,
+    scale: number,
+    axisX: boolean,
+    axisY: boolean,
+    axisZ: boolean,
 ): boolean;
 
 declare function StartParticleFxNonLoopedOnPedBone(
-	effectName: string,
-	ped: number,
-	offsetX: number,
-	offsetY: number,
-	offsetZ: number,
-	rotX: number,
-	rotY: number,
-	rotZ: number,
-	boneIndex: number,
-	scale: number,
-	axisX: boolean,
-	axisY: boolean,
-	axisZ: boolean,
+    effectName: string,
+    ped: number,
+    offsetX: number,
+    offsetY: number,
+    offsetZ: number,
+    rotX: number,
+    rotY: number,
+    rotZ: number,
+    boneIndex: number,
+    scale: number,
+    axisX: boolean,
+    axisY: boolean,
+    axisZ: boolean,
 ): boolean;
 
 declare function StartPetrolTrailDecals(p0: number, p1: number): void;
 
 declare function StartPlaybackRecordedVehicle(
-	vehicle: number,
-	p1: number,
-	playback: string,
-	p3: boolean,
+    vehicle: number,
+    p1: number,
+    playback: string,
+    p3: boolean,
 ): void;
 
 declare function StartPlayerTeleport(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function StartPreloadedConversation(p0: number): void;
@@ -21098,94 +21098,94 @@ declare function StartRopeWinding(ropeId: number): void;
 declare function StartScriptConversation(p0: boolean, p1: boolean, p2: boolean, p3: boolean): void;
 
 declare function StartScriptFire(
-	x: number,
-	y: number,
-	z: number,
-	p3: number,
-	p4: number,
-	p5: boolean,
-	soundsetName: string,
-	p7: number,
-	p8: number,
+    x: number,
+    y: number,
+    z: number,
+    p3: number,
+    p4: number,
+    p5: boolean,
+    soundsetName: string,
+    p7: number,
+    p8: number,
 ): number;
 
 declare function StartShapeTestBox(
-	x: number,
-	y: number,
-	z: number,
-	x1: number,
-	y2: number,
-	z2: number,
-	rotX: number,
-	rotY: number,
-	rotZ: number,
-	p9: number,
-	p10: number,
-	entity: number,
-	p12: number,
+    x: number,
+    y: number,
+    z: number,
+    x1: number,
+    y2: number,
+    z2: number,
+    rotX: number,
+    rotY: number,
+    rotZ: number,
+    p9: number,
+    p10: number,
+    entity: number,
+    p12: number,
 ): number;
 
 declare function StartShapeTestCapsule(
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
-	radius: number,
-	flags: number,
-	entity: number,
-	p9: number,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
+    radius: number,
+    flags: number,
+    entity: number,
+    p9: number,
 ): number;
 
 declare function StartShapeTestLosProbe(
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
-	flags: number,
-	entity: number,
-	p8: number,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
+    flags: number,
+    entity: number,
+    p8: number,
 ): number;
 
 declare function StartShapeTestRay(
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
-	flags: number,
-	entity: number,
-	p8: number,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
+    flags: number,
+    entity: number,
+    p8: number,
 ): number;
 
 declare function StartShapeTestSurroundingCoords(
-	flag: number,
-	entity: number,
-	flag2: number,
+    flag: number,
+    entity: number,
+    flag2: number,
 ): [number, number[], number[]];
 
 declare function StartShapeTestSweptSphere(
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
-	radius: number,
-	flags: number,
-	entity: number,
-	p9: number,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
+    radius: number,
+    flags: number,
+    entity: number,
+    p9: number,
 ): number;
 
 declare function StartVehicleHorn(
-	vehicle: number,
-	duration: number,
-	mode: string | number,
-	forever: boolean,
+    vehicle: number,
+    duration: number,
+    mode: string | number,
+    forever: boolean,
 ): void;
 
 /**
@@ -21281,10 +21281,10 @@ declare function StateMachineRequestTransition(p0: number, p1: number): number;
 declare function StopAnimPlayback(ped: number, p1: number, p2: boolean): void;
 
 declare function StopAnimTask(
-	ped: number,
-	animDictionary: string,
-	animationName: string,
-	p3: number,
+    ped: number,
+    animDictionary: string,
+    animationName: string,
+    p3: number,
 ): void;
 
 declare function StopAudioScene(scene: string): void;
@@ -21302,10 +21302,10 @@ declare function StopCurrentPlayingAmbientSpeech(p0: number, p1: number): void;
 declare function StopCurrentPlayingSpeech(p0: number, p1: number): void;
 
 declare function StopEntityAnim(
-	entity: number,
-	animation: string,
-	animGroup: string,
-	p3: number,
+    entity: number,
+    animation: string,
+    animGroup: string,
+    p3: number,
 ): number;
 
 declare function StopEntityFire(p0: number, p1: number): void;
@@ -21347,33 +21347,33 @@ declare function Tan(p0: number): number;
 declare function TaskAchieveHeading(ped: number, heading: number, timeout: number): void;
 
 declare function TaskAimAtCoord(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function TaskAimAtEntity(p0: number, p1: number, p2: number, p3: number, p4: number): void;
 
 declare function TaskAimGunAtCoord(
-	ped: number,
-	x: number,
-	y: number,
-	z: number,
-	time: number,
-	p5: boolean,
-	p6: boolean,
+    ped: number,
+    x: number,
+    y: number,
+    z: number,
+    time: number,
+    p5: boolean,
+    p6: boolean,
 ): void;
 
 declare function TaskAimGunAtEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function TaskAmbientAnimalHunt(p0: number, p1: number, p2: number): void;
@@ -21385,19 +21385,19 @@ declare function TaskAnimalAlerted(p0: number, p1: number, p2: number): void;
 declare function TaskAnimalFlee(p0: number, p1: number, p2: number): void;
 
 declare function TaskAnimalInteraction(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function TaskAnimalUnalerted(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function TaskAnimalWrithe(p0: number, p1: number, p2: number): void;
@@ -21407,35 +21407,35 @@ declare function TaskArrestPed(ped: number, target: number): void;
 declare function TaskBark(p0: number, p1: number, p2: number): void;
 
 declare function TaskBoardVehicle(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function TaskBoardVehicle_2(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function TaskBoatMission(
-	pedDriver: number,
-	boat: number,
-	p2: number,
-	p3: number,
-	x: number,
-	y: number,
-	z: number,
-	p7: number,
-	maxSpeed: number,
-	drivingStyle: number,
-	p10: number,
-	p11: number,
+    pedDriver: number,
+    boat: number,
+    p2: number,
+    p3: number,
+    x: number,
+    y: number,
+    z: number,
+    p7: number,
+    maxSpeed: number,
+    drivingStyle: number,
+    p10: number,
+    p11: number,
 ): void;
 
 declare function TaskBreakVehicleDoorLock(p0: number, p1: number): void;
@@ -21457,27 +21457,27 @@ declare function TaskCombatAnimalWarn(p0: number, p1: number, p2: number): void;
 declare function TaskCombatHatedTargets(p0: number, p1: number): void;
 
 declare function TaskCombatHatedTargetsAroundPed(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): void;
 
 declare function TaskCombatHatedTargetsAroundPedTimed(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): void;
 
 declare function TaskCombatHatedTargetsInArea(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function TaskCombatHatedTargetsNoLosTest(p0: number, p1: number): void;
@@ -21487,12 +21487,12 @@ declare function TaskCombatPed(ped: number, targetPed: number, p2: number, p3: n
 declare function TaskCombatPedTimed(p0: number, ped: number, p2: number, p3: number): void;
 
 declare function TaskCombatPed_3(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function TaskCompanionAmbient(p0: number, p1: number): void;
@@ -21506,12 +21506,12 @@ declare function TaskCutFreeHogtiedTargetPed(p0: number, p1: number): void;
 declare function TaskCutFreeHogtiedTargetPed_2(p0: number, p1: number, p2: number): void;
 
 declare function TaskDisembarkVehicle(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function TaskDisembarkVehicle_2(p0: number, p1: number, p2: number): void;
@@ -21526,41 +21526,41 @@ declare function TaskDisembarkVehicle_2(p0: number, p1: number, p2: number): voi
  * @param p5 :
  */
 declare function TaskDismountAnimal(
-	rider: number,
-	taskFlag: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    rider: number,
+    taskFlag: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function TaskDriveBy(
-	driverPed: number,
-	targetPed: number,
-	targetVehicle: number,
-	targetX: number,
-	targetY: number,
-	targetZ: number,
-	distanceToShoot: number,
-	pedAccuracy: number,
-	p8: boolean,
-	firingPattern: string | number,
+    driverPed: number,
+    targetPed: number,
+    targetVehicle: number,
+    targetX: number,
+    targetY: number,
+    targetZ: number,
+    distanceToShoot: number,
+    pedAccuracy: number,
+    p8: boolean,
+    firingPattern: string | number,
 ): void;
 
 declare function TaskDuck(p0: number, p1: number): void;
 
 declare function TaskDuel(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): void;
 
 declare function TaskDumpCarriableFromParent(p0: number, p1: number, p2: number): void;
@@ -21568,37 +21568,37 @@ declare function TaskDumpCarriableFromParent(p0: number, p1: number, p2: number)
 declare function TaskEat(p0: number, p1: number, p2: number): void;
 
 declare function TaskEmote(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function TaskEmote_2(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function TaskEnterAnimScene(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function TaskEnterCover(p0: number): void;
@@ -21606,13 +21606,13 @@ declare function TaskEnterCover(p0: number): void;
 declare function TaskEnterTransport(p0: number): void;
 
 declare function TaskEnterVehicle(
-	ped: number,
-	vehicle: number,
-	timeout: number,
-	seat: number,
-	speed: number,
-	flag: number,
-	p6: number,
+    ped: number,
+    vehicle: number,
+    timeout: number,
+    seat: number,
+    speed: number,
+    flag: number,
+    p6: number,
 ): void;
 
 declare function TaskEvasiveAnim(p0: number, p1: number, p2: number): void;
@@ -21628,31 +21628,31 @@ declare function TaskExitTransport(p0: number): void;
 declare function TaskExtendRoute(x: number, y: number, z: number): void;
 
 declare function TaskFleeFromCoord(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
 ): void;
 
 declare function TaskFleeFromPed(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function TaskFlushRoute(): void;
@@ -21660,473 +21660,473 @@ declare function TaskFlushRoute(): void;
 declare function TaskFlyAway(p0: number, p1: number): void;
 
 declare function TaskFlyToCoord(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function TaskFlyingCircle(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function TaskFollowAndConverseWithPed(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): void;
 
 declare function TaskFollowEntityAlongWaypointRecordingAtOffset(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function TaskFollowEntityWhileAimingAtEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function TaskFollowNavMeshToCoord(
-	ped: number,
-	x: number,
-	y: number,
-	z: number,
-	speed: number,
-	timeout: number,
-	stoppingRange: number,
-	persistFollowing: boolean,
-	unk: number,
+    ped: number,
+    x: number,
+    y: number,
+    z: number,
+    speed: number,
+    timeout: number,
+    stoppingRange: number,
+    persistFollowing: boolean,
+    unk: number,
 ): void;
 
 declare function TaskFollowNavMeshToCoordAdvanced(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
 ): void;
 
 declare function TaskFollowPavementToCoord(p0: number, p1: number): void;
 
 declare function TaskFollowPointRoute(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function TaskFollowToOffsetOfCoord(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
 ): void;
 
 declare function TaskFollowToOffsetOfEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
 ): void;
 
 declare function TaskFollowWaypointRecording(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function TaskFollowWaypointRecordingAdvanced(p0: number, p1: number): void;
 
 declare function TaskFollowWaypointRecordingAtOffset(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function TaskForceMotionState(ped: number, state: string | number, p2: boolean): void;
 
 declare function TaskGoStraightToCoord(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function TaskGoStraightToCoordRelativeToEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function TaskGoToCoordAndAimAtHatedEntitiesNearCoord(
-	pedHandle: number,
-	goToLocationX: number,
-	goToLocationY: number,
-	goToLocationZ: number,
-	focusLocationX: number,
-	focusLocationY: number,
-	focusLocationZ: number,
-	speed: number,
-	shootAtEnemies: boolean,
-	distanceToStopAt: number,
-	noRoadsDistance: number,
-	unkTrue: boolean,
-	unkFlag: number,
-	aimingFlag: number,
-	firingPattern: string | number,
+    pedHandle: number,
+    goToLocationX: number,
+    goToLocationY: number,
+    goToLocationZ: number,
+    focusLocationX: number,
+    focusLocationY: number,
+    focusLocationZ: number,
+    speed: number,
+    shootAtEnemies: boolean,
+    distanceToStopAt: number,
+    noRoadsDistance: number,
+    unkTrue: boolean,
+    unkFlag: number,
+    aimingFlag: number,
+    firingPattern: string | number,
 ): void;
 
 declare function TaskGoToCoordAndAimAtHatedEntitiesNearCoordUsingCombatStyle(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
 ): void;
 
 declare function TaskGoToCoordAnyMeans(
-	ped: number,
-	x: number,
-	y: number,
-	z: number,
-	speed: number,
-	p5: number,
-	p6: boolean,
-	walkingStyle: number,
-	p8: number,
+    ped: number,
+    x: number,
+    y: number,
+    z: number,
+    speed: number,
+    p5: number,
+    p6: boolean,
+    walkingStyle: number,
+    p8: number,
 ): void;
 
 declare function TaskGoToCoordAnyMeansExtraParams(
-	ped: number,
-	x: number,
-	y: number,
-	z: number,
-	speed: number,
-	p5: number,
-	p6: boolean,
-	walkingStyle: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
+    ped: number,
+    x: number,
+    y: number,
+    z: number,
+    speed: number,
+    p5: number,
+    p6: boolean,
+    walkingStyle: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
 ): void;
 
 declare function TaskGoToCoordAnyMeansExtraParamsWithCruiseSpeed(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
 ): void;
 
 declare function TaskGoToCoordWhileAimingAtCoord(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
-	p15: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
+    p15: number,
 ): void;
 
 declare function TaskGoToCoordWhileAimingAtCoordUsingCombatStyle(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
-	p15: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
+    p15: number,
 ): void;
 
 declare function TaskGoToCoordWhileAimingAtEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
 ): void;
 
 declare function TaskGoToCoordWhileAimingAtEntityUsingCombatStyle(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
 ): void;
 
 declare function TaskGoToEntity(
-	entity: number,
-	target: number,
-	duration: number,
-	distance: number,
-	speed: number,
-	p5: number,
-	p6: number,
+    entity: number,
+    target: number,
+    duration: number,
+    distance: number,
+    speed: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function TaskGoToEntityWhileAimingAtEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): void;
 
 declare function TaskGoToEntityWhileAimingAtEntityUsingCombatStyle(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): void;
 
 declare function TaskGoToWhistle(p0: number, p1: number, p2: number): void;
 
 declare function TaskGotoEntityAiming(
-	ped: number,
-	target: number,
-	distanceToStopAt: number,
-	StartAimingDist: number,
+    ped: number,
+    target: number,
+    distanceToStopAt: number,
+    StartAimingDist: number,
 ): void;
 
 declare function TaskGotoEntityOffset(
-	ped: number,
-	p1: number,
-	p2: number,
-	x: number,
-	y: number,
-	z: number,
-	duration: number,
+    ped: number,
+    p1: number,
+    p2: number,
+    x: number,
+    y: number,
+    z: number,
+    duration: number,
 ): void;
 
 declare function TaskGotoEntityOffsetXy(
-	p0: number,
-	oed: number,
-	duration: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: boolean,
+    p0: number,
+    oed: number,
+    duration: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: boolean,
 ): void;
 
 declare function TaskGotoEntityOffsetXyAiming(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function TaskGotoEntityOffsetXyzAiming(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function TaskGrapple(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): number;
 
 declare function TaskGuard(p0: number, p1: number, p2: number): void;
 
 declare function TaskGuardAssignedDefensiveArea(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function TaskGuardAssignedDefensiveArea_2(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function TaskGuardCurrentPosition(p0: number, p1: number, p2: number, p3: boolean): void;
 
 declare function TaskHandsUp(
-	ped: number,
-	duration: number,
-	facingPed: number,
-	p3: number,
-	p4: boolean,
+    ped: number,
+    duration: number,
+    facingPed: number,
+    p3: number,
+    p4: boolean,
 ): void;
 
 declare function TaskHitchAnimal(p0: number, p1: number, p2: number): void;
@@ -22138,62 +22138,62 @@ declare function TaskHogtieable(p0: number): void;
 declare function TaskHorseAction(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function TaskIntimidated(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function TaskIntimidated_2(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): number;
 
 declare function TaskInvestigate(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function TaskItemInteraction(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function TaskItemInteraction_2(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function TaskItemInteraction_3(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function TaskJump(ped: number, unused: boolean): void;
@@ -22207,15 +22207,15 @@ declare function TaskKnockedOutAndHogtied(p0: number, p1: number, p2: number): v
 declare function TaskLassoPed(p0: number, p1: number): void;
 
 declare function TaskLeadAndConverse(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function TaskLeadHorse(p0: number, p1: number): void;
@@ -22225,159 +22225,159 @@ declare function TaskLeaveAnyVehicle(ped: number, p1: number, p2: number): void;
 declare function TaskLeaveVehicle(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function TaskLookAtCoord(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function TaskLookAtEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function TaskLootEntity(p0: number, p1: number): void;
 
 declare function TaskLootNearestEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function TaskMelee(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): number;
 
 declare function TaskMountAnimal(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function TaskMoveBeInFormation(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function TaskMoveInTraffic(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function TaskMoveInTraffic_2(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function TaskMoveInTraffic_3(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function TaskMoveInTraffic_4(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function TaskMoveNetworkAdvancedByNameWithInitParamsAttached(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
-	p15: number,
-	p16: number,
-	p17: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
+    p15: number,
+    p16: number,
+    p17: number,
 ): void;
 
 declare function TaskMoveNetworkByName(
-	ped: number,
-	task: string,
-	multiplier: number,
-	p3: boolean,
-	animDict: string,
-	flags: number,
+    ped: number,
+    task: string,
+    multiplier: number,
+    p3: boolean,
+    animDict: string,
+    flags: number,
 ): void;
 
 declare function TaskPatrol(ped: number, p1: string, p2: number, p3: boolean, p4: boolean): void;
 
 declare function TaskPatrol_2(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function TaskPause(ped: number, ms: number): void;
 
 declare function TaskPedSlideToCoord(
-	ped: number,
-	x: number,
-	y: number,
-	z: number,
-	heading: number,
-	p5: number,
+    ped: number,
+    x: number,
+    y: number,
+    z: number,
+    heading: number,
+    p5: number,
 ): void;
 
 declare function TaskPerformSequence(ped: number, taskSequenceId: number): void;
 
 declare function TaskPerformSequenceFromProgress(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): void;
 
 declare function TaskPerformSequence_2(p0: number, p1: number, p2: number, p3: number): void;
@@ -22389,104 +22389,104 @@ declare function TaskPickUpWeapon(p0: number, p1: number): void;
 declare function TaskPickupCarriableEntity(p0: number, p1: number): void;
 
 declare function TaskPlaceCarriedEntityAtCoord(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function TaskPlaceCarriedEntityOnMount(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): void;
 
 declare function TaskPlantBomb(ped: number, x: number, y: number, z: number, heading: number): void;
 
 declare function TaskPlayAnim(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
 ): void;
 
 declare function TaskPlayAnimAdvanced(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
-	p15: number,
-	p16: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
+    p15: number,
+    p16: number,
 ): void;
 
 declare function TaskPlayUpperAnimFacingEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
-	p13: number,
-	p14: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
+    p13: number,
+    p14: number,
 ): void;
 
 declare function TaskPolice(p0: number, p1: number): number;
 
 declare function TaskPutPedDirectlyIntoCover(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
-	p12: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
+    p12: number,
 ): void;
 
 declare function TaskPutPedDirectlyIntoMelee(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 /**
@@ -22502,15 +22502,15 @@ declare function TaskPutPedDirectlyIntoMelee(
  * @param p8 :
  */
 declare function TaskReact(
-	ped: number,
-	reactingTo: number,
-	reactionType: number,
-	p3: number,
-	p4: number,
-	unkFlag: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    ped: number,
+    reactingTo: number,
+    reactionType: number,
+    p3: number,
+    p4: number,
+    unkFlag: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function TaskReloadWeapon(ped: number, unused: boolean): void;
@@ -22524,57 +22524,57 @@ declare function TaskRobPed(p0: number, p1: number, p2: number, p3: number, p4: 
 declare function TaskScriptedAnimation(p0: number, p1: number): void;
 
 declare function TaskSeekClearLosToEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function TaskSeekCoverFromPed(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function TaskSeekCoverFromPos(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function TaskSeekCoverToCoords(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): void;
 
 declare function TaskSeekCoverToCoverPoint(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function TaskSetBlockingOfNonTemporaryEvents(ped: number, toggle: boolean): void;
@@ -22582,11 +22582,11 @@ declare function TaskSetBlockingOfNonTemporaryEvents(ped: number, toggle: boolea
 declare function TaskSetCrouchMovement(ped: number, p1: boolean, p2: number, p3: boolean): void;
 
 declare function TaskSetSphereDefensiveArea(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function TaskSetStealthMovement(ped: number, p1: boolean, p2: number, p3: boolean): void;
@@ -22594,21 +22594,21 @@ declare function TaskSetStealthMovement(ped: number, p1: boolean, p2: number, p3
 declare function TaskShockingEventReact(p0: number, p1: number, p2: number): void;
 
 declare function TaskShootAtCoord(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function TaskShootAtEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function TaskShootWithWeapon(p0: number, p1: number): void;
@@ -22616,120 +22616,120 @@ declare function TaskShootWithWeapon(p0: number, p1: number): void;
 declare function TaskShuffleToNextVehicleSeat(p0: number, p1: number): void;
 
 declare function TaskSmartFleeCoord(
-	ped: number,
-	x: number,
-	y: number,
-	z: number,
-	distance: number,
-	time: number,
-	p6: boolean,
-	p7: boolean,
+    ped: number,
+    x: number,
+    y: number,
+    z: number,
+    distance: number,
+    time: number,
+    p6: boolean,
+    p7: boolean,
 ): void;
 
 declare function TaskSmartFleePed(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function TaskSmartFleeStyleCoord(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function TaskSmartFleeStyleCoordVia(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
 ): void;
 
 declare function TaskSmartFleeStylePed(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function TaskSmartFleeStylePedVia(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function TaskStandGuard(
-	ped: number,
-	x: number,
-	y: number,
-	z: number,
-	heading: number,
-	scenarioName: string,
+    ped: number,
+    x: number,
+    y: number,
+    z: number,
+    heading: number,
+    scenarioName: string,
 ): void;
 
 declare function TaskStandStill(ped: number, time: number): void;
 
 declare function TaskStartScenarioAtPosition(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
-	p11: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
+    p11: number,
 ): void;
 
 declare function TaskStartScenarioInPlace(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function TaskStartScenarioInPlace_2(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function TaskStayInCover(ped: number): void;
@@ -22743,112 +22743,112 @@ declare function TaskThrowProjectile(p0: number, p1: number, p2: number, p3: num
 declare function TaskThrowProjectile_2(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function TaskTurnPedToFaceCoord(
-	ped: number,
-	x: number,
-	y: number,
-	z: number,
-	duration: number,
+    ped: number,
+    x: number,
+    y: number,
+    z: number,
+    duration: number,
 ): void;
 
 declare function TaskTurnPedToFaceEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function TaskTurnToFaceClosestPed(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function TaskUseNearestScenarioChainToCoord(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function TaskUseNearestScenarioChainToCoordWarp(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function TaskUseNearestScenarioToCoord(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function TaskUseNearestScenarioToCoordWarp(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function TaskUseNearestTrainScenarioToCoordWarp(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function TaskUseRandomScenarioInGroup(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function TaskUseScenarioPoint(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
 ): void;
 
 declare function TaskUseScenarioPoint_2(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function TaskVehicleAimAtCoord(ped: number, x: number, y: number, z: number): void;
@@ -22856,161 +22856,161 @@ declare function TaskVehicleAimAtCoord(ped: number, x: number, y: number, z: num
 declare function TaskVehicleAimAtPed(ped: number, target: number): void;
 
 declare function TaskVehicleDriveToCoord(
-	ped: number,
-	vehicle: number,
-	x: number,
-	y: number,
-	z: number,
-	speed: number,
-	p6: number,
-	vehicleModel: string | number,
-	drivingMode: number,
-	stopRange: number,
-	p10: number,
+    ped: number,
+    vehicle: number,
+    x: number,
+    y: number,
+    z: number,
+    speed: number,
+    p6: number,
+    vehicleModel: string | number,
+    drivingMode: number,
+    stopRange: number,
+    p10: number,
 ): void;
 
 declare function TaskVehicleDriveToCoord_2(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function TaskVehicleDriveToDestination(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): void;
 
 declare function TaskVehicleDriveToDestination_2(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
 ): void;
 
 declare function TaskVehicleDriveToPoint(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function TaskVehicleDriveToPoint_2(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function TaskVehicleDriveWander(
-	ped: number,
-	vehicle: number,
-	speed: number,
-	drivingStyle: number,
+    ped: number,
+    vehicle: number,
+    speed: number,
+    drivingStyle: number,
 ): void;
 
 declare function TaskVehicleEscort(
-	ped: number,
-	vehicle: number,
-	targetVehicle: number,
-	mode: number,
-	speed: number,
-	drivingStyle: number,
-	minDistance: number,
-	p7: number,
-	noRoadsDistance: number,
+    ped: number,
+    vehicle: number,
+    targetVehicle: number,
+    mode: number,
+    speed: number,
+    drivingStyle: number,
+    minDistance: number,
+    p7: number,
+    noRoadsDistance: number,
 ): void;
 
 declare function TaskVehicleFollowWaypointRecording(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: number,
-	p9: number,
-	p10: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: number,
+    p9: number,
+    p10: number,
 ): void;
 
 declare function TaskVehicleGotoNavmesh(
-	ped: number,
-	vehicle: number,
-	x: number,
-	y: number,
-	z: number,
-	speed: number,
-	behaviorFlag: number,
-	stoppingRange: number,
+    ped: number,
+    vehicle: number,
+    x: number,
+    y: number,
+    z: number,
+    speed: number,
+    behaviorFlag: number,
+    stoppingRange: number,
 ): void;
 
 declare function TaskVehicleMission(
-	p0: number,
-	p1: number,
-	veh: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
-	p8: boolean,
+    p0: number,
+    p1: number,
+    veh: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
+    p8: boolean,
 ): void;
 
 declare function TaskVehicleMissionPedTarget(
-	ped: number,
-	vehicle: number,
-	pedTarget: number,
-	mode: number,
-	maxSpeed: number,
-	drivingStyle: number,
-	minDistance: number,
-	p7: number,
-	p8: boolean,
+    ped: number,
+    vehicle: number,
+    pedTarget: number,
+    mode: number,
+    maxSpeed: number,
+    drivingStyle: number,
+    minDistance: number,
+    p7: number,
+    p8: boolean,
 ): void;
 
 declare function TaskVehicleShootAtCoord(
-	ped: number,
-	x: number,
-	y: number,
-	z: number,
-	p4: number,
+    ped: number,
+    x: number,
+    y: number,
+    z: number,
+    p4: number,
 ): void;
 
 declare function TaskVehicleShootAtPed(ped: number, target: number, p2: number): void;
 
 declare function TaskVehicleTempAction(
-	driver: number,
-	vehicle: number,
-	action: number,
-	time: number,
+    driver: number,
+    vehicle: number,
+    action: number,
+    time: number,
 ): void;
 
 declare function TaskWalkAway(p0: number, p1: number): void;
@@ -23018,22 +23018,22 @@ declare function TaskWalkAway(p0: number, p1: number): void;
 declare function TaskWanderAndConverseWithPed(p0: number, p1: number, p2: number, p3: number): void;
 
 declare function TaskWanderInArea(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): void;
 
 declare function TaskWanderInVolume(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function TaskWanderStandard(ped: number, p1: number, p2: number): void;
@@ -23059,22 +23059,22 @@ declare function TerminateThisThread(): void;
 declare function TerminateThread(threadId: number): void;
 
 declare function TestProbeAgainstAllWater(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
-	p7: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
+    p7: number,
 ): boolean;
 
 declare function TestVerticalProbeAgainstAllWater(
-	x: number,
-	y: number,
-	z: number,
-	p3: number,
-	height?: number,
+    x: number,
+    y: number,
+    z: number,
+    p3: number,
+    height?: number,
 ): [boolean, number];
 
 declare function TextureDownloadGetName(p0: number): string;
@@ -23082,9 +23082,9 @@ declare function TextureDownloadGetName(p0: number): string;
 declare function TextureDownloadRelease(p0: number): void;
 
 declare function TextureDownloadRequest(
-	FilePath: string,
-	Name: string,
-	p3: boolean,
+    FilePath: string,
+    Name: string,
+    p3: boolean,
 ): [number, number];
 
 declare function Timera(): number;
@@ -23108,18 +23108,18 @@ declare function TrackVehicleVisibility(vehicle: number): void;
  * @param payloadLength
  */
 declare function TriggerEventInternal(
-	eventName: string,
-	eventPayload: string,
-	payloadLength: number,
+    eventName: string,
+    eventPayload: string,
+    payloadLength: number,
 ): void;
 
 /**
  * The backing function for TriggerEvent.
  */
 declare function TriggerEventInternal(
-	eventName: string,
-	eventPayload: string,
-	payloadLength: number,
+    eventName: string,
+    eventPayload: string,
+    payloadLength: number,
 ): void;
 
 /**
@@ -23130,30 +23130,30 @@ declare function TriggerEventInternal(
  * @param bps
  */
 declare function TriggerLatentServerEventInternal(
-	eventName: string,
-	eventPayload: string,
-	payloadLength: number,
-	bps: number,
+    eventName: string,
+    eventPayload: string,
+    payloadLength: number,
+    bps: number,
 ): void;
 
 /**
  * The backing function for TriggerLatentServerEvent.
  */
 declare function TriggerLatentServerEventInternal(
-	eventName: string,
-	eventPayload: string,
-	payloadLength: number,
-	bps: number,
+    eventName: string,
+    eventPayload: string,
+    payloadLength: number,
+    bps: number,
 ): void;
 
 declare function TriggerMusicEvent(eventName: string): boolean;
 
 declare function TriggerScriptEvent(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 /**
@@ -23163,18 +23163,18 @@ declare function TriggerScriptEvent(
  * @param payloadLength
  */
 declare function TriggerServerEventInternal(
-	eventName: string,
-	eventPayload: string,
-	payloadLength: number,
+    eventName: string,
+    eventPayload: string,
+    payloadLength: number,
 ): void;
 
 /**
  * The backing function for TriggerServerEvent.
  */
 declare function TriggerServerEventInternal(
-	eventName: string,
-	eventPayload: string,
-	payloadLength: number,
+    eventName: string,
+    eventPayload: string,
+    payloadLength: number,
 ): void;
 
 declare function TriggerSonarBlip(p0: number, p1: number, p2: number, p3: number): void;
@@ -23184,26 +23184,26 @@ declare function UgcGetCachedDescription(p0: number, length: number): string;
 declare function UgcIsLanguageSupported(languageId: number): boolean;
 
 declare function UgcQueryByContentId(
-	contentId: string,
-	latestVersion: boolean,
-	contentTypeName: string,
+    contentId: string,
+    latestVersion: boolean,
+    contentTypeName: string,
 ): boolean;
 
 declare function UgcRequestCachedDescription(p0: number): number;
 
 declare function UgcRequestContentDataFromParams(
-	contentTypeName: string,
-	contentId: string,
-	p2: number,
-	p3: number,
-	p4: number,
+    contentTypeName: string,
+    contentId: string,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function UgcTextureDownloadRequest(
-	p1: number,
-	p2: number,
-	p3: number,
-	p5: boolean,
+    p1: number,
+    p2: number,
+    p3: number,
+    p5: boolean,
 ): [number, number, number];
 
 declare function UiIsSingleplayerPauseMenuActive(): boolean;
@@ -23252,29 +23252,29 @@ declare function UseParticleFxAsset(name: string): void;
 declare function UsePlayerColourInsteadOfTeamColour(toggle: boolean): void;
 
 declare function UseWaypointRecordingAsAssistedMovementRoute(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function Vdist(
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
 ): number;
 
 declare function Vdist2(
-	x1: number,
-	y1: number,
-	z1: number,
-	x2: number,
-	y2: number,
-	z2: number,
+    x1: number,
+    y1: number,
+    z1: number,
+    x2: number,
+    y2: number,
+    z2: number,
 ): number;
 
 declare function VehToNet(vehicle: number): number;
@@ -23326,11 +23326,11 @@ declare function WaypointPlaybackGetIsPaused(p0: number): boolean;
 declare function WaypointPlaybackGetIsShooting(p0: number): number;
 
 declare function WaypointPlaybackOverrideSpeed(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function WaypointPlaybackPause(p0: number, p1: number, p2: number, p3: number): void;
@@ -23338,52 +23338,52 @@ declare function WaypointPlaybackPause(p0: number, p1: number, p2: number, p3: n
 declare function WaypointPlaybackResume(p0: number, p1: boolean, p2: number, p3: number): void;
 
 declare function WaypointPlaybackStartAimingAtCoord(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
 ): void;
 
 declare function WaypointPlaybackStartAimingAtEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): void;
 
 declare function WaypointPlaybackStartAimingAtPed(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
 ): void;
 
 declare function WaypointPlaybackStartShootingAtCoord(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
-	p5: number,
-	p6: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
+    p5: number,
+    p6: number,
 ): void;
 
 declare function WaypointPlaybackStartShootingAtEntity(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function WaypointPlaybackStartShootingAtPed(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): void;
 
 declare function WaypointPlaybackStopAimingOrShooting(p0: number): void;
@@ -23391,11 +23391,11 @@ declare function WaypointPlaybackStopAimingOrShooting(p0: number): void;
 declare function WaypointPlaybackUseDefaultSpeed(p0: number): void;
 
 declare function WaypointRecordingGetClosestWaypoint(
-	name: string,
-	x: number,
-	y: number,
-	z: number,
-	point?: number,
+    name: string,
+    x: number,
+    y: number,
+    z: number,
+    point?: number,
 ): [boolean, number];
 
 declare function WaypointRecordingGetCoord(name: string, point: number): [boolean, number[]];
@@ -23405,11 +23405,11 @@ declare function WaypointRecordingGetNumPoints(name: string, points?: number): [
 declare function WaypointRecordingGetSpeedAtPoint(name: string, point: number): number;
 
 declare function WeeklyCollectibleGetItemInSet(
-	p0: number,
-	p1: number,
-	p2: number,
-	p3: number,
-	p4: number,
+    p0: number,
+    p1: number,
+    p2: number,
+    p3: number,
+    p4: number,
 ): number;
 
 declare function WeeklyCollectibleGetItemSetBuyAward(p0: number, p1: number): number;
@@ -23421,9 +23421,9 @@ declare function WeeklyCollectibleGetNumItemsInSet(p0: number, p1: number): numb
 declare function WeeklyCollectibleGetNumSets(p0: number): number;
 
 declare function WouldEntityBeOccluded(
-	entityModelHash: string | number,
-	x: number,
-	y: number,
-	z: number,
-	p4: boolean,
+    entityModelHash: string | number,
+    x: number,
+    y: number,
+    z: number,
+    p4: boolean,
 ): boolean;
