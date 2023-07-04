@@ -30,7 +30,12 @@ export class CoreAttribute {
      */
     get OverpoweredTimeLeft(): number {
         // GetAttributeCoreOverpowerSecondsLeft
-        return _N<number>("0xB429F58803D285B1", this.handle, this.attribute, Citizen.resultAsInteger());
+        return _N<number>(
+            "0xB429F58803D285B1",
+            this.handle,
+            this.attribute,
+            Citizen.resultAsInteger(),
+        );
     }
 
     /**

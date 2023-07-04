@@ -308,7 +308,12 @@ export class Ped extends BaseEntity {
 
     isInteractionPossible(animal: Ped): boolean {
         // IS_ANIMAL_INTERACTION_POSSIBLE
-        return _N<boolean>("0xD543D3A8FDE4F185", this.Handle, animal.Handle, Citizen.resultAsInteger());
+        return _N<boolean>(
+            "0xD543D3A8FDE4F185",
+            this.Handle,
+            animal.Handle,
+            Citizen.resultAsInteger(),
+        );
     }
 
     isOnVehicle(vehicle: Vehicle): boolean {
